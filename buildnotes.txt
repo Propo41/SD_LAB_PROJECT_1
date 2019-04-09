@@ -1,0 +1,3 @@
+- added documentation for iMain()
+- reduced code complexity of imain() and a few other functions
+- improved code hygiene
