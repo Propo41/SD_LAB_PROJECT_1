@@ -11,8 +11,11 @@ functions so that it may help future developers.
 
 -----------------------------------------------------------------
 IDE: Visual studio 2010/2013
+
 Language: C,C++.
+
 Platform : Windows PC.
+
 Game Description
 
 Name : The Fallen Kingdom
