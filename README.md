@@ -16,8 +16,11 @@ Platform : Windows PC.
 Game Description
 
 Name : The Fallen Kingdom
+
 Genre : 2D action adventure
+
 Game Description : Doom came to the city of Atlantis after years of peace. Many had died and from the ashes of the dead, a brave warrior fights his way to save his beloved kingdom from the wicked hands of the king of Darkness, Thanatos ..
+
 Game Mechanics: 
 - Players build bridges to cross gaps
 - Fights enemy creeps to progress and fight level bosses
