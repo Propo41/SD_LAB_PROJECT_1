@@ -2,6 +2,7 @@
 Software Development Lab-1 Project: The Fallen Kingdom
 ----------------------------------------------------------------
 Objective: A project to be developed by a team of 3 or 2 students.
+
 Abstract: Students had to develop an advance software or game using different functions of iGraphics.
 The software required the implementation of structures, file management and the functions 
 must be divided into several header files according to their appropriate use. Also the source code had 
