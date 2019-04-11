@@ -1,5 +1,5 @@
-# SD_LAB_PROJECT_1
-Software Development Lab-1 Project: The Fallen Kingdom
+# Software Development Lab-1 Project
+The Fallen Kingdom
 ----------------------------------------------------------------
 Objective: A project to be developed by a team of 3 or 2 students.
 
