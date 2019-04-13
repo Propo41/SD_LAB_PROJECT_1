@@ -46,8 +46,7 @@ Course name: CSE 1200
 --------------------------------
 Instructors:
 
-Mir Imtiaz Mostafiz
-Md. Aminur Rahman  
+Mir Imtiaz Mostafiz  |   Md. Aminur Rahman  
 
 --------------------------------
 
