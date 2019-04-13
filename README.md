@@ -44,11 +44,12 @@ Project Contributors
 
 Course name: CSE 1200
 --------------------------------
+Instructors:
 
-Instructors: Mir Imtiaz Mostafiz
+Mir Imtiaz Mostafiz
 
-             Md. Aminur Rahman
-             
+Md. Aminur Rahman  
+
 --------------------------------
 
 Game Design Document: https://docs.google.com/document/d/1unNdiuPwa_7H1Pmwv5XqRu3R4mdo39UgXWpbC-NH6OU/edit
