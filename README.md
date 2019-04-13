@@ -42,8 +42,16 @@ Project Contributors
 3. Samia Sabrina
 --------------------------------------
 
+Course name: CSE 1200
+--------------------------------
+
+Instructors: Mir Imtiaz Mostafiz
+             Md. Aminur Rahman
+             
+--------------------------------
 
 Game Design Document: https://docs.google.com/document/d/1unNdiuPwa_7H1Pmwv5XqRu3R4mdo39UgXWpbC-NH6OU/edit
+
 Features and Bug description:  https://docs.google.com/spreadsheets/d/1-pUSNcuPt5SzzRq-Ghp9gqVip7XTZgZQlqx2o60dyAQ/edit#gid=0
 
 
