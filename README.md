@@ -22,7 +22,7 @@ Name : The Fallen Kingdom
 
 Genre : 2D action adventure
 
-Game Description : Doom came to the city of Atlantis after years of peace. Many had died and from the ashes of the dead, a brave warrior fights his way to save his beloved kingdom from the wicked hands of the king of Darkness, Thanatos ..
+Game Description : After years of peace in the kingdom of Asgard, all hell broke loose when the king of darkness, Thanatos, rose from the pits of hell to conquer the world, and from the ashes of the dead knights, a brave warrior rose high to save his kingdom.
 
 Game Mechanics: 
 - Players build bridges to cross gaps
