@@ -1,0 +1,5 @@
+1. First of you you'll be needing MS Visual Studio 2013. 
+   Download it from: https://mega.nz/#F!afBW2LoQ!lleqfnCVJOaT4FsJAAyp1g
+2. Download iGraphics files from: https://www.dropbox.com/s/4eykq1sbiv2wy1p/iGraphics%20Files%20Updated.zip?dl=0
+3. Installation process: https://drive.google.com/file/d/124rJq0ZWM_5t2xt5cjftDTC90qup2Pc_/view
+	

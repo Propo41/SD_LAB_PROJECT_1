@@ -1,0 +1,10 @@
+CODE STATISTICS
+------------------------------
+Numer of files: 10
+Code only: 4323
+Empty Lines: 2395
+Comment lines: 757
+code and comments: 498
+------------------------------
+Total: 7973
+--------------------------------

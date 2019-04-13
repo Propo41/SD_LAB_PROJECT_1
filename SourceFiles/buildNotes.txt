@@ -1,0 +1,13 @@
+-fixed creep bug
+- added cutscenes for both level 2 boss and princess
+- added level 2 boss implementation
+
+THINGS TO BE DONE
+-------------------------
+- boss dying animation
+- boss damage animation
+- boss giving damage to hero
+- boss taking damage from hero- attack, heavy attack, power
+- a few other bugs to fix
+
+- 
