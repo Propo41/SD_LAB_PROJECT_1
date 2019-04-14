@@ -1268,6 +1268,10 @@ void resetHero()
 			temp_5 = true;
 		}
 
+		saveScore();
+
+
+
 		return;
 	}
 

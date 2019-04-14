@@ -678,6 +678,7 @@ void creepDamage(int mode, int attackType)
 					{
 
 						creeps[i].death = false;
+
 						creeps[i].x = -1000;
 
 
@@ -909,7 +910,7 @@ void checkCreepsAlive()
 		creepsAlive = creepsCount - c;
 
 
-	if (c == creepsCount && creepsCount>0)
+	if (c == creepsCount && creepsCount>0 && )
 	{
 	
 		waveClear = true;

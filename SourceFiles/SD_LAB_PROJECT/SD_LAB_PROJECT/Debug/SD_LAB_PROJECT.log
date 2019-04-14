@@ -1,832 +1,833 @@
-﻿Build started 4/13/2019 3:41:41 PM.
-     1>Project "C:\Users\Swapnil\Desktop\SD PROJECT\patch-2\SD_LAB_PROJECT\SD_LAB_PROJECT\SD_LAB_PROJECT.vcxproj" on node 2 (Build target(s)).
+﻿Build started 4/14/2019 9:49:45 PM.
+     1>Project "C:\Users\Swapnil\Documents\GitHub\SD_LAB_PROJECT_1\SourceFiles\SD_LAB_PROJECT\SD_LAB_PROJECT\SD_LAB_PROJECT.vcxproj" on node 2 (Build target(s)).
      1>ClCompile:
-         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /AI"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.0" /AI"C:\Program Files (x86)\Windows Kits\8.1\References\CommonConfiguration\Neutral" /Zi /clr /nologo /W3 /WX- /sdl /Od /Oy- /D _MBCS /EHa /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc120.pdb" /TP /FU"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.0\mscorlib.dll" /analyze- /errorReport:prompt /clr:nostdlib iMain.cpp
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /AI"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.0" /AI"C:\Program Files (x86)\Windows Kits\8.1\References\CommonConfiguration\Neutral" /Zi /clr /nologo /W3 /WX- /sdl /Od /Oy- /D _CRT_SECURE_NO_WARNINGS /D _MBCS /EHa /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc120.pdb" /TP /FU"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.0\mscorlib.dll" /analyze- /errorReport:prompt /clr:nostdlib iMain.cpp
          iMain.cpp
-     1>c:\users\swapnil\desktop\sd project\patch-2\sd_lab_project\sd_lab_project\stb_image.h(625): warning C4793: '`anonymous namespace'::stbi__cpuid3' : function compiled as native :
+     1>iMain.cpp(85): warning C4101: 'ch' : unreferenced local variable
+     1>c:\users\swapnil\documents\github\sd_lab_project_1\sourcefiles\sd_lab_project\sd_lab_project\stb_image.h(625): warning C4793: '`anonymous namespace'::stbi__cpuid3' : function compiled as native :
          	Found an intrinsic not supported in managed code
-     1>c:\users\swapnil\desktop\sd project\patch-2\sd_lab_project\sd_lab_project\stb_image.h(2759): warning C4793: '`anonymous namespace'::stbi__parse_entropy_coded_data' : function compiled as native :
+     1>c:\users\swapnil\documents\github\sd_lab_project_1\sourcefiles\sd_lab_project\sd_lab_project\stb_image.h(2759): warning C4793: '`anonymous namespace'::stbi__parse_entropy_coded_data' : function compiled as native :
          	Aligned data types not supported in managed code
-     1>c:\users\swapnil\desktop\sd project\patch-2\sd_lab_project\sd_lab_project\stb_image.h(2303): warning C4793: '`anonymous namespace'::stbi__idct_simd' : function compiled as native :
+     1>c:\users\swapnil\documents\github\sd_lab_project_1\sourcefiles\sd_lab_project\sd_lab_project\stb_image.h(2303): warning C4793: '`anonymous namespace'::stbi__idct_simd' : function compiled as native :
          	Found an intrinsic not supported in managed code
-     1>c:\users\swapnil\desktop\sd project\patch-2\sd_lab_project\sd_lab_project\stb_image.h(2303): warning C4793: '`anonymous namespace'::stbi__idct_simd' : function compiled as native :
+     1>c:\users\swapnil\documents\github\sd_lab_project_1\sourcefiles\sd_lab_project\sd_lab_project\stb_image.h(2303): warning C4793: '`anonymous namespace'::stbi__idct_simd' : function compiled as native :
          	Aligned data types not supported in managed code
-     1>c:\users\swapnil\desktop\sd project\patch-2\sd_lab_project\sd_lab_project\stb_image.h(2304): warning C4793: '`anonymous namespace'::stbi__idct_simd' : function compiled as native :
+     1>c:\users\swapnil\documents\github\sd_lab_project_1\sourcefiles\sd_lab_project\sd_lab_project\stb_image.h(2304): warning C4793: '`anonymous namespace'::stbi__idct_simd' : function compiled as native :
          	Found an intrinsic not supported in managed code
-     1>c:\users\swapnil\desktop\sd project\patch-2\sd_lab_project\sd_lab_project\stb_image.h(2304): warning C4793: '`anonymous namespace'::stbi__idct_simd' : function compiled as native :
+     1>c:\users\swapnil\documents\github\sd_lab_project_1\sourcefiles\sd_lab_project\sd_lab_project\stb_image.h(2304): warning C4793: '`anonymous namespace'::stbi__idct_simd' : function compiled as native :
          	Aligned data types not supported in managed code
-     1>c:\users\swapnil\desktop\sd project\patch-2\sd_lab_project\sd_lab_project\stb_image.h(2305): warning C4793: '`anonymous namespace'::stbi__idct_simd' : function compiled as native :
+     1>c:\users\swapnil\documents\github\sd_lab_project_1\sourcefiles\sd_lab_project\sd_lab_project\stb_image.h(2305): warning C4793: '`anonymous namespace'::stbi__idct_simd' : function compiled as native :
          	Found an intrinsic not supported in managed code
-     1>c:\users\swapnil\desktop\sd project\patch-2\sd_lab_project\sd_lab_project\stb_image.h(2305): warning C4793: '`anonymous namespace'::stbi__idct_simd' : function compiled as native :
+     1>c:\users\swapnil\documents\github\sd_lab_project_1\sourcefiles\sd_lab_project\sd_lab_project\stb_image.h(2305): warning C4793: '`anonymous namespace'::stbi__idct_simd' : function compiled as native :
          	Aligned data types not supported in managed code
-     1>c:\users\swapnil\desktop\sd project\patch-2\sd_lab_project\sd_lab_project\stb_image.h(2306): warning C4793: '`anonymous namespace'::stbi__idct_simd' : function compiled as native :
+     1>c:\users\swapnil\documents\github\sd_lab_project_1\sourcefiles\sd_lab_project\sd_lab_project\stb_image.h(2306): warning C4793: '`anonymous namespace'::stbi__idct_simd' : function compiled as native :
          	Found an intrinsic not supported in managed code
-     1>c:\users\swapnil\desktop\sd project\patch-2\sd_lab_project\sd_lab_project\stb_image.h(2306): warning C4793: '`anonymous namespace'::stbi__idct_simd' : function compiled as native :
+     1>c:\users\swapnil\documents\github\sd_lab_project_1\sourcefiles\sd_lab_project\sd_lab_project\stb_image.h(2306): warning C4793: '`anonymous namespace'::stbi__idct_simd' : function compiled as native :
          	Aligned data types not supported in managed code
-     1>c:\users\swapnil\desktop\sd project\patch-2\sd_lab_project\sd_lab_project\stb_image.h(2307): warning C4793: '`anonymous namespace'::stbi__idct_simd' : function compiled as native :
+     1>c:\users\swapnil\documents\github\sd_lab_project_1\sourcefiles\sd_lab_project\sd_lab_project\stb_image.h(2307): warning C4793: '`anonymous namespace'::stbi__idct_simd' : function compiled as native :
          	Found an intrinsic not supported in managed code
-     1>c:\users\swapnil\desktop\sd project\patch-2\sd_lab_project\sd_lab_project\stb_image.h(2307): warning C4793: '`anonymous namespace'::stbi__idct_simd' : function compiled as native :
+     1>c:\users\swapnil\documents\github\sd_lab_project_1\sourcefiles\sd_lab_project\sd_lab_project\stb_image.h(2307): warning C4793: '`anonymous namespace'::stbi__idct_simd' : function compiled as native :
          	Aligned data types not supported in managed code
-     1>c:\users\swapnil\desktop\sd project\patch-2\sd_lab_project\sd_lab_project\stb_image.h(2308): warning C4793: '`anonymous namespace'::stbi__idct_simd' : function compiled as native :
+     1>c:\users\swapnil\documents\github\sd_lab_project_1\sourcefiles\sd_lab_project\sd_lab_project\stb_image.h(2308): warning C4793: '`anonymous namespace'::stbi__idct_simd' : function compiled as native :
          	Found an intrinsic not supported in managed code
-     1>c:\users\swapnil\desktop\sd project\patch-2\sd_lab_project\sd_lab_project\stb_image.h(2308): warning C4793: '`anonymous namespace'::stbi__idct_simd' : function compiled as native :
+     1>c:\users\swapnil\documents\github\sd_lab_project_1\sourcefiles\sd_lab_project\sd_lab_project\stb_image.h(2308): warning C4793: '`anonymous namespace'::stbi__idct_simd' : function compiled as native :
          	Aligned data types not supported in managed code
-     1>c:\users\swapnil\desktop\sd project\patch-2\sd_lab_project\sd_lab_project\stb_image.h(2309): warning C4793: '`anonymous namespace'::stbi__idct_simd' : function compiled as native :
+     1>c:\users\swapnil\documents\github\sd_lab_project_1\sourcefiles\sd_lab_project\sd_lab_project\stb_image.h(2309): warning C4793: '`anonymous namespace'::stbi__idct_simd' : function compiled as native :
          	Found an intrinsic not supported in managed code
-     1>c:\users\swapnil\desktop\sd project\patch-2\sd_lab_project\sd_lab_project\stb_image.h(2309): warning C4793: '`anonymous namespace'::stbi__idct_simd' : function compiled as native :
+     1>c:\users\swapnil\documents\github\sd_lab_project_1\sourcefiles\sd_lab_project\sd_lab_project\stb_image.h(2309): warning C4793: '`anonymous namespace'::stbi__idct_simd' : function compiled as native :
          	Aligned data types not supported in managed code
-     1>c:\users\swapnil\desktop\sd project\patch-2\sd_lab_project\sd_lab_project\stb_image.h(2310): warning C4793: '`anonymous namespace'::stbi__idct_simd' : function compiled as native :
+     1>c:\users\swapnil\documents\github\sd_lab_project_1\sourcefiles\sd_lab_project\sd_lab_project\stb_image.h(2310): warning C4793: '`anonymous namespace'::stbi__idct_simd' : function compiled as native :
          	Found an intrinsic not supported in managed code
-     1>c:\users\swapnil\desktop\sd project\patch-2\sd_lab_project\sd_lab_project\stb_image.h(2310): warning C4793: '`anonymous namespace'::stbi__idct_simd' : function compiled as native :
+     1>c:\users\swapnil\documents\github\sd_lab_project_1\sourcefiles\sd_lab_project\sd_lab_project\stb_image.h(2310): warning C4793: '`anonymous namespace'::stbi__idct_simd' : function compiled as native :
          	Aligned data types not supported in managed code
-     1>c:\users\swapnil\desktop\sd project\patch-2\sd_lab_project\sd_lab_project\stb_image.h(2313): warning C4793: '`anonymous namespace'::stbi__idct_simd' : function compiled as native :
+     1>c:\users\swapnil\documents\github\sd_lab_project_1\sourcefiles\sd_lab_project\sd_lab_project\stb_image.h(2313): warning C4793: '`anonymous namespace'::stbi__idct_simd' : function compiled as native :
          	Found an intrinsic not supported in managed code
-     1>c:\users\swapnil\desktop\sd project\patch-2\sd_lab_project\sd_lab_project\stb_image.h(2313): warning C4793: '`anonymous namespace'::stbi__idct_simd' : function compiled as native :
+     1>c:\users\swapnil\documents\github\sd_lab_project_1\sourcefiles\sd_lab_project\sd_lab_project\stb_image.h(2313): warning C4793: '`anonymous namespace'::stbi__idct_simd' : function compiled as native :
          	Aligned data types not supported in managed code
-     1>c:\users\swapnil\desktop\sd project\patch-2\sd_lab_project\sd_lab_project\stb_image.h(2314): warning C4793: '`anonymous namespace'::stbi__idct_simd' : function compiled as native :
+     1>c:\users\swapnil\documents\github\sd_lab_project_1\sourcefiles\sd_lab_project\sd_lab_project\stb_image.h(2314): warning C4793: '`anonymous namespace'::stbi__idct_simd' : function compiled as native :
          	Found an intrinsic not supported in managed code
-     1>c:\users\swapnil\desktop\sd project\patch-2\sd_lab_project\sd_lab_project\stb_image.h(2314): warning C4793: '`anonymous namespace'::stbi__idct_simd' : function compiled as native :
+     1>c:\users\swapnil\documents\github\sd_lab_project_1\sourcefiles\sd_lab_project\sd_lab_project\stb_image.h(2314): warning C4793: '`anonymous namespace'::stbi__idct_simd' : function compiled as native :
          	Aligned data types not supported in managed code
-     1>c:\users\swapnil\desktop\sd project\patch-2\sd_lab_project\sd_lab_project\stb_image.h(2317): warning C4793: '`anonymous namespace'::stbi__idct_simd' : function compiled as native :
+     1>c:\users\swapnil\documents\github\sd_lab_project_1\sourcefiles\sd_lab_project\sd_lab_project\stb_image.h(2317): warning C4793: '`anonymous namespace'::stbi__idct_simd' : function compiled as native :
          	Found an intrinsic not supported in managed code
-     1>c:\users\swapnil\desktop\sd project\patch-2\sd_lab_project\sd_lab_project\stb_image.h(2317): warning C4793: '`anonymous namespace'::stbi__idct_simd' : function compiled as native :
+     1>c:\users\swapnil\documents\github\sd_lab_project_1\sourcefiles\sd_lab_project\sd_lab_project\stb_image.h(2317): warning C4793: '`anonymous namespace'::stbi__idct_simd' : function compiled as native :
          	Aligned data types not supported in managed code
-     1>c:\users\swapnil\desktop\sd project\patch-2\sd_lab_project\sd_lab_project\stb_image.h(2318): warning C4793: '`anonymous namespace'::stbi__idct_simd' : function compiled as native :
+     1>c:\users\swapnil\documents\github\sd_lab_project_1\sourcefiles\sd_lab_project\sd_lab_project\stb_image.h(2318): warning C4793: '`anonymous namespace'::stbi__idct_simd' : function compiled as native :
          	Found an intrinsic not supported in managed code
-     1>c:\users\swapnil\desktop\sd project\patch-2\sd_lab_project\sd_lab_project\stb_image.h(2318): warning C4793: '`anonymous namespace'::stbi__idct_simd' : function compiled as native :
+     1>c:\users\swapnil\documents\github\sd_lab_project_1\sourcefiles\sd_lab_project\sd_lab_project\stb_image.h(2318): warning C4793: '`anonymous namespace'::stbi__idct_simd' : function compiled as native :
          	Aligned data types not supported in managed code
-     1>c:\users\swapnil\desktop\sd project\patch-2\sd_lab_project\sd_lab_project\stb_image.h(2319): warning C4793: '`anonymous namespace'::stbi__idct_simd' : function compiled as native :
+     1>c:\users\swapnil\documents\github\sd_lab_project_1\sourcefiles\sd_lab_project\sd_lab_project\stb_image.h(2319): warning C4793: '`anonymous namespace'::stbi__idct_simd' : function compiled as native :
          	Found an intrinsic not supported in managed code
-     1>c:\users\swapnil\desktop\sd project\patch-2\sd_lab_project\sd_lab_project\stb_image.h(2319): warning C4793: '`anonymous namespace'::stbi__idct_simd' : function compiled as native :
+     1>c:\users\swapnil\documents\github\sd_lab_project_1\sourcefiles\sd_lab_project\sd_lab_project\stb_image.h(2319): warning C4793: '`anonymous namespace'::stbi__idct_simd' : function compiled as native :
          	Aligned data types not supported in managed code
-     1>c:\users\swapnil\desktop\sd project\patch-2\sd_lab_project\sd_lab_project\stb_image.h(2320): warning C4793: '`anonymous namespace'::stbi__idct_simd' : function compiled as native :
+     1>c:\users\swapnil\documents\github\sd_lab_project_1\sourcefiles\sd_lab_project\sd_lab_project\stb_image.h(2320): warning C4793: '`anonymous namespace'::stbi__idct_simd' : function compiled as native :
          	Found an intrinsic not supported in managed code
-     1>c:\users\swapnil\desktop\sd project\patch-2\sd_lab_project\sd_lab_project\stb_image.h(2320): warning C4793: '`anonymous namespace'::stbi__idct_simd' : function compiled as native :
+     1>c:\users\swapnil\documents\github\sd_lab_project_1\sourcefiles\sd_lab_project\sd_lab_project\stb_image.h(2320): warning C4793: '`anonymous namespace'::stbi__idct_simd' : function compiled as native :
          	Aligned data types not supported in managed code
-     1>c:\users\swapnil\desktop\sd project\patch-2\sd_lab_project\sd_lab_project\stb_image.h(2321): warning C4793: '`anonymous namespace'::stbi__idct_simd' : function compiled as native :
+     1>c:\users\swapnil\documents\github\sd_lab_project_1\sourcefiles\sd_lab_project\sd_lab_project\stb_image.h(2321): warning C4793: '`anonymous namespace'::stbi__idct_simd' : function compiled as native :
          	Found an intrinsic not supported in managed code
-     1>c:\users\swapnil\desktop\sd project\patch-2\sd_lab_project\sd_lab_project\stb_image.h(2321): warning C4793: '`anonymous namespace'::stbi__idct_simd' : function compiled as native :
+     1>c:\users\swapnil\documents\github\sd_lab_project_1\sourcefiles\sd_lab_project\sd_lab_project\stb_image.h(2321): warning C4793: '`anonymous namespace'::stbi__idct_simd' : function compiled as native :
          	Aligned data types not supported in managed code
-     1>c:\users\swapnil\desktop\sd project\patch-2\sd_lab_project\sd_lab_project\stb_image.h(2322): warning C4793: '`anonymous namespace'::stbi__idct_simd' : function compiled as native :
+     1>c:\users\swapnil\documents\github\sd_lab_project_1\sourcefiles\sd_lab_project\sd_lab_project\stb_image.h(2322): warning C4793: '`anonymous namespace'::stbi__idct_simd' : function compiled as native :
          	Found an intrinsic not supported in managed code
-     1>c:\users\swapnil\desktop\sd project\patch-2\sd_lab_project\sd_lab_project\stb_image.h(2322): warning C4793: '`anonymous namespace'::stbi__idct_simd' : function compiled as native :
+     1>c:\users\swapnil\documents\github\sd_lab_project_1\sourcefiles\sd_lab_project\sd_lab_project\stb_image.h(2322): warning C4793: '`anonymous namespace'::stbi__idct_simd' : function compiled as native :
          	Aligned data types not supported in managed code
-     1>c:\users\swapnil\desktop\sd project\patch-2\sd_lab_project\sd_lab_project\stb_image.h(2323): warning C4793: '`anonymous namespace'::stbi__idct_simd' : function compiled as native :
+     1>c:\users\swapnil\documents\github\sd_lab_project_1\sourcefiles\sd_lab_project\sd_lab_project\stb_image.h(2323): warning C4793: '`anonymous namespace'::stbi__idct_simd' : function compiled as native :
          	Found an intrinsic not supported in managed code
-     1>c:\users\swapnil\desktop\sd project\patch-2\sd_lab_project\sd_lab_project\stb_image.h(2323): warning C4793: '`anonymous namespace'::stbi__idct_simd' : function compiled as native :
+     1>c:\users\swapnil\documents\github\sd_lab_project_1\sourcefiles\sd_lab_project\sd_lab_project\stb_image.h(2323): warning C4793: '`anonymous namespace'::stbi__idct_simd' : function compiled as native :
          	Aligned data types not supported in managed code
-     1>c:\users\swapnil\desktop\sd project\patch-2\sd_lab_project\sd_lab_project\stb_image.h(2324): warning C4793: '`anonymous namespace'::stbi__idct_simd' : function compiled as native :
+     1>c:\users\swapnil\documents\github\sd_lab_project_1\sourcefiles\sd_lab_project\sd_lab_project\stb_image.h(2324): warning C4793: '`anonymous namespace'::stbi__idct_simd' : function compiled as native :
          	Found an intrinsic not supported in managed code
-     1>c:\users\swapnil\desktop\sd project\patch-2\sd_lab_project\sd_lab_project\stb_image.h(2324): warning C4793: '`anonymous namespace'::stbi__idct_simd' : function compiled as native :
+     1>c:\users\swapnil\documents\github\sd_lab_project_1\sourcefiles\sd_lab_project\sd_lab_project\stb_image.h(2324): warning C4793: '`anonymous namespace'::stbi__idct_simd' : function compiled as native :
          	Aligned data types not supported in managed code
-     1>c:\users\swapnil\desktop\sd project\patch-2\sd_lab_project\sd_lab_project\stb_image.h(2327): warning C4793: '`anonymous namespace'::stbi__idct_simd' : function compiled as native :
+     1>c:\users\swapnil\documents\github\sd_lab_project_1\sourcefiles\sd_lab_project\sd_lab_project\stb_image.h(2327): warning C4793: '`anonymous namespace'::stbi__idct_simd' : function compiled as native :
          	Found an intrinsic not supported in managed code
-     1>c:\users\swapnil\desktop\sd project\patch-2\sd_lab_project\sd_lab_project\stb_image.h(2327): warning C4793: '`anonymous namespace'::stbi__idct_simd' : function compiled as native :
+     1>c:\users\swapnil\documents\github\sd_lab_project_1\sourcefiles\sd_lab_project\sd_lab_project\stb_image.h(2327): warning C4793: '`anonymous namespace'::stbi__idct_simd' : function compiled as native :
          	Found an intrinsic not supported in managed code
-     1>c:\users\swapnil\desktop\sd project\patch-2\sd_lab_project\sd_lab_project\stb_image.h(2327): warning C4793: '`anonymous namespace'::stbi__idct_simd' : function compiled as native :
+     1>c:\users\swapnil\documents\github\sd_lab_project_1\sourcefiles\sd_lab_project\sd_lab_project\stb_image.h(2327): warning C4793: '`anonymous namespace'::stbi__idct_simd' : function compiled as native :
          	Found an intrinsic not supported in managed code
-     1>c:\users\swapnil\desktop\sd project\patch-2\sd_lab_project\sd_lab_project\stb_image.h(2327): warning C4793: '`anonymous namespace'::stbi__idct_simd' : function compiled as native :
+     1>c:\users\swapnil\documents\github\sd_lab_project_1\sourcefiles\sd_lab_project\sd_lab_project\stb_image.h(2327): warning C4793: '`anonymous namespace'::stbi__idct_simd' : function compiled as native :
          	Found an intrinsic not supported in managed code
-     1>c:\users\swapnil\desktop\sd project\patch-2\sd_lab_project\sd_lab_project\stb_image.h(2327): warning C4793: '`anonymous namespace'::stbi__idct_simd' : function compiled as native :
+     1>c:\users\swapnil\documents\github\sd_lab_project_1\sourcefiles\sd_lab_project\sd_lab_project\stb_image.h(2327): warning C4793: '`anonymous namespace'::stbi__idct_simd' : function compiled as native :
          	Found an intrinsic not supported in managed code
-     1>c:\users\swapnil\desktop\sd project\patch-2\sd_lab_project\sd_lab_project\stb_image.h(2327): warning C4793: '`anonymous namespace'::stbi__idct_simd' : function compiled as native :
+     1>c:\users\swapnil\documents\github\sd_lab_project_1\sourcefiles\sd_lab_project\sd_lab_project\stb_image.h(2327): warning C4793: '`anonymous namespace'::stbi__idct_simd' : function compiled as native :
          	Found an intrinsic not supported in managed code
-     1>c:\users\swapnil\desktop\sd project\patch-2\sd_lab_project\sd_lab_project\stb_image.h(2327): warning C4793: '`anonymous namespace'::stbi__idct_simd' : function compiled as native :
+     1>c:\users\swapnil\documents\github\sd_lab_project_1\sourcefiles\sd_lab_project\sd_lab_project\stb_image.h(2327): warning C4793: '`anonymous namespace'::stbi__idct_simd' : function compiled as native :
          	Found an intrinsic not supported in managed code
-     1>c:\users\swapnil\desktop\sd project\patch-2\sd_lab_project\sd_lab_project\stb_image.h(2327): warning C4793: '`anonymous namespace'::stbi__idct_simd' : function compiled as native :
+     1>c:\users\swapnil\documents\github\sd_lab_project_1\sourcefiles\sd_lab_project\sd_lab_project\stb_image.h(2327): warning C4793: '`anonymous namespace'::stbi__idct_simd' : function compiled as native :
          	Found an intrinsic not supported in managed code
-     1>c:\users\swapnil\desktop\sd project\patch-2\sd_lab_project\sd_lab_project\stb_image.h(2327): warning C4793: '`anonymous namespace'::stbi__idct_simd' : function compiled as native :
+     1>c:\users\swapnil\documents\github\sd_lab_project_1\sourcefiles\sd_lab_project\sd_lab_project\stb_image.h(2327): warning C4793: '`anonymous namespace'::stbi__idct_simd' : function compiled as native :
          	Found an intrinsic not supported in managed code
-     1>c:\users\swapnil\desktop\sd project\patch-2\sd_lab_project\sd_lab_project\stb_image.h(2327): warning C4793: '`anonymous namespace'::stbi__idct_simd' : function compiled as native :
+     1>c:\users\swapnil\documents\github\sd_lab_project_1\sourcefiles\sd_lab_project\sd_lab_project\stb_image.h(2327): warning C4793: '`anonymous namespace'::stbi__idct_simd' : function compiled as native :
          	Found an intrinsic not supported in managed code
-     1>c:\users\swapnil\desktop\sd project\patch-2\sd_lab_project\sd_lab_project\stb_image.h(2327): warning C4793: '`anonymous namespace'::stbi__idct_simd' : function compiled as native :
+     1>c:\users\swapnil\documents\github\sd_lab_project_1\sourcefiles\sd_lab_project\sd_lab_project\stb_image.h(2327): warning C4793: '`anonymous namespace'::stbi__idct_simd' : function compiled as native :
          	Found an intrinsic not supported in managed code
-     1>c:\users\swapnil\desktop\sd project\patch-2\sd_lab_project\sd_lab_project\stb_image.h(2327): warning C4793: '`anonymous namespace'::stbi__idct_simd' : function compiled as native :
+     1>c:\users\swapnil\documents\github\sd_lab_project_1\sourcefiles\sd_lab_project\sd_lab_project\stb_image.h(2327): warning C4793: '`anonymous namespace'::stbi__idct_simd' : function compiled as native :
          	Found an intrinsic not supported in managed code
-     1>c:\users\swapnil\desktop\sd project\patch-2\sd_lab_project\sd_lab_project\stb_image.h(2327): warning C4793: '`anonymous namespace'::stbi__idct_simd' : function compiled as native :
+     1>c:\users\swapnil\documents\github\sd_lab_project_1\sourcefiles\sd_lab_project\sd_lab_project\stb_image.h(2327): warning C4793: '`anonymous namespace'::stbi__idct_simd' : function compiled as native :
          	Found an intrinsic not supported in managed code
-     1>c:\users\swapnil\desktop\sd project\patch-2\sd_lab_project\sd_lab_project\stb_image.h(2327): warning C4793: '`anonymous namespace'::stbi__idct_simd' : function compiled as native :
+     1>c:\users\swapnil\documents\github\sd_lab_project_1\sourcefiles\sd_lab_project\sd_lab_project\stb_image.h(2327): warning C4793: '`anonymous namespace'::stbi__idct_simd' : function compiled as native :
          	Found an intrinsic not supported in managed code
-     1>c:\users\swapnil\desktop\sd project\patch-2\sd_lab_project\sd_lab_project\stb_image.h(2327): warning C4793: '`anonymous namespace'::stbi__idct_simd' : function compiled as native :
+     1>c:\users\swapnil\documents\github\sd_lab_project_1\sourcefiles\sd_lab_project\sd_lab_project\stb_image.h(2327): warning C4793: '`anonymous namespace'::stbi__idct_simd' : function compiled as native :
          	Found an intrinsic not supported in managed code
-     1>c:\users\swapnil\desktop\sd project\patch-2\sd_lab_project\sd_lab_project\stb_image.h(2327): warning C4793: '`anonymous namespace'::stbi__idct_simd' : function compiled as native :
+     1>c:\users\swapnil\documents\github\sd_lab_project_1\sourcefiles\sd_lab_project\sd_lab_project\stb_image.h(2327): warning C4793: '`anonymous namespace'::stbi__idct_simd' : function compiled as native :
          	Found an intrinsic not supported in managed code
-     1>c:\users\swapnil\desktop\sd project\patch-2\sd_lab_project\sd_lab_project\stb_image.h(2327): warning C4793: '`anonymous namespace'::stbi__idct_simd' : function compiled as native :
+     1>c:\users\swapnil\documents\github\sd_lab_project_1\sourcefiles\sd_lab_project\sd_lab_project\stb_image.h(2327): warning C4793: '`anonymous namespace'::stbi__idct_simd' : function compiled as native :
          	Found an intrinsic not supported in managed code
-     1>c:\users\swapnil\desktop\sd project\patch-2\sd_lab_project\sd_lab_project\stb_image.h(2327): warning C4793: '`anonymous namespace'::stbi__idct_simd' : function compiled as native :
+     1>c:\users\swapnil\documents\github\sd_lab_project_1\sourcefiles\sd_lab_project\sd_lab_project\stb_image.h(2327): warning C4793: '`anonymous namespace'::stbi__idct_simd' : function compiled as native :
          	Found an intrinsic not supported in managed code
-     1>c:\users\swapnil\desktop\sd project\patch-2\sd_lab_project\sd_lab_project\stb_image.h(2327): warning C4793: '`anonymous namespace'::stbi__idct_simd' : function compiled as native :
+     1>c:\users\swapnil\documents\github\sd_lab_project_1\sourcefiles\sd_lab_project\sd_lab_project\stb_image.h(2327): warning C4793: '`anonymous namespace'::stbi__idct_simd' : function compiled as native :
          	Found an intrinsic not supported in managed code
-     1>c:\users\swapnil\desktop\sd project\patch-2\sd_lab_project\sd_lab_project\stb_image.h(2327): warning C4793: '`anonymous namespace'::stbi__idct_simd' : function compiled as native :
+     1>c:\users\swapnil\documents\github\sd_lab_project_1\sourcefiles\sd_lab_project\sd_lab_project\stb_image.h(2327): warning C4793: '`anonymous namespace'::stbi__idct_simd' : function compiled as native :
          	Found an intrinsic not supported in managed code
-     1>c:\users\swapnil\desktop\sd project\patch-2\sd_lab_project\sd_lab_project\stb_image.h(2327): warning C4793: '`anonymous namespace'::stbi__idct_simd' : function compiled as native :
+     1>c:\users\swapnil\documents\github\sd_lab_project_1\sourcefiles\sd_lab_project\sd_lab_project\stb_image.h(2327): warning C4793: '`anonymous namespace'::stbi__idct_simd' : function compiled as native :
          	Found an intrinsic not supported in managed code
-     1>c:\users\swapnil\desktop\sd project\patch-2\sd_lab_project\sd_lab_project\stb_image.h(2327): warning C4793: '`anonymous namespace'::stbi__idct_simd' : function compiled as native :
+     1>c:\users\swapnil\documents\github\sd_lab_project_1\sourcefiles\sd_lab_project\sd_lab_project\stb_image.h(2327): warning C4793: '`anonymous namespace'::stbi__idct_simd' : function compiled as native :
          	Found an intrinsic not supported in managed code
-     1>c:\users\swapnil\desktop\sd project\patch-2\sd_lab_project\sd_lab_project\stb_image.h(2327): warning C4793: '`anonymous namespace'::stbi__idct_simd' : function compiled as native :
+     1>c:\users\swapnil\documents\github\sd_lab_project_1\sourcefiles\sd_lab_project\sd_lab_project\stb_image.h(2327): warning C4793: '`anonymous namespace'::stbi__idct_simd' : function compiled as native :
          	Found an intrinsic not supported in managed code
-     1>c:\users\swapnil\desktop\sd project\patch-2\sd_lab_project\sd_lab_project\stb_image.h(2327): warning C4793: '`anonymous namespace'::stbi__idct_simd' : function compiled as native :
+     1>c:\users\swapnil\documents\github\sd_lab_project_1\sourcefiles\sd_lab_project\sd_lab_project\stb_image.h(2327): warning C4793: '`anonymous namespace'::stbi__idct_simd' : function compiled as native :
          	Found an intrinsic not supported in managed code
-     1>c:\users\swapnil\desktop\sd project\patch-2\sd_lab_project\sd_lab_project\stb_image.h(2327): warning C4793: '`anonymous namespace'::stbi__idct_simd' : function compiled as native :
+     1>c:\users\swapnil\documents\github\sd_lab_project_1\sourcefiles\sd_lab_project\sd_lab_project\stb_image.h(2327): warning C4793: '`anonymous namespace'::stbi__idct_simd' : function compiled as native :
          	Found an intrinsic not supported in managed code
-     1>c:\users\swapnil\desktop\sd project\patch-2\sd_lab_project\sd_lab_project\stb_image.h(2327): warning C4793: '`anonymous namespace'::stbi__idct_simd' : function compiled as native :
+     1>c:\users\swapnil\documents\github\sd_lab_project_1\sourcefiles\sd_lab_project\sd_lab_project\stb_image.h(2327): warning C4793: '`anonymous namespace'::stbi__idct_simd' : function compiled as native :
          	Found an intrinsic not supported in managed code
-     1>c:\users\swapnil\desktop\sd project\patch-2\sd_lab_project\sd_lab_project\stb_image.h(2327): warning C4793: '`anonymous namespace'::stbi__idct_simd' : function compiled as native :
+     1>c:\users\swapnil\documents\github\sd_lab_project_1\sourcefiles\sd_lab_project\sd_lab_project\stb_image.h(2327): warning C4793: '`anonymous namespace'::stbi__idct_simd' : function compiled as native :
          	Found an intrinsic not supported in managed code
-     1>c:\users\swapnil\desktop\sd project\patch-2\sd_lab_project\sd_lab_project\stb_image.h(2327): warning C4793: '`anonymous namespace'::stbi__idct_simd' : function compiled as native :
+     1>c:\users\swapnil\documents\github\sd_lab_project_1\sourcefiles\sd_lab_project\sd_lab_project\stb_image.h(2327): warning C4793: '`anonymous namespace'::stbi__idct_simd' : function compiled as native :
          	Found an intrinsic not supported in managed code
-     1>c:\users\swapnil\desktop\sd project\patch-2\sd_lab_project\sd_lab_project\stb_image.h(2327): warning C4793: '`anonymous namespace'::stbi__idct_simd' : function compiled as native :
+     1>c:\users\swapnil\documents\github\sd_lab_project_1\sourcefiles\sd_lab_project\sd_lab_project\stb_image.h(2327): warning C4793: '`anonymous namespace'::stbi__idct_simd' : function compiled as native :
          	Found an intrinsic not supported in managed code
-     1>c:\users\swapnil\desktop\sd project\patch-2\sd_lab_project\sd_lab_project\stb_image.h(2327): warning C4793: '`anonymous namespace'::stbi__idct_simd' : function compiled as native :
+     1>c:\users\swapnil\documents\github\sd_lab_project_1\sourcefiles\sd_lab_project\sd_lab_project\stb_image.h(2327): warning C4793: '`anonymous namespace'::stbi__idct_simd' : function compiled as native :
          	Found an intrinsic not supported in managed code
-     1>c:\users\swapnil\desktop\sd project\patch-2\sd_lab_project\sd_lab_project\stb_image.h(2327): warning C4793: '`anonymous namespace'::stbi__idct_simd' : function compiled as native :
+     1>c:\users\swapnil\documents\github\sd_lab_project_1\sourcefiles\sd_lab_project\sd_lab_project\stb_image.h(2327): warning C4793: '`anonymous namespace'::stbi__idct_simd' : function compiled as native :
          	Found an intrinsic not supported in managed code
-     1>c:\users\swapnil\desktop\sd project\patch-2\sd_lab_project\sd_lab_project\stb_image.h(2327): warning C4793: '`anonymous namespace'::stbi__idct_simd' : function compiled as native :
+     1>c:\users\swapnil\documents\github\sd_lab_project_1\sourcefiles\sd_lab_project\sd_lab_project\stb_image.h(2327): warning C4793: '`anonymous namespace'::stbi__idct_simd' : function compiled as native :
          	Found an intrinsic not supported in managed code
-     1>c:\users\swapnil\desktop\sd project\patch-2\sd_lab_project\sd_lab_project\stb_image.h(2327): warning C4793: '`anonymous namespace'::stbi__idct_simd' : function compiled as native :
+     1>c:\users\swapnil\documents\github\sd_lab_project_1\sourcefiles\sd_lab_project\sd_lab_project\stb_image.h(2327): warning C4793: '`anonymous namespace'::stbi__idct_simd' : function compiled as native :
          	Found an intrinsic not supported in managed code
-     1>c:\users\swapnil\desktop\sd project\patch-2\sd_lab_project\sd_lab_project\stb_image.h(2327): warning C4793: '`anonymous namespace'::stbi__idct_simd' : function compiled as native :
+     1>c:\users\swapnil\documents\github\sd_lab_project_1\sourcefiles\sd_lab_project\sd_lab_project\stb_image.h(2327): warning C4793: '`anonymous namespace'::stbi__idct_simd' : function compiled as native :
          	Found an intrinsic not supported in managed code
-     1>c:\users\swapnil\desktop\sd project\patch-2\sd_lab_project\sd_lab_project\stb_image.h(2327): warning C4793: '`anonymous namespace'::stbi__idct_simd' : function compiled as native :
+     1>c:\users\swapnil\documents\github\sd_lab_project_1\sourcefiles\sd_lab_project\sd_lab_project\stb_image.h(2327): warning C4793: '`anonymous namespace'::stbi__idct_simd' : function compiled as native :
          	Found an intrinsic not supported in managed code
-     1>c:\users\swapnil\desktop\sd project\patch-2\sd_lab_project\sd_lab_project\stb_image.h(2327): warning C4793: '`anonymous namespace'::stbi__idct_simd' : function compiled as native :
+     1>c:\users\swapnil\documents\github\sd_lab_project_1\sourcefiles\sd_lab_project\sd_lab_project\stb_image.h(2327): warning C4793: '`anonymous namespace'::stbi__idct_simd' : function compiled as native :
          	Found an intrinsic not supported in managed code
-     1>c:\users\swapnil\desktop\sd project\patch-2\sd_lab_project\sd_lab_project\stb_image.h(2327): warning C4793: '`anonymous namespace'::stbi__idct_simd' : function compiled as native :
+     1>c:\users\swapnil\documents\github\sd_lab_project_1\sourcefiles\sd_lab_project\sd_lab_project\stb_image.h(2327): warning C4793: '`anonymous namespace'::stbi__idct_simd' : function compiled as native :
          	Found an intrinsic not supported in managed code
-     1>c:\users\swapnil\desktop\sd project\patch-2\sd_lab_project\sd_lab_project\stb_image.h(2327): warning C4793: '`anonymous namespace'::stbi__idct_simd' : function compiled as native :
+     1>c:\users\swapnil\documents\github\sd_lab_project_1\sourcefiles\sd_lab_project\sd_lab_project\stb_image.h(2327): warning C4793: '`anonymous namespace'::stbi__idct_simd' : function compiled as native :
          	Found an intrinsic not supported in managed code
-     1>c:\users\swapnil\desktop\sd project\patch-2\sd_lab_project\sd_lab_project\stb_image.h(2327): warning C4793: '`anonymous namespace'::stbi__idct_simd' : function compiled as native :
+     1>c:\users\swapnil\documents\github\sd_lab_project_1\sourcefiles\sd_lab_project\sd_lab_project\stb_image.h(2327): warning C4793: '`anonymous namespace'::stbi__idct_simd' : function compiled as native :
          	Found an intrinsic not supported in managed code
-     1>c:\users\swapnil\desktop\sd project\patch-2\sd_lab_project\sd_lab_project\stb_image.h(2327): warning C4793: '`anonymous namespace'::stbi__idct_simd' : function compiled as native :
+     1>c:\users\swapnil\documents\github\sd_lab_project_1\sourcefiles\sd_lab_project\sd_lab_project\stb_image.h(2327): warning C4793: '`anonymous namespace'::stbi__idct_simd' : function compiled as native :
          	Found an intrinsic not supported in managed code
-     1>c:\users\swapnil\desktop\sd project\patch-2\sd_lab_project\sd_lab_project\stb_image.h(2327): warning C4793: '`anonymous namespace'::stbi__idct_simd' : function compiled as native :
+     1>c:\users\swapnil\documents\github\sd_lab_project_1\sourcefiles\sd_lab_project\sd_lab_project\stb_image.h(2327): warning C4793: '`anonymous namespace'::stbi__idct_simd' : function compiled as native :
          	Found an intrinsic not supported in managed code
-     1>c:\users\swapnil\desktop\sd project\patch-2\sd_lab_project\sd_lab_project\stb_image.h(2327): warning C4793: '`anonymous namespace'::stbi__idct_simd' : function compiled as native :
+     1>c:\users\swapnil\documents\github\sd_lab_project_1\sourcefiles\sd_lab_project\sd_lab_project\stb_image.h(2327): warning C4793: '`anonymous namespace'::stbi__idct_simd' : function compiled as native :
          	Found an intrinsic not supported in managed code
-     1>c:\users\swapnil\desktop\sd project\patch-2\sd_lab_project\sd_lab_project\stb_image.h(2327): warning C4793: '`anonymous namespace'::stbi__idct_simd' : function compiled as native :
+     1>c:\users\swapnil\documents\github\sd_lab_project_1\sourcefiles\sd_lab_project\sd_lab_project\stb_image.h(2327): warning C4793: '`anonymous namespace'::stbi__idct_simd' : function compiled as native :
          	Found an intrinsic not supported in managed code
-     1>c:\users\swapnil\desktop\sd project\patch-2\sd_lab_project\sd_lab_project\stb_image.h(2327): warning C4793: '`anonymous namespace'::stbi__idct_simd' : function compiled as native :
+     1>c:\users\swapnil\documents\github\sd_lab_project_1\sourcefiles\sd_lab_project\sd_lab_project\stb_image.h(2327): warning C4793: '`anonymous namespace'::stbi__idct_simd' : function compiled as native :
          	Found an intrinsic not supported in managed code
-     1>c:\users\swapnil\desktop\sd project\patch-2\sd_lab_project\sd_lab_project\stb_image.h(2327): warning C4793: '`anonymous namespace'::stbi__idct_simd' : function compiled as native :
+     1>c:\users\swapnil\documents\github\sd_lab_project_1\sourcefiles\sd_lab_project\sd_lab_project\stb_image.h(2327): warning C4793: '`anonymous namespace'::stbi__idct_simd' : function compiled as native :
          	Found an intrinsic not supported in managed code
-     1>c:\users\swapnil\desktop\sd project\patch-2\sd_lab_project\sd_lab_project\stb_image.h(2327): warning C4793: '`anonymous namespace'::stbi__idct_simd' : function compiled as native :
+     1>c:\users\swapnil\documents\github\sd_lab_project_1\sourcefiles\sd_lab_project\sd_lab_project\stb_image.h(2327): warning C4793: '`anonymous namespace'::stbi__idct_simd' : function compiled as native :
          	Found an intrinsic not supported in managed code
-     1>c:\users\swapnil\desktop\sd project\patch-2\sd_lab_project\sd_lab_project\stb_image.h(2327): warning C4793: '`anonymous namespace'::stbi__idct_simd' : function compiled as native :
+     1>c:\users\swapnil\documents\github\sd_lab_project_1\sourcefiles\sd_lab_project\sd_lab_project\stb_image.h(2327): warning C4793: '`anonymous namespace'::stbi__idct_simd' : function compiled as native :
          	Found an intrinsic not supported in managed code
-     1>c:\users\swapnil\desktop\sd project\patch-2\sd_lab_project\sd_lab_project\stb_image.h(2327): warning C4793: '`anonymous namespace'::stbi__idct_simd' : function compiled as native :
+     1>c:\users\swapnil\documents\github\sd_lab_project_1\sourcefiles\sd_lab_project\sd_lab_project\stb_image.h(2327): warning C4793: '`anonymous namespace'::stbi__idct_simd' : function compiled as native :
          	Found an intrinsic not supported in managed code
-     1>c:\users\swapnil\desktop\sd project\patch-2\sd_lab_project\sd_lab_project\stb_image.h(2327): warning C4793: '`anonymous namespace'::stbi__idct_simd' : function compiled as native :
+     1>c:\users\swapnil\documents\github\sd_lab_project_1\sourcefiles\sd_lab_project\sd_lab_project\stb_image.h(2327): warning C4793: '`anonymous namespace'::stbi__idct_simd' : function compiled as native :
          	Aligned data types not supported in managed code
-     1>c:\users\swapnil\desktop\sd project\patch-2\sd_lab_project\sd_lab_project\stb_image.h(2327): warning C4793: '`anonymous namespace'::stbi__idct_simd' : function compiled as native :
+     1>c:\users\swapnil\documents\github\sd_lab_project_1\sourcefiles\sd_lab_project\sd_lab_project\stb_image.h(2327): warning C4793: '`anonymous namespace'::stbi__idct_simd' : function compiled as native :
          	Found an intrinsic not supported in managed code
-     1>c:\users\swapnil\desktop\sd project\patch-2\sd_lab_project\sd_lab_project\stb_image.h(2327): warning C4793: '`anonymous namespace'::stbi__idct_simd' : function compiled as native :
+     1>c:\users\swapnil\documents\github\sd_lab_project_1\sourcefiles\sd_lab_project\sd_lab_project\stb_image.h(2327): warning C4793: '`anonymous namespace'::stbi__idct_simd' : function compiled as native :
          	Found an intrinsic not supported in managed code
-     1>c:\users\swapnil\desktop\sd project\patch-2\sd_lab_project\sd_lab_project\stb_image.h(2327): warning C4793: '`anonymous namespace'::stbi__idct_simd' : function compiled as native :
+     1>c:\users\swapnil\documents\github\sd_lab_project_1\sourcefiles\sd_lab_project\sd_lab_project\stb_image.h(2327): warning C4793: '`anonymous namespace'::stbi__idct_simd' : function compiled as native :
          	Found an intrinsic not supported in managed code
-     1>c:\users\swapnil\desktop\sd project\patch-2\sd_lab_project\sd_lab_project\stb_image.h(2327): warning C4793: '`anonymous namespace'::stbi__idct_simd' : function compiled as native :
+     1>c:\users\swapnil\documents\github\sd_lab_project_1\sourcefiles\sd_lab_project\sd_lab_project\stb_image.h(2327): warning C4793: '`anonymous namespace'::stbi__idct_simd' : function compiled as native :
          	Found an intrinsic not supported in managed code
-     1>c:\users\swapnil\desktop\sd project\patch-2\sd_lab_project\sd_lab_project\stb_image.h(2327): warning C4793: '`anonymous namespace'::stbi__idct_simd' : function compiled as native :
+     1>c:\users\swapnil\documents\github\sd_lab_project_1\sourcefiles\sd_lab_project\sd_lab_project\stb_image.h(2327): warning C4793: '`anonymous namespace'::stbi__idct_simd' : function compiled as native :
          	Found an intrinsic not supported in managed code
-     1>c:\users\swapnil\desktop\sd project\patch-2\sd_lab_project\sd_lab_project\stb_image.h(2327): warning C4793: '`anonymous namespace'::stbi__idct_simd' : function compiled as native :
+     1>c:\users\swapnil\documents\github\sd_lab_project_1\sourcefiles\sd_lab_project\sd_lab_project\stb_image.h(2327): warning C4793: '`anonymous namespace'::stbi__idct_simd' : function compiled as native :
          	Found an intrinsic not supported in managed code
-     1>c:\users\swapnil\desktop\sd project\patch-2\sd_lab_project\sd_lab_project\stb_image.h(2327): warning C4793: '`anonymous namespace'::stbi__idct_simd' : function compiled as native :
+     1>c:\users\swapnil\documents\github\sd_lab_project_1\sourcefiles\sd_lab_project\sd_lab_project\stb_image.h(2327): warning C4793: '`anonymous namespace'::stbi__idct_simd' : function compiled as native :
          	Found an intrinsic not supported in managed code
-     1>c:\users\swapnil\desktop\sd project\patch-2\sd_lab_project\sd_lab_project\stb_image.h(2327): warning C4793: '`anonymous namespace'::stbi__idct_simd' : function compiled as native :
+     1>c:\users\swapnil\documents\github\sd_lab_project_1\sourcefiles\sd_lab_project\sd_lab_project\stb_image.h(2327): warning C4793: '`anonymous namespace'::stbi__idct_simd' : function compiled as native :
          	Found an intrinsic not supported in managed code
-     1>c:\users\swapnil\desktop\sd project\patch-2\sd_lab_project\sd_lab_project\stb_image.h(2327): warning C4793: '`anonymous namespace'::stbi__idct_simd' : function compiled as native :
+     1>c:\users\swapnil\documents\github\sd_lab_project_1\sourcefiles\sd_lab_project\sd_lab_project\stb_image.h(2327): warning C4793: '`anonymous namespace'::stbi__idct_simd' : function compiled as native :
          	Aligned data types not supported in managed code
-     1>c:\users\swapnil\desktop\sd project\patch-2\sd_lab_project\sd_lab_project\stb_image.h(2327): warning C4793: '`anonymous namespace'::stbi__idct_simd' : function compiled as native :
+     1>c:\users\swapnil\documents\github\sd_lab_project_1\sourcefiles\sd_lab_project\sd_lab_project\stb_image.h(2327): warning C4793: '`anonymous namespace'::stbi__idct_simd' : function compiled as native :
          	Found an intrinsic not supported in managed code
-     1>c:\users\swapnil\desktop\sd project\patch-2\sd_lab_project\sd_lab_project\stb_image.h(2327): warning C4793: '`anonymous namespace'::stbi__idct_simd' : function compiled as native :
+     1>c:\users\swapnil\documents\github\sd_lab_project_1\sourcefiles\sd_lab_project\sd_lab_project\stb_image.h(2327): warning C4793: '`anonymous namespace'::stbi__idct_simd' : function compiled as native :
          	Found an intrinsic not supported in managed code
-     1>c:\users\swapnil\desktop\sd project\patch-2\sd_lab_project\sd_lab_project\stb_image.h(2327): warning C4793: '`anonymous namespace'::stbi__idct_simd' : function compiled as native :
+     1>c:\users\swapnil\documents\github\sd_lab_project_1\sourcefiles\sd_lab_project\sd_lab_project\stb_image.h(2327): warning C4793: '`anonymous namespace'::stbi__idct_simd' : function compiled as native :
          	Found an intrinsic not supported in managed code
-     1>c:\users\swapnil\desktop\sd project\patch-2\sd_lab_project\sd_lab_project\stb_image.h(2327): warning C4793: '`anonymous namespace'::stbi__idct_simd' : function compiled as native :
+     1>c:\users\swapnil\documents\github\sd_lab_project_1\sourcefiles\sd_lab_project\sd_lab_project\stb_image.h(2327): warning C4793: '`anonymous namespace'::stbi__idct_simd' : function compiled as native :
          	Found an intrinsic not supported in managed code
-     1>c:\users\swapnil\desktop\sd project\patch-2\sd_lab_project\sd_lab_project\stb_image.h(2327): warning C4793: '`anonymous namespace'::stbi__idct_simd' : function compiled as native :
+     1>c:\users\swapnil\documents\github\sd_lab_project_1\sourcefiles\sd_lab_project\sd_lab_project\stb_image.h(2327): warning C4793: '`anonymous namespace'::stbi__idct_simd' : function compiled as native :
          	Found an intrinsic not supported in managed code
-     1>c:\users\swapnil\desktop\sd project\patch-2\sd_lab_project\sd_lab_project\stb_image.h(2327): warning C4793: '`anonymous namespace'::stbi__idct_simd' : function compiled as native :
+     1>c:\users\swapnil\documents\github\sd_lab_project_1\sourcefiles\sd_lab_project\sd_lab_project\stb_image.h(2327): warning C4793: '`anonymous namespace'::stbi__idct_simd' : function compiled as native :
          	Found an intrinsic not supported in managed code
-     1>c:\users\swapnil\desktop\sd project\patch-2\sd_lab_project\sd_lab_project\stb_image.h(2327): warning C4793: '`anonymous namespace'::stbi__idct_simd' : function compiled as native :
+     1>c:\users\swapnil\documents\github\sd_lab_project_1\sourcefiles\sd_lab_project\sd_lab_project\stb_image.h(2327): warning C4793: '`anonymous namespace'::stbi__idct_simd' : function compiled as native :
          	Found an intrinsic not supported in managed code
-     1>c:\users\swapnil\desktop\sd project\patch-2\sd_lab_project\sd_lab_project\stb_image.h(2327): warning C4793: '`anonymous namespace'::stbi__idct_simd' : function compiled as native :
+     1>c:\users\swapnil\documents\github\sd_lab_project_1\sourcefiles\sd_lab_project\sd_lab_project\stb_image.h(2327): warning C4793: '`anonymous namespace'::stbi__idct_simd' : function compiled as native :
          	Found an intrinsic not supported in managed code
-     1>c:\users\swapnil\desktop\sd project\patch-2\sd_lab_project\sd_lab_project\stb_image.h(2327): warning C4793: '`anonymous namespace'::stbi__idct_simd' : function compiled as native :
+     1>c:\users\swapnil\documents\github\sd_lab_project_1\sourcefiles\sd_lab_project\sd_lab_project\stb_image.h(2327): warning C4793: '`anonymous namespace'::stbi__idct_simd' : function compiled as native :
          	Aligned data types not supported in managed code
-     1>c:\users\swapnil\desktop\sd project\patch-2\sd_lab_project\sd_lab_project\stb_image.h(2327): warning C4793: '`anonymous namespace'::stbi__idct_simd' : function compiled as native :
+     1>c:\users\swapnil\documents\github\sd_lab_project_1\sourcefiles\sd_lab_project\sd_lab_project\stb_image.h(2327): warning C4793: '`anonymous namespace'::stbi__idct_simd' : function compiled as native :
          	Found an intrinsic not supported in managed code
-     1>c:\users\swapnil\desktop\sd project\patch-2\sd_lab_project\sd_lab_project\stb_image.h(2327): warning C4793: '`anonymous namespace'::stbi__idct_simd' : function compiled as native :
+     1>c:\users\swapnil\documents\github\sd_lab_project_1\sourcefiles\sd_lab_project\sd_lab_project\stb_image.h(2327): warning C4793: '`anonymous namespace'::stbi__idct_simd' : function compiled as native :
          	Found an intrinsic not supported in managed code
-     1>c:\users\swapnil\desktop\sd project\patch-2\sd_lab_project\sd_lab_project\stb_image.h(2327): warning C4793: '`anonymous namespace'::stbi__idct_simd' : function compiled as native :
+     1>c:\users\swapnil\documents\github\sd_lab_project_1\sourcefiles\sd_lab_project\sd_lab_project\stb_image.h(2327): warning C4793: '`anonymous namespace'::stbi__idct_simd' : function compiled as native :
          	Found an intrinsic not supported in managed code
-     1>c:\users\swapnil\desktop\sd project\patch-2\sd_lab_project\sd_lab_project\stb_image.h(2327): warning C4793: '`anonymous namespace'::stbi__idct_simd' : function compiled as native :
+     1>c:\users\swapnil\documents\github\sd_lab_project_1\sourcefiles\sd_lab_project\sd_lab_project\stb_image.h(2327): warning C4793: '`anonymous namespace'::stbi__idct_simd' : function compiled as native :
          	Found an intrinsic not supported in managed code
-     1>c:\users\swapnil\desktop\sd project\patch-2\sd_lab_project\sd_lab_project\stb_image.h(2327): warning C4793: '`anonymous namespace'::stbi__idct_simd' : function compiled as native :
+     1>c:\users\swapnil\documents\github\sd_lab_project_1\sourcefiles\sd_lab_project\sd_lab_project\stb_image.h(2327): warning C4793: '`anonymous namespace'::stbi__idct_simd' : function compiled as native :
          	Found an intrinsic not supported in managed code
-     1>c:\users\swapnil\desktop\sd project\patch-2\sd_lab_project\sd_lab_project\stb_image.h(2327): warning C4793: '`anonymous namespace'::stbi__idct_simd' : function compiled as native :
+     1>c:\users\swapnil\documents\github\sd_lab_project_1\sourcefiles\sd_lab_project\sd_lab_project\stb_image.h(2327): warning C4793: '`anonymous namespace'::stbi__idct_simd' : function compiled as native :
          	Found an intrinsic not supported in managed code
-     1>c:\users\swapnil\desktop\sd project\patch-2\sd_lab_project\sd_lab_project\stb_image.h(2327): warning C4793: '`anonymous namespace'::stbi__idct_simd' : function compiled as native :
+     1>c:\users\swapnil\documents\github\sd_lab_project_1\sourcefiles\sd_lab_project\sd_lab_project\stb_image.h(2327): warning C4793: '`anonymous namespace'::stbi__idct_simd' : function compiled as native :
          	Found an intrinsic not supported in managed code
-     1>c:\users\swapnil\desktop\sd project\patch-2\sd_lab_project\sd_lab_project\stb_image.h(2327): warning C4793: '`anonymous namespace'::stbi__idct_simd' : function compiled as native :
+     1>c:\users\swapnil\documents\github\sd_lab_project_1\sourcefiles\sd_lab_project\sd_lab_project\stb_image.h(2327): warning C4793: '`anonymous namespace'::stbi__idct_simd' : function compiled as native :
          	Found an intrinsic not supported in managed code
-     1>c:\users\swapnil\desktop\sd project\patch-2\sd_lab_project\sd_lab_project\stb_image.h(2327): warning C4793: '`anonymous namespace'::stbi__idct_simd' : function compiled as native :
+     1>c:\users\swapnil\documents\github\sd_lab_project_1\sourcefiles\sd_lab_project\sd_lab_project\stb_image.h(2327): warning C4793: '`anonymous namespace'::stbi__idct_simd' : function compiled as native :
          	Aligned data types not supported in managed code
-     1>c:\users\swapnil\desktop\sd project\patch-2\sd_lab_project\sd_lab_project\stb_image.h(2327): warning C4793: '`anonymous namespace'::stbi__idct_simd' : function compiled as native :
+     1>c:\users\swapnil\documents\github\sd_lab_project_1\sourcefiles\sd_lab_project\sd_lab_project\stb_image.h(2327): warning C4793: '`anonymous namespace'::stbi__idct_simd' : function compiled as native :
          	Found an intrinsic not supported in managed code
-     1>c:\users\swapnil\desktop\sd project\patch-2\sd_lab_project\sd_lab_project\stb_image.h(2327): warning C4793: '`anonymous namespace'::stbi__idct_simd' : function compiled as native :
+     1>c:\users\swapnil\documents\github\sd_lab_project_1\sourcefiles\sd_lab_project\sd_lab_project\stb_image.h(2327): warning C4793: '`anonymous namespace'::stbi__idct_simd' : function compiled as native :
          	Found an intrinsic not supported in managed code
-     1>c:\users\swapnil\desktop\sd project\patch-2\sd_lab_project\sd_lab_project\stb_image.h(2327): warning C4793: '`anonymous namespace'::stbi__idct_simd' : function compiled as native :
+     1>c:\users\swapnil\documents\github\sd_lab_project_1\sourcefiles\sd_lab_project\sd_lab_project\stb_image.h(2327): warning C4793: '`anonymous namespace'::stbi__idct_simd' : function compiled as native :
          	Found an intrinsic not supported in managed code
-     1>c:\users\swapnil\desktop\sd project\patch-2\sd_lab_project\sd_lab_project\stb_image.h(2327): warning C4793: '`anonymous namespace'::stbi__idct_simd' : function compiled as native :
+     1>c:\users\swapnil\documents\github\sd_lab_project_1\sourcefiles\sd_lab_project\sd_lab_project\stb_image.h(2327): warning C4793: '`anonymous namespace'::stbi__idct_simd' : function compiled as native :
          	Found an intrinsic not supported in managed code
-     1>c:\users\swapnil\desktop\sd project\patch-2\sd_lab_project\sd_lab_project\stb_image.h(2327): warning C4793: '`anonymous namespace'::stbi__idct_simd' : function compiled as native :
+     1>c:\users\swapnil\documents\github\sd_lab_project_1\sourcefiles\sd_lab_project\sd_lab_project\stb_image.h(2327): warning C4793: '`anonymous namespace'::stbi__idct_simd' : function compiled as native :
          	Found an intrinsic not supported in managed code
-     1>c:\users\swapnil\desktop\sd project\patch-2\sd_lab_project\sd_lab_project\stb_image.h(2327): warning C4793: '`anonymous namespace'::stbi__idct_simd' : function compiled as native :
+     1>c:\users\swapnil\documents\github\sd_lab_project_1\sourcefiles\sd_lab_project\sd_lab_project\stb_image.h(2327): warning C4793: '`anonymous namespace'::stbi__idct_simd' : function compiled as native :
          	Found an intrinsic not supported in managed code
-     1>c:\users\swapnil\desktop\sd project\patch-2\sd_lab_project\sd_lab_project\stb_image.h(2327): warning C4793: '`anonymous namespace'::stbi__idct_simd' : function compiled as native :
+     1>c:\users\swapnil\documents\github\sd_lab_project_1\sourcefiles\sd_lab_project\sd_lab_project\stb_image.h(2327): warning C4793: '`anonymous namespace'::stbi__idct_simd' : function compiled as native :
          	Found an intrinsic not supported in managed code
-     1>c:\users\swapnil\desktop\sd project\patch-2\sd_lab_project\sd_lab_project\stb_image.h(2327): warning C4793: '`anonymous namespace'::stbi__idct_simd' : function compiled as native :
+     1>c:\users\swapnil\documents\github\sd_lab_project_1\sourcefiles\sd_lab_project\sd_lab_project\stb_image.h(2327): warning C4793: '`anonymous namespace'::stbi__idct_simd' : function compiled as native :
          	Found an intrinsic not supported in managed code
-     1>c:\users\swapnil\desktop\sd project\patch-2\sd_lab_project\sd_lab_project\stb_image.h(2327): warning C4793: '`anonymous namespace'::stbi__idct_simd' : function compiled as native :
+     1>c:\users\swapnil\documents\github\sd_lab_project_1\sourcefiles\sd_lab_project\sd_lab_project\stb_image.h(2327): warning C4793: '`anonymous namespace'::stbi__idct_simd' : function compiled as native :
          	Aligned data types not supported in managed code
-     1>c:\users\swapnil\desktop\sd project\patch-2\sd_lab_project\sd_lab_project\stb_image.h(2331): warning C4793: '`anonymous namespace'::stbi__idct_simd' : function compiled as native :
+     1>c:\users\swapnil\documents\github\sd_lab_project_1\sourcefiles\sd_lab_project\sd_lab_project\stb_image.h(2331): warning C4793: '`anonymous namespace'::stbi__idct_simd' : function compiled as native :
          	Found an intrinsic not supported in managed code
-     1>c:\users\swapnil\desktop\sd project\patch-2\sd_lab_project\sd_lab_project\stb_image.h(2331): warning C4793: '`anonymous namespace'::stbi__idct_simd' : function compiled as native :
+     1>c:\users\swapnil\documents\github\sd_lab_project_1\sourcefiles\sd_lab_project\sd_lab_project\stb_image.h(2331): warning C4793: '`anonymous namespace'::stbi__idct_simd' : function compiled as native :
          	Found an intrinsic not supported in managed code
-     1>c:\users\swapnil\desktop\sd project\patch-2\sd_lab_project\sd_lab_project\stb_image.h(2331): warning C4793: '`anonymous namespace'::stbi__idct_simd' : function compiled as native :
+     1>c:\users\swapnil\documents\github\sd_lab_project_1\sourcefiles\sd_lab_project\sd_lab_project\stb_image.h(2331): warning C4793: '`anonymous namespace'::stbi__idct_simd' : function compiled as native :
          	Aligned data types not supported in managed code
-     1>c:\users\swapnil\desktop\sd project\patch-2\sd_lab_project\sd_lab_project\stb_image.h(2332): warning C4793: '`anonymous namespace'::stbi__idct_simd' : function compiled as native :
+     1>c:\users\swapnil\documents\github\sd_lab_project_1\sourcefiles\sd_lab_project\sd_lab_project\stb_image.h(2332): warning C4793: '`anonymous namespace'::stbi__idct_simd' : function compiled as native :
          	Found an intrinsic not supported in managed code
-     1>c:\users\swapnil\desktop\sd project\patch-2\sd_lab_project\sd_lab_project\stb_image.h(2332): warning C4793: '`anonymous namespace'::stbi__idct_simd' : function compiled as native :
+     1>c:\users\swapnil\documents\github\sd_lab_project_1\sourcefiles\sd_lab_project\sd_lab_project\stb_image.h(2332): warning C4793: '`anonymous namespace'::stbi__idct_simd' : function compiled as native :
          	Found an intrinsic not supported in managed code
-     1>c:\users\swapnil\desktop\sd project\patch-2\sd_lab_project\sd_lab_project\stb_image.h(2332): warning C4793: '`anonymous namespace'::stbi__idct_simd' : function compiled as native :
+     1>c:\users\swapnil\documents\github\sd_lab_project_1\sourcefiles\sd_lab_project\sd_lab_project\stb_image.h(2332): warning C4793: '`anonymous namespace'::stbi__idct_simd' : function compiled as native :
          	Aligned data types not supported in managed code
-     1>c:\users\swapnil\desktop\sd project\patch-2\sd_lab_project\sd_lab_project\stb_image.h(2333): warning C4793: '`anonymous namespace'::stbi__idct_simd' : function compiled as native :
+     1>c:\users\swapnil\documents\github\sd_lab_project_1\sourcefiles\sd_lab_project\sd_lab_project\stb_image.h(2333): warning C4793: '`anonymous namespace'::stbi__idct_simd' : function compiled as native :
          	Found an intrinsic not supported in managed code
-     1>c:\users\swapnil\desktop\sd project\patch-2\sd_lab_project\sd_lab_project\stb_image.h(2333): warning C4793: '`anonymous namespace'::stbi__idct_simd' : function compiled as native :
+     1>c:\users\swapnil\documents\github\sd_lab_project_1\sourcefiles\sd_lab_project\sd_lab_project\stb_image.h(2333): warning C4793: '`anonymous namespace'::stbi__idct_simd' : function compiled as native :
          	Found an intrinsic not supported in managed code
-     1>c:\users\swapnil\desktop\sd project\patch-2\sd_lab_project\sd_lab_project\stb_image.h(2333): warning C4793: '`anonymous namespace'::stbi__idct_simd' : function compiled as native :
+     1>c:\users\swapnil\documents\github\sd_lab_project_1\sourcefiles\sd_lab_project\sd_lab_project\stb_image.h(2333): warning C4793: '`anonymous namespace'::stbi__idct_simd' : function compiled as native :
          	Aligned data types not supported in managed code
-     1>c:\users\swapnil\desktop\sd project\patch-2\sd_lab_project\sd_lab_project\stb_image.h(2334): warning C4793: '`anonymous namespace'::stbi__idct_simd' : function compiled as native :
+     1>c:\users\swapnil\documents\github\sd_lab_project_1\sourcefiles\sd_lab_project\sd_lab_project\stb_image.h(2334): warning C4793: '`anonymous namespace'::stbi__idct_simd' : function compiled as native :
          	Found an intrinsic not supported in managed code
-     1>c:\users\swapnil\desktop\sd project\patch-2\sd_lab_project\sd_lab_project\stb_image.h(2334): warning C4793: '`anonymous namespace'::stbi__idct_simd' : function compiled as native :
+     1>c:\users\swapnil\documents\github\sd_lab_project_1\sourcefiles\sd_lab_project\sd_lab_project\stb_image.h(2334): warning C4793: '`anonymous namespace'::stbi__idct_simd' : function compiled as native :
          	Found an intrinsic not supported in managed code
-     1>c:\users\swapnil\desktop\sd project\patch-2\sd_lab_project\sd_lab_project\stb_image.h(2334): warning C4793: '`anonymous namespace'::stbi__idct_simd' : function compiled as native :
+     1>c:\users\swapnil\documents\github\sd_lab_project_1\sourcefiles\sd_lab_project\sd_lab_project\stb_image.h(2334): warning C4793: '`anonymous namespace'::stbi__idct_simd' : function compiled as native :
          	Aligned data types not supported in managed code
-     1>c:\users\swapnil\desktop\sd project\patch-2\sd_lab_project\sd_lab_project\stb_image.h(2337): warning C4793: '`anonymous namespace'::stbi__idct_simd' : function compiled as native :
+     1>c:\users\swapnil\documents\github\sd_lab_project_1\sourcefiles\sd_lab_project\sd_lab_project\stb_image.h(2337): warning C4793: '`anonymous namespace'::stbi__idct_simd' : function compiled as native :
          	Found an intrinsic not supported in managed code
-     1>c:\users\swapnil\desktop\sd project\patch-2\sd_lab_project\sd_lab_project\stb_image.h(2337): warning C4793: '`anonymous namespace'::stbi__idct_simd' : function compiled as native :
+     1>c:\users\swapnil\documents\github\sd_lab_project_1\sourcefiles\sd_lab_project\sd_lab_project\stb_image.h(2337): warning C4793: '`anonymous namespace'::stbi__idct_simd' : function compiled as native :
          	Found an intrinsic not supported in managed code
-     1>c:\users\swapnil\desktop\sd project\patch-2\sd_lab_project\sd_lab_project\stb_image.h(2337): warning C4793: '`anonymous namespace'::stbi__idct_simd' : function compiled as native :
+     1>c:\users\swapnil\documents\github\sd_lab_project_1\sourcefiles\sd_lab_project\sd_lab_project\stb_image.h(2337): warning C4793: '`anonymous namespace'::stbi__idct_simd' : function compiled as native :
          	Aligned data types not supported in managed code
-     1>c:\users\swapnil\desktop\sd project\patch-2\sd_lab_project\sd_lab_project\stb_image.h(2338): warning C4793: '`anonymous namespace'::stbi__idct_simd' : function compiled as native :
+     1>c:\users\swapnil\documents\github\sd_lab_project_1\sourcefiles\sd_lab_project\sd_lab_project\stb_image.h(2338): warning C4793: '`anonymous namespace'::stbi__idct_simd' : function compiled as native :
          	Found an intrinsic not supported in managed code
-     1>c:\users\swapnil\desktop\sd project\patch-2\sd_lab_project\sd_lab_project\stb_image.h(2338): warning C4793: '`anonymous namespace'::stbi__idct_simd' : function compiled as native :
+     1>c:\users\swapnil\documents\github\sd_lab_project_1\sourcefiles\sd_lab_project\sd_lab_project\stb_image.h(2338): warning C4793: '`anonymous namespace'::stbi__idct_simd' : function compiled as native :
          	Found an intrinsic not supported in managed code
-     1>c:\users\swapnil\desktop\sd project\patch-2\sd_lab_project\sd_lab_project\stb_image.h(2338): warning C4793: '`anonymous namespace'::stbi__idct_simd' : function compiled as native :
+     1>c:\users\swapnil\documents\github\sd_lab_project_1\sourcefiles\sd_lab_project\sd_lab_project\stb_image.h(2338): warning C4793: '`anonymous namespace'::stbi__idct_simd' : function compiled as native :
          	Aligned data types not supported in managed code
-     1>c:\users\swapnil\desktop\sd project\patch-2\sd_lab_project\sd_lab_project\stb_image.h(2339): warning C4793: '`anonymous namespace'::stbi__idct_simd' : function compiled as native :
+     1>c:\users\swapnil\documents\github\sd_lab_project_1\sourcefiles\sd_lab_project\sd_lab_project\stb_image.h(2339): warning C4793: '`anonymous namespace'::stbi__idct_simd' : function compiled as native :
          	Found an intrinsic not supported in managed code
-     1>c:\users\swapnil\desktop\sd project\patch-2\sd_lab_project\sd_lab_project\stb_image.h(2339): warning C4793: '`anonymous namespace'::stbi__idct_simd' : function compiled as native :
+     1>c:\users\swapnil\documents\github\sd_lab_project_1\sourcefiles\sd_lab_project\sd_lab_project\stb_image.h(2339): warning C4793: '`anonymous namespace'::stbi__idct_simd' : function compiled as native :
          	Found an intrinsic not supported in managed code
-     1>c:\users\swapnil\desktop\sd project\patch-2\sd_lab_project\sd_lab_project\stb_image.h(2339): warning C4793: '`anonymous namespace'::stbi__idct_simd' : function compiled as native :
+     1>c:\users\swapnil\documents\github\sd_lab_project_1\sourcefiles\sd_lab_project\sd_lab_project\stb_image.h(2339): warning C4793: '`anonymous namespace'::stbi__idct_simd' : function compiled as native :
          	Aligned data types not supported in managed code
-     1>c:\users\swapnil\desktop\sd project\patch-2\sd_lab_project\sd_lab_project\stb_image.h(2340): warning C4793: '`anonymous namespace'::stbi__idct_simd' : function compiled as native :
+     1>c:\users\swapnil\documents\github\sd_lab_project_1\sourcefiles\sd_lab_project\sd_lab_project\stb_image.h(2340): warning C4793: '`anonymous namespace'::stbi__idct_simd' : function compiled as native :
          	Found an intrinsic not supported in managed code
-     1>c:\users\swapnil\desktop\sd project\patch-2\sd_lab_project\sd_lab_project\stb_image.h(2340): warning C4793: '`anonymous namespace'::stbi__idct_simd' : function compiled as native :
+     1>c:\users\swapnil\documents\github\sd_lab_project_1\sourcefiles\sd_lab_project\sd_lab_project\stb_image.h(2340): warning C4793: '`anonymous namespace'::stbi__idct_simd' : function compiled as native :
          	Found an intrinsic not supported in managed code
-     1>c:\users\swapnil\desktop\sd project\patch-2\sd_lab_project\sd_lab_project\stb_image.h(2340): warning C4793: '`anonymous namespace'::stbi__idct_simd' : function compiled as native :
+     1>c:\users\swapnil\documents\github\sd_lab_project_1\sourcefiles\sd_lab_project\sd_lab_project\stb_image.h(2340): warning C4793: '`anonymous namespace'::stbi__idct_simd' : function compiled as native :
          	Aligned data types not supported in managed code
-     1>c:\users\swapnil\desktop\sd project\patch-2\sd_lab_project\sd_lab_project\stb_image.h(2343): warning C4793: '`anonymous namespace'::stbi__idct_simd' : function compiled as native :
+     1>c:\users\swapnil\documents\github\sd_lab_project_1\sourcefiles\sd_lab_project\sd_lab_project\stb_image.h(2343): warning C4793: '`anonymous namespace'::stbi__idct_simd' : function compiled as native :
          	Found an intrinsic not supported in managed code
-     1>c:\users\swapnil\desktop\sd project\patch-2\sd_lab_project\sd_lab_project\stb_image.h(2343): warning C4793: '`anonymous namespace'::stbi__idct_simd' : function compiled as native :
+     1>c:\users\swapnil\documents\github\sd_lab_project_1\sourcefiles\sd_lab_project\sd_lab_project\stb_image.h(2343): warning C4793: '`anonymous namespace'::stbi__idct_simd' : function compiled as native :
          	Found an intrinsic not supported in managed code
-     1>c:\users\swapnil\desktop\sd project\patch-2\sd_lab_project\sd_lab_project\stb_image.h(2343): warning C4793: '`anonymous namespace'::stbi__idct_simd' : function compiled as native :
+     1>c:\users\swapnil\documents\github\sd_lab_project_1\sourcefiles\sd_lab_project\sd_lab_project\stb_image.h(2343): warning C4793: '`anonymous namespace'::stbi__idct_simd' : function compiled as native :
          	Aligned data types not supported in managed code
-     1>c:\users\swapnil\desktop\sd project\patch-2\sd_lab_project\sd_lab_project\stb_image.h(2344): warning C4793: '`anonymous namespace'::stbi__idct_simd' : function compiled as native :
+     1>c:\users\swapnil\documents\github\sd_lab_project_1\sourcefiles\sd_lab_project\sd_lab_project\stb_image.h(2344): warning C4793: '`anonymous namespace'::stbi__idct_simd' : function compiled as native :
          	Found an intrinsic not supported in managed code
-     1>c:\users\swapnil\desktop\sd project\patch-2\sd_lab_project\sd_lab_project\stb_image.h(2344): warning C4793: '`anonymous namespace'::stbi__idct_simd' : function compiled as native :
+     1>c:\users\swapnil\documents\github\sd_lab_project_1\sourcefiles\sd_lab_project\sd_lab_project\stb_image.h(2344): warning C4793: '`anonymous namespace'::stbi__idct_simd' : function compiled as native :
          	Found an intrinsic not supported in managed code
-     1>c:\users\swapnil\desktop\sd project\patch-2\sd_lab_project\sd_lab_project\stb_image.h(2344): warning C4793: '`anonymous namespace'::stbi__idct_simd' : function compiled as native :
+     1>c:\users\swapnil\documents\github\sd_lab_project_1\sourcefiles\sd_lab_project\sd_lab_project\stb_image.h(2344): warning C4793: '`anonymous namespace'::stbi__idct_simd' : function compiled as native :
          	Aligned data types not supported in managed code
-     1>c:\users\swapnil\desktop\sd project\patch-2\sd_lab_project\sd_lab_project\stb_image.h(2345): warning C4793: '`anonymous namespace'::stbi__idct_simd' : function compiled as native :
+     1>c:\users\swapnil\documents\github\sd_lab_project_1\sourcefiles\sd_lab_project\sd_lab_project\stb_image.h(2345): warning C4793: '`anonymous namespace'::stbi__idct_simd' : function compiled as native :
          	Found an intrinsic not supported in managed code
-     1>c:\users\swapnil\desktop\sd project\patch-2\sd_lab_project\sd_lab_project\stb_image.h(2345): warning C4793: '`anonymous namespace'::stbi__idct_simd' : function compiled as native :
+     1>c:\users\swapnil\documents\github\sd_lab_project_1\sourcefiles\sd_lab_project\sd_lab_project\stb_image.h(2345): warning C4793: '`anonymous namespace'::stbi__idct_simd' : function compiled as native :
          	Found an intrinsic not supported in managed code
-     1>c:\users\swapnil\desktop\sd project\patch-2\sd_lab_project\sd_lab_project\stb_image.h(2345): warning C4793: '`anonymous namespace'::stbi__idct_simd' : function compiled as native :
+     1>c:\users\swapnil\documents\github\sd_lab_project_1\sourcefiles\sd_lab_project\sd_lab_project\stb_image.h(2345): warning C4793: '`anonymous namespace'::stbi__idct_simd' : function compiled as native :
          	Aligned data types not supported in managed code
-     1>c:\users\swapnil\desktop\sd project\patch-2\sd_lab_project\sd_lab_project\stb_image.h(2346): warning C4793: '`anonymous namespace'::stbi__idct_simd' : function compiled as native :
+     1>c:\users\swapnil\documents\github\sd_lab_project_1\sourcefiles\sd_lab_project\sd_lab_project\stb_image.h(2346): warning C4793: '`anonymous namespace'::stbi__idct_simd' : function compiled as native :
          	Found an intrinsic not supported in managed code
-     1>c:\users\swapnil\desktop\sd project\patch-2\sd_lab_project\sd_lab_project\stb_image.h(2346): warning C4793: '`anonymous namespace'::stbi__idct_simd' : function compiled as native :
+     1>c:\users\swapnil\documents\github\sd_lab_project_1\sourcefiles\sd_lab_project\sd_lab_project\stb_image.h(2346): warning C4793: '`anonymous namespace'::stbi__idct_simd' : function compiled as native :
          	Found an intrinsic not supported in managed code
-     1>c:\users\swapnil\desktop\sd project\patch-2\sd_lab_project\sd_lab_project\stb_image.h(2346): warning C4793: '`anonymous namespace'::stbi__idct_simd' : function compiled as native :
+     1>c:\users\swapnil\documents\github\sd_lab_project_1\sourcefiles\sd_lab_project\sd_lab_project\stb_image.h(2346): warning C4793: '`anonymous namespace'::stbi__idct_simd' : function compiled as native :
          	Aligned data types not supported in managed code
-     1>c:\users\swapnil\desktop\sd project\patch-2\sd_lab_project\sd_lab_project\stb_image.h(2350): warning C4793: '`anonymous namespace'::stbi__idct_simd' : function compiled as native :
+     1>c:\users\swapnil\documents\github\sd_lab_project_1\sourcefiles\sd_lab_project\sd_lab_project\stb_image.h(2350): warning C4793: '`anonymous namespace'::stbi__idct_simd' : function compiled as native :
          	Found an intrinsic not supported in managed code
-     1>c:\users\swapnil\desktop\sd project\patch-2\sd_lab_project\sd_lab_project\stb_image.h(2350): warning C4793: '`anonymous namespace'::stbi__idct_simd' : function compiled as native :
+     1>c:\users\swapnil\documents\github\sd_lab_project_1\sourcefiles\sd_lab_project\sd_lab_project\stb_image.h(2350): warning C4793: '`anonymous namespace'::stbi__idct_simd' : function compiled as native :
          	Found an intrinsic not supported in managed code
-     1>c:\users\swapnil\desktop\sd project\patch-2\sd_lab_project\sd_lab_project\stb_image.h(2350): warning C4793: '`anonymous namespace'::stbi__idct_simd' : function compiled as native :
+     1>c:\users\swapnil\documents\github\sd_lab_project_1\sourcefiles\sd_lab_project\sd_lab_project\stb_image.h(2350): warning C4793: '`anonymous namespace'::stbi__idct_simd' : function compiled as native :
          	Found an intrinsic not supported in managed code
-     1>c:\users\swapnil\desktop\sd project\patch-2\sd_lab_project\sd_lab_project\stb_image.h(2350): warning C4793: '`anonymous namespace'::stbi__idct_simd' : function compiled as native :
+     1>c:\users\swapnil\documents\github\sd_lab_project_1\sourcefiles\sd_lab_project\sd_lab_project\stb_image.h(2350): warning C4793: '`anonymous namespace'::stbi__idct_simd' : function compiled as native :
          	Found an intrinsic not supported in managed code
-     1>c:\users\swapnil\desktop\sd project\patch-2\sd_lab_project\sd_lab_project\stb_image.h(2350): warning C4793: '`anonymous namespace'::stbi__idct_simd' : function compiled as native :
+     1>c:\users\swapnil\documents\github\sd_lab_project_1\sourcefiles\sd_lab_project\sd_lab_project\stb_image.h(2350): warning C4793: '`anonymous namespace'::stbi__idct_simd' : function compiled as native :
          	Found an intrinsic not supported in managed code
-     1>c:\users\swapnil\desktop\sd project\patch-2\sd_lab_project\sd_lab_project\stb_image.h(2350): warning C4793: '`anonymous namespace'::stbi__idct_simd' : function compiled as native :
+     1>c:\users\swapnil\documents\github\sd_lab_project_1\sourcefiles\sd_lab_project\sd_lab_project\stb_image.h(2350): warning C4793: '`anonymous namespace'::stbi__idct_simd' : function compiled as native :
          	Found an intrinsic not supported in managed code
-     1>c:\users\swapnil\desktop\sd project\patch-2\sd_lab_project\sd_lab_project\stb_image.h(2350): warning C4793: '`anonymous namespace'::stbi__idct_simd' : function compiled as native :
+     1>c:\users\swapnil\documents\github\sd_lab_project_1\sourcefiles\sd_lab_project\sd_lab_project\stb_image.h(2350): warning C4793: '`anonymous namespace'::stbi__idct_simd' : function compiled as native :
          	Found an intrinsic not supported in managed code
-     1>c:\users\swapnil\desktop\sd project\patch-2\sd_lab_project\sd_lab_project\stb_image.h(2350): warning C4793: '`anonymous namespace'::stbi__idct_simd' : function compiled as native :
+     1>c:\users\swapnil\documents\github\sd_lab_project_1\sourcefiles\sd_lab_project\sd_lab_project\stb_image.h(2350): warning C4793: '`anonymous namespace'::stbi__idct_simd' : function compiled as native :
          	Found an intrinsic not supported in managed code
-     1>c:\users\swapnil\desktop\sd project\patch-2\sd_lab_project\sd_lab_project\stb_image.h(2350): warning C4793: '`anonymous namespace'::stbi__idct_simd' : function compiled as native :
+     1>c:\users\swapnil\documents\github\sd_lab_project_1\sourcefiles\sd_lab_project\sd_lab_project\stb_image.h(2350): warning C4793: '`anonymous namespace'::stbi__idct_simd' : function compiled as native :
          	Found an intrinsic not supported in managed code
-     1>c:\users\swapnil\desktop\sd project\patch-2\sd_lab_project\sd_lab_project\stb_image.h(2350): warning C4793: '`anonymous namespace'::stbi__idct_simd' : function compiled as native :
+     1>c:\users\swapnil\documents\github\sd_lab_project_1\sourcefiles\sd_lab_project\sd_lab_project\stb_image.h(2350): warning C4793: '`anonymous namespace'::stbi__idct_simd' : function compiled as native :
          	Found an intrinsic not supported in managed code
-     1>c:\users\swapnil\desktop\sd project\patch-2\sd_lab_project\sd_lab_project\stb_image.h(2350): warning C4793: '`anonymous namespace'::stbi__idct_simd' : function compiled as native :
+     1>c:\users\swapnil\documents\github\sd_lab_project_1\sourcefiles\sd_lab_project\sd_lab_project\stb_image.h(2350): warning C4793: '`anonymous namespace'::stbi__idct_simd' : function compiled as native :
          	Found an intrinsic not supported in managed code
-     1>c:\users\swapnil\desktop\sd project\patch-2\sd_lab_project\sd_lab_project\stb_image.h(2350): warning C4793: '`anonymous namespace'::stbi__idct_simd' : function compiled as native :
+     1>c:\users\swapnil\documents\github\sd_lab_project_1\sourcefiles\sd_lab_project\sd_lab_project\stb_image.h(2350): warning C4793: '`anonymous namespace'::stbi__idct_simd' : function compiled as native :
          	Found an intrinsic not supported in managed code
-     1>c:\users\swapnil\desktop\sd project\patch-2\sd_lab_project\sd_lab_project\stb_image.h(2350): warning C4793: '`anonymous namespace'::stbi__idct_simd' : function compiled as native :
+     1>c:\users\swapnil\documents\github\sd_lab_project_1\sourcefiles\sd_lab_project\sd_lab_project\stb_image.h(2350): warning C4793: '`anonymous namespace'::stbi__idct_simd' : function compiled as native :
          	Found an intrinsic not supported in managed code
-     1>c:\users\swapnil\desktop\sd project\patch-2\sd_lab_project\sd_lab_project\stb_image.h(2350): warning C4793: '`anonymous namespace'::stbi__idct_simd' : function compiled as native :
+     1>c:\users\swapnil\documents\github\sd_lab_project_1\sourcefiles\sd_lab_project\sd_lab_project\stb_image.h(2350): warning C4793: '`anonymous namespace'::stbi__idct_simd' : function compiled as native :
          	Found an intrinsic not supported in managed code
-     1>c:\users\swapnil\desktop\sd project\patch-2\sd_lab_project\sd_lab_project\stb_image.h(2350): warning C4793: '`anonymous namespace'::stbi__idct_simd' : function compiled as native :
+     1>c:\users\swapnil\documents\github\sd_lab_project_1\sourcefiles\sd_lab_project\sd_lab_project\stb_image.h(2350): warning C4793: '`anonymous namespace'::stbi__idct_simd' : function compiled as native :
          	Found an intrinsic not supported in managed code
-     1>c:\users\swapnil\desktop\sd project\patch-2\sd_lab_project\sd_lab_project\stb_image.h(2350): warning C4793: '`anonymous namespace'::stbi__idct_simd' : function compiled as native :
+     1>c:\users\swapnil\documents\github\sd_lab_project_1\sourcefiles\sd_lab_project\sd_lab_project\stb_image.h(2350): warning C4793: '`anonymous namespace'::stbi__idct_simd' : function compiled as native :
          	Found an intrinsic not supported in managed code
-     1>c:\users\swapnil\desktop\sd project\patch-2\sd_lab_project\sd_lab_project\stb_image.h(2350): warning C4793: '`anonymous namespace'::stbi__idct_simd' : function compiled as native :
+     1>c:\users\swapnil\documents\github\sd_lab_project_1\sourcefiles\sd_lab_project\sd_lab_project\stb_image.h(2350): warning C4793: '`anonymous namespace'::stbi__idct_simd' : function compiled as native :
          	Found an intrinsic not supported in managed code
-     1>c:\users\swapnil\desktop\sd project\patch-2\sd_lab_project\sd_lab_project\stb_image.h(2350): warning C4793: '`anonymous namespace'::stbi__idct_simd' : function compiled as native :
+     1>c:\users\swapnil\documents\github\sd_lab_project_1\sourcefiles\sd_lab_project\sd_lab_project\stb_image.h(2350): warning C4793: '`anonymous namespace'::stbi__idct_simd' : function compiled as native :
          	Found an intrinsic not supported in managed code
-     1>c:\users\swapnil\desktop\sd project\patch-2\sd_lab_project\sd_lab_project\stb_image.h(2350): warning C4793: '`anonymous namespace'::stbi__idct_simd' : function compiled as native :
+     1>c:\users\swapnil\documents\github\sd_lab_project_1\sourcefiles\sd_lab_project\sd_lab_project\stb_image.h(2350): warning C4793: '`anonymous namespace'::stbi__idct_simd' : function compiled as native :
          	Found an intrinsic not supported in managed code
-     1>c:\users\swapnil\desktop\sd project\patch-2\sd_lab_project\sd_lab_project\stb_image.h(2350): warning C4793: '`anonymous namespace'::stbi__idct_simd' : function compiled as native :
+     1>c:\users\swapnil\documents\github\sd_lab_project_1\sourcefiles\sd_lab_project\sd_lab_project\stb_image.h(2350): warning C4793: '`anonymous namespace'::stbi__idct_simd' : function compiled as native :
          	Found an intrinsic not supported in managed code
-     1>c:\users\swapnil\desktop\sd project\patch-2\sd_lab_project\sd_lab_project\stb_image.h(2350): warning C4793: '`anonymous namespace'::stbi__idct_simd' : function compiled as native :
+     1>c:\users\swapnil\documents\github\sd_lab_project_1\sourcefiles\sd_lab_project\sd_lab_project\stb_image.h(2350): warning C4793: '`anonymous namespace'::stbi__idct_simd' : function compiled as native :
          	Found an intrinsic not supported in managed code
-     1>c:\users\swapnil\desktop\sd project\patch-2\sd_lab_project\sd_lab_project\stb_image.h(2350): warning C4793: '`anonymous namespace'::stbi__idct_simd' : function compiled as native :
+     1>c:\users\swapnil\documents\github\sd_lab_project_1\sourcefiles\sd_lab_project\sd_lab_project\stb_image.h(2350): warning C4793: '`anonymous namespace'::stbi__idct_simd' : function compiled as native :
          	Found an intrinsic not supported in managed code
-     1>c:\users\swapnil\desktop\sd project\patch-2\sd_lab_project\sd_lab_project\stb_image.h(2350): warning C4793: '`anonymous namespace'::stbi__idct_simd' : function compiled as native :
+     1>c:\users\swapnil\documents\github\sd_lab_project_1\sourcefiles\sd_lab_project\sd_lab_project\stb_image.h(2350): warning C4793: '`anonymous namespace'::stbi__idct_simd' : function compiled as native :
          	Found an intrinsic not supported in managed code
-     1>c:\users\swapnil\desktop\sd project\patch-2\sd_lab_project\sd_lab_project\stb_image.h(2350): warning C4793: '`anonymous namespace'::stbi__idct_simd' : function compiled as native :
+     1>c:\users\swapnil\documents\github\sd_lab_project_1\sourcefiles\sd_lab_project\sd_lab_project\stb_image.h(2350): warning C4793: '`anonymous namespace'::stbi__idct_simd' : function compiled as native :
          	Found an intrinsic not supported in managed code
-     1>c:\users\swapnil\desktop\sd project\patch-2\sd_lab_project\sd_lab_project\stb_image.h(2350): warning C4793: '`anonymous namespace'::stbi__idct_simd' : function compiled as native :
+     1>c:\users\swapnil\documents\github\sd_lab_project_1\sourcefiles\sd_lab_project\sd_lab_project\stb_image.h(2350): warning C4793: '`anonymous namespace'::stbi__idct_simd' : function compiled as native :
          	Found an intrinsic not supported in managed code
-     1>c:\users\swapnil\desktop\sd project\patch-2\sd_lab_project\sd_lab_project\stb_image.h(2350): warning C4793: '`anonymous namespace'::stbi__idct_simd' : function compiled as native :
+     1>c:\users\swapnil\documents\github\sd_lab_project_1\sourcefiles\sd_lab_project\sd_lab_project\stb_image.h(2350): warning C4793: '`anonymous namespace'::stbi__idct_simd' : function compiled as native :
          	Found an intrinsic not supported in managed code
-     1>c:\users\swapnil\desktop\sd project\patch-2\sd_lab_project\sd_lab_project\stb_image.h(2350): warning C4793: '`anonymous namespace'::stbi__idct_simd' : function compiled as native :
+     1>c:\users\swapnil\documents\github\sd_lab_project_1\sourcefiles\sd_lab_project\sd_lab_project\stb_image.h(2350): warning C4793: '`anonymous namespace'::stbi__idct_simd' : function compiled as native :
          	Found an intrinsic not supported in managed code
-     1>c:\users\swapnil\desktop\sd project\patch-2\sd_lab_project\sd_lab_project\stb_image.h(2350): warning C4793: '`anonymous namespace'::stbi__idct_simd' : function compiled as native :
+     1>c:\users\swapnil\documents\github\sd_lab_project_1\sourcefiles\sd_lab_project\sd_lab_project\stb_image.h(2350): warning C4793: '`anonymous namespace'::stbi__idct_simd' : function compiled as native :
          	Found an intrinsic not supported in managed code
-     1>c:\users\swapnil\desktop\sd project\patch-2\sd_lab_project\sd_lab_project\stb_image.h(2350): warning C4793: '`anonymous namespace'::stbi__idct_simd' : function compiled as native :
+     1>c:\users\swapnil\documents\github\sd_lab_project_1\sourcefiles\sd_lab_project\sd_lab_project\stb_image.h(2350): warning C4793: '`anonymous namespace'::stbi__idct_simd' : function compiled as native :
          	Found an intrinsic not supported in managed code
-     1>c:\users\swapnil\desktop\sd project\patch-2\sd_lab_project\sd_lab_project\stb_image.h(2350): warning C4793: '`anonymous namespace'::stbi__idct_simd' : function compiled as native :
+     1>c:\users\swapnil\documents\github\sd_lab_project_1\sourcefiles\sd_lab_project\sd_lab_project\stb_image.h(2350): warning C4793: '`anonymous namespace'::stbi__idct_simd' : function compiled as native :
          	Found an intrinsic not supported in managed code
-     1>c:\users\swapnil\desktop\sd project\patch-2\sd_lab_project\sd_lab_project\stb_image.h(2350): warning C4793: '`anonymous namespace'::stbi__idct_simd' : function compiled as native :
+     1>c:\users\swapnil\documents\github\sd_lab_project_1\sourcefiles\sd_lab_project\sd_lab_project\stb_image.h(2350): warning C4793: '`anonymous namespace'::stbi__idct_simd' : function compiled as native :
          	Found an intrinsic not supported in managed code
-     1>c:\users\swapnil\desktop\sd project\patch-2\sd_lab_project\sd_lab_project\stb_image.h(2350): warning C4793: '`anonymous namespace'::stbi__idct_simd' : function compiled as native :
+     1>c:\users\swapnil\documents\github\sd_lab_project_1\sourcefiles\sd_lab_project\sd_lab_project\stb_image.h(2350): warning C4793: '`anonymous namespace'::stbi__idct_simd' : function compiled as native :
          	Found an intrinsic not supported in managed code
-     1>c:\users\swapnil\desktop\sd project\patch-2\sd_lab_project\sd_lab_project\stb_image.h(2350): warning C4793: '`anonymous namespace'::stbi__idct_simd' : function compiled as native :
+     1>c:\users\swapnil\documents\github\sd_lab_project_1\sourcefiles\sd_lab_project\sd_lab_project\stb_image.h(2350): warning C4793: '`anonymous namespace'::stbi__idct_simd' : function compiled as native :
          	Found an intrinsic not supported in managed code
-     1>c:\users\swapnil\desktop\sd project\patch-2\sd_lab_project\sd_lab_project\stb_image.h(2350): warning C4793: '`anonymous namespace'::stbi__idct_simd' : function compiled as native :
+     1>c:\users\swapnil\documents\github\sd_lab_project_1\sourcefiles\sd_lab_project\sd_lab_project\stb_image.h(2350): warning C4793: '`anonymous namespace'::stbi__idct_simd' : function compiled as native :
          	Found an intrinsic not supported in managed code
-     1>c:\users\swapnil\desktop\sd project\patch-2\sd_lab_project\sd_lab_project\stb_image.h(2350): warning C4793: '`anonymous namespace'::stbi__idct_simd' : function compiled as native :
+     1>c:\users\swapnil\documents\github\sd_lab_project_1\sourcefiles\sd_lab_project\sd_lab_project\stb_image.h(2350): warning C4793: '`anonymous namespace'::stbi__idct_simd' : function compiled as native :
          	Found an intrinsic not supported in managed code
-     1>c:\users\swapnil\desktop\sd project\patch-2\sd_lab_project\sd_lab_project\stb_image.h(2350): warning C4793: '`anonymous namespace'::stbi__idct_simd' : function compiled as native :
+     1>c:\users\swapnil\documents\github\sd_lab_project_1\sourcefiles\sd_lab_project\sd_lab_project\stb_image.h(2350): warning C4793: '`anonymous namespace'::stbi__idct_simd' : function compiled as native :
          	Found an intrinsic not supported in managed code
-     1>c:\users\swapnil\desktop\sd project\patch-2\sd_lab_project\sd_lab_project\stb_image.h(2350): warning C4793: '`anonymous namespace'::stbi__idct_simd' : function compiled as native :
+     1>c:\users\swapnil\documents\github\sd_lab_project_1\sourcefiles\sd_lab_project\sd_lab_project\stb_image.h(2350): warning C4793: '`anonymous namespace'::stbi__idct_simd' : function compiled as native :
          	Found an intrinsic not supported in managed code
-     1>c:\users\swapnil\desktop\sd project\patch-2\sd_lab_project\sd_lab_project\stb_image.h(2350): warning C4793: '`anonymous namespace'::stbi__idct_simd' : function compiled as native :
+     1>c:\users\swapnil\documents\github\sd_lab_project_1\sourcefiles\sd_lab_project\sd_lab_project\stb_image.h(2350): warning C4793: '`anonymous namespace'::stbi__idct_simd' : function compiled as native :
          	Found an intrinsic not supported in managed code
-     1>c:\users\swapnil\desktop\sd project\patch-2\sd_lab_project\sd_lab_project\stb_image.h(2350): warning C4793: '`anonymous namespace'::stbi__idct_simd' : function compiled as native :
+     1>c:\users\swapnil\documents\github\sd_lab_project_1\sourcefiles\sd_lab_project\sd_lab_project\stb_image.h(2350): warning C4793: '`anonymous namespace'::stbi__idct_simd' : function compiled as native :
          	Found an intrinsic not supported in managed code
-     1>c:\users\swapnil\desktop\sd project\patch-2\sd_lab_project\sd_lab_project\stb_image.h(2350): warning C4793: '`anonymous namespace'::stbi__idct_simd' : function compiled as native :
+     1>c:\users\swapnil\documents\github\sd_lab_project_1\sourcefiles\sd_lab_project\sd_lab_project\stb_image.h(2350): warning C4793: '`anonymous namespace'::stbi__idct_simd' : function compiled as native :
          	Found an intrinsic not supported in managed code
-     1>c:\users\swapnil\desktop\sd project\patch-2\sd_lab_project\sd_lab_project\stb_image.h(2350): warning C4793: '`anonymous namespace'::stbi__idct_simd' : function compiled as native :
+     1>c:\users\swapnil\documents\github\sd_lab_project_1\sourcefiles\sd_lab_project\sd_lab_project\stb_image.h(2350): warning C4793: '`anonymous namespace'::stbi__idct_simd' : function compiled as native :
          	Found an intrinsic not supported in managed code
-     1>c:\users\swapnil\desktop\sd project\patch-2\sd_lab_project\sd_lab_project\stb_image.h(2350): warning C4793: '`anonymous namespace'::stbi__idct_simd' : function compiled as native :
+     1>c:\users\swapnil\documents\github\sd_lab_project_1\sourcefiles\sd_lab_project\sd_lab_project\stb_image.h(2350): warning C4793: '`anonymous namespace'::stbi__idct_simd' : function compiled as native :
          	Found an intrinsic not supported in managed code
-     1>c:\users\swapnil\desktop\sd project\patch-2\sd_lab_project\sd_lab_project\stb_image.h(2350): warning C4793: '`anonymous namespace'::stbi__idct_simd' : function compiled as native :
+     1>c:\users\swapnil\documents\github\sd_lab_project_1\sourcefiles\sd_lab_project\sd_lab_project\stb_image.h(2350): warning C4793: '`anonymous namespace'::stbi__idct_simd' : function compiled as native :
          	Found an intrinsic not supported in managed code
-     1>c:\users\swapnil\desktop\sd project\patch-2\sd_lab_project\sd_lab_project\stb_image.h(2350): warning C4793: '`anonymous namespace'::stbi__idct_simd' : function compiled as native :
+     1>c:\users\swapnil\documents\github\sd_lab_project_1\sourcefiles\sd_lab_project\sd_lab_project\stb_image.h(2350): warning C4793: '`anonymous namespace'::stbi__idct_simd' : function compiled as native :
          	Found an intrinsic not supported in managed code
-     1>c:\users\swapnil\desktop\sd project\patch-2\sd_lab_project\sd_lab_project\stb_image.h(2350): warning C4793: '`anonymous namespace'::stbi__idct_simd' : function compiled as native :
+     1>c:\users\swapnil\documents\github\sd_lab_project_1\sourcefiles\sd_lab_project\sd_lab_project\stb_image.h(2350): warning C4793: '`anonymous namespace'::stbi__idct_simd' : function compiled as native :
          	Found an intrinsic not supported in managed code
-     1>c:\users\swapnil\desktop\sd project\patch-2\sd_lab_project\sd_lab_project\stb_image.h(2350): warning C4793: '`anonymous namespace'::stbi__idct_simd' : function compiled as native :
+     1>c:\users\swapnil\documents\github\sd_lab_project_1\sourcefiles\sd_lab_project\sd_lab_project\stb_image.h(2350): warning C4793: '`anonymous namespace'::stbi__idct_simd' : function compiled as native :
          	Found an intrinsic not supported in managed code
-     1>c:\users\swapnil\desktop\sd project\patch-2\sd_lab_project\sd_lab_project\stb_image.h(2350): warning C4793: '`anonymous namespace'::stbi__idct_simd' : function compiled as native :
+     1>c:\users\swapnil\documents\github\sd_lab_project_1\sourcefiles\sd_lab_project\sd_lab_project\stb_image.h(2350): warning C4793: '`anonymous namespace'::stbi__idct_simd' : function compiled as native :
          	Found an intrinsic not supported in managed code
-     1>c:\users\swapnil\desktop\sd project\patch-2\sd_lab_project\sd_lab_project\stb_image.h(2350): warning C4793: '`anonymous namespace'::stbi__idct_simd' : function compiled as native :
+     1>c:\users\swapnil\documents\github\sd_lab_project_1\sourcefiles\sd_lab_project\sd_lab_project\stb_image.h(2350): warning C4793: '`anonymous namespace'::stbi__idct_simd' : function compiled as native :
          	Found an intrinsic not supported in managed code
-     1>c:\users\swapnil\desktop\sd project\patch-2\sd_lab_project\sd_lab_project\stb_image.h(2350): warning C4793: '`anonymous namespace'::stbi__idct_simd' : function compiled as native :
+     1>c:\users\swapnil\documents\github\sd_lab_project_1\sourcefiles\sd_lab_project\sd_lab_project\stb_image.h(2350): warning C4793: '`anonymous namespace'::stbi__idct_simd' : function compiled as native :
          	Aligned data types not supported in managed code
-     1>c:\users\swapnil\desktop\sd project\patch-2\sd_lab_project\sd_lab_project\stb_image.h(2350): warning C4793: '`anonymous namespace'::stbi__idct_simd' : function compiled as native :
+     1>c:\users\swapnil\documents\github\sd_lab_project_1\sourcefiles\sd_lab_project\sd_lab_project\stb_image.h(2350): warning C4793: '`anonymous namespace'::stbi__idct_simd' : function compiled as native :
          	Found an intrinsic not supported in managed code
-     1>c:\users\swapnil\desktop\sd project\patch-2\sd_lab_project\sd_lab_project\stb_image.h(2350): warning C4793: '`anonymous namespace'::stbi__idct_simd' : function compiled as native :
+     1>c:\users\swapnil\documents\github\sd_lab_project_1\sourcefiles\sd_lab_project\sd_lab_project\stb_image.h(2350): warning C4793: '`anonymous namespace'::stbi__idct_simd' : function compiled as native :
          	Found an intrinsic not supported in managed code
-     1>c:\users\swapnil\desktop\sd project\patch-2\sd_lab_project\sd_lab_project\stb_image.h(2350): warning C4793: '`anonymous namespace'::stbi__idct_simd' : function compiled as native :
+     1>c:\users\swapnil\documents\github\sd_lab_project_1\sourcefiles\sd_lab_project\sd_lab_project\stb_image.h(2350): warning C4793: '`anonymous namespace'::stbi__idct_simd' : function compiled as native :
          	Found an intrinsic not supported in managed code
-     1>c:\users\swapnil\desktop\sd project\patch-2\sd_lab_project\sd_lab_project\stb_image.h(2350): warning C4793: '`anonymous namespace'::stbi__idct_simd' : function compiled as native :
+     1>c:\users\swapnil\documents\github\sd_lab_project_1\sourcefiles\sd_lab_project\sd_lab_project\stb_image.h(2350): warning C4793: '`anonymous namespace'::stbi__idct_simd' : function compiled as native :
          	Found an intrinsic not supported in managed code
-     1>c:\users\swapnil\desktop\sd project\patch-2\sd_lab_project\sd_lab_project\stb_image.h(2350): warning C4793: '`anonymous namespace'::stbi__idct_simd' : function compiled as native :
+     1>c:\users\swapnil\documents\github\sd_lab_project_1\sourcefiles\sd_lab_project\sd_lab_project\stb_image.h(2350): warning C4793: '`anonymous namespace'::stbi__idct_simd' : function compiled as native :
          	Found an intrinsic not supported in managed code
-     1>c:\users\swapnil\desktop\sd project\patch-2\sd_lab_project\sd_lab_project\stb_image.h(2350): warning C4793: '`anonymous namespace'::stbi__idct_simd' : function compiled as native :
+     1>c:\users\swapnil\documents\github\sd_lab_project_1\sourcefiles\sd_lab_project\sd_lab_project\stb_image.h(2350): warning C4793: '`anonymous namespace'::stbi__idct_simd' : function compiled as native :
          	Found an intrinsic not supported in managed code
-     1>c:\users\swapnil\desktop\sd project\patch-2\sd_lab_project\sd_lab_project\stb_image.h(2350): warning C4793: '`anonymous namespace'::stbi__idct_simd' : function compiled as native :
+     1>c:\users\swapnil\documents\github\sd_lab_project_1\sourcefiles\sd_lab_project\sd_lab_project\stb_image.h(2350): warning C4793: '`anonymous namespace'::stbi__idct_simd' : function compiled as native :
          	Found an intrinsic not supported in managed code
-     1>c:\users\swapnil\desktop\sd project\patch-2\sd_lab_project\sd_lab_project\stb_image.h(2350): warning C4793: '`anonymous namespace'::stbi__idct_simd' : function compiled as native :
+     1>c:\users\swapnil\documents\github\sd_lab_project_1\sourcefiles\sd_lab_project\sd_lab_project\stb_image.h(2350): warning C4793: '`anonymous namespace'::stbi__idct_simd' : function compiled as native :
          	Found an intrinsic not supported in managed code
-     1>c:\users\swapnil\desktop\sd project\patch-2\sd_lab_project\sd_lab_project\stb_image.h(2350): warning C4793: '`anonymous namespace'::stbi__idct_simd' : function compiled as native :
+     1>c:\users\swapnil\documents\github\sd_lab_project_1\sourcefiles\sd_lab_project\sd_lab_project\stb_image.h(2350): warning C4793: '`anonymous namespace'::stbi__idct_simd' : function compiled as native :
          	Aligned data types not supported in managed code
-     1>c:\users\swapnil\desktop\sd project\patch-2\sd_lab_project\sd_lab_project\stb_image.h(2350): warning C4793: '`anonymous namespace'::stbi__idct_simd' : function compiled as native :
+     1>c:\users\swapnil\documents\github\sd_lab_project_1\sourcefiles\sd_lab_project\sd_lab_project\stb_image.h(2350): warning C4793: '`anonymous namespace'::stbi__idct_simd' : function compiled as native :
          	Found an intrinsic not supported in managed code
-     1>c:\users\swapnil\desktop\sd project\patch-2\sd_lab_project\sd_lab_project\stb_image.h(2350): warning C4793: '`anonymous namespace'::stbi__idct_simd' : function compiled as native :
+     1>c:\users\swapnil\documents\github\sd_lab_project_1\sourcefiles\sd_lab_project\sd_lab_project\stb_image.h(2350): warning C4793: '`anonymous namespace'::stbi__idct_simd' : function compiled as native :
          	Found an intrinsic not supported in managed code
-     1>c:\users\swapnil\desktop\sd project\patch-2\sd_lab_project\sd_lab_project\stb_image.h(2350): warning C4793: '`anonymous namespace'::stbi__idct_simd' : function compiled as native :
+     1>c:\users\swapnil\documents\github\sd_lab_project_1\sourcefiles\sd_lab_project\sd_lab_project\stb_image.h(2350): warning C4793: '`anonymous namespace'::stbi__idct_simd' : function compiled as native :
          	Found an intrinsic not supported in managed code
-     1>c:\users\swapnil\desktop\sd project\patch-2\sd_lab_project\sd_lab_project\stb_image.h(2350): warning C4793: '`anonymous namespace'::stbi__idct_simd' : function compiled as native :
+     1>c:\users\swapnil\documents\github\sd_lab_project_1\sourcefiles\sd_lab_project\sd_lab_project\stb_image.h(2350): warning C4793: '`anonymous namespace'::stbi__idct_simd' : function compiled as native :
          	Found an intrinsic not supported in managed code
-     1>c:\users\swapnil\desktop\sd project\patch-2\sd_lab_project\sd_lab_project\stb_image.h(2350): warning C4793: '`anonymous namespace'::stbi__idct_simd' : function compiled as native :
+     1>c:\users\swapnil\documents\github\sd_lab_project_1\sourcefiles\sd_lab_project\sd_lab_project\stb_image.h(2350): warning C4793: '`anonymous namespace'::stbi__idct_simd' : function compiled as native :
          	Found an intrinsic not supported in managed code
-     1>c:\users\swapnil\desktop\sd project\patch-2\sd_lab_project\sd_lab_project\stb_image.h(2350): warning C4793: '`anonymous namespace'::stbi__idct_simd' : function compiled as native :
+     1>c:\users\swapnil\documents\github\sd_lab_project_1\sourcefiles\sd_lab_project\sd_lab_project\stb_image.h(2350): warning C4793: '`anonymous namespace'::stbi__idct_simd' : function compiled as native :
          	Found an intrinsic not supported in managed code
-     1>c:\users\swapnil\desktop\sd project\patch-2\sd_lab_project\sd_lab_project\stb_image.h(2350): warning C4793: '`anonymous namespace'::stbi__idct_simd' : function compiled as native :
+     1>c:\users\swapnil\documents\github\sd_lab_project_1\sourcefiles\sd_lab_project\sd_lab_project\stb_image.h(2350): warning C4793: '`anonymous namespace'::stbi__idct_simd' : function compiled as native :
          	Found an intrinsic not supported in managed code
-     1>c:\users\swapnil\desktop\sd project\patch-2\sd_lab_project\sd_lab_project\stb_image.h(2350): warning C4793: '`anonymous namespace'::stbi__idct_simd' : function compiled as native :
+     1>c:\users\swapnil\documents\github\sd_lab_project_1\sourcefiles\sd_lab_project\sd_lab_project\stb_image.h(2350): warning C4793: '`anonymous namespace'::stbi__idct_simd' : function compiled as native :
          	Found an intrinsic not supported in managed code
-     1>c:\users\swapnil\desktop\sd project\patch-2\sd_lab_project\sd_lab_project\stb_image.h(2350): warning C4793: '`anonymous namespace'::stbi__idct_simd' : function compiled as native :
+     1>c:\users\swapnil\documents\github\sd_lab_project_1\sourcefiles\sd_lab_project\sd_lab_project\stb_image.h(2350): warning C4793: '`anonymous namespace'::stbi__idct_simd' : function compiled as native :
          	Aligned data types not supported in managed code
-     1>c:\users\swapnil\desktop\sd project\patch-2\sd_lab_project\sd_lab_project\stb_image.h(2350): warning C4793: '`anonymous namespace'::stbi__idct_simd' : function compiled as native :
+     1>c:\users\swapnil\documents\github\sd_lab_project_1\sourcefiles\sd_lab_project\sd_lab_project\stb_image.h(2350): warning C4793: '`anonymous namespace'::stbi__idct_simd' : function compiled as native :
          	Found an intrinsic not supported in managed code
-     1>c:\users\swapnil\desktop\sd project\patch-2\sd_lab_project\sd_lab_project\stb_image.h(2350): warning C4793: '`anonymous namespace'::stbi__idct_simd' : function compiled as native :
+     1>c:\users\swapnil\documents\github\sd_lab_project_1\sourcefiles\sd_lab_project\sd_lab_project\stb_image.h(2350): warning C4793: '`anonymous namespace'::stbi__idct_simd' : function compiled as native :
          	Found an intrinsic not supported in managed code
-     1>c:\users\swapnil\desktop\sd project\patch-2\sd_lab_project\sd_lab_project\stb_image.h(2350): warning C4793: '`anonymous namespace'::stbi__idct_simd' : function compiled as native :
+     1>c:\users\swapnil\documents\github\sd_lab_project_1\sourcefiles\sd_lab_project\sd_lab_project\stb_image.h(2350): warning C4793: '`anonymous namespace'::stbi__idct_simd' : function compiled as native :
          	Found an intrinsic not supported in managed code
-     1>c:\users\swapnil\desktop\sd project\patch-2\sd_lab_project\sd_lab_project\stb_image.h(2350): warning C4793: '`anonymous namespace'::stbi__idct_simd' : function compiled as native :
+     1>c:\users\swapnil\documents\github\sd_lab_project_1\sourcefiles\sd_lab_project\sd_lab_project\stb_image.h(2350): warning C4793: '`anonymous namespace'::stbi__idct_simd' : function compiled as native :
          	Found an intrinsic not supported in managed code
-     1>c:\users\swapnil\desktop\sd project\patch-2\sd_lab_project\sd_lab_project\stb_image.h(2350): warning C4793: '`anonymous namespace'::stbi__idct_simd' : function compiled as native :
+     1>c:\users\swapnil\documents\github\sd_lab_project_1\sourcefiles\sd_lab_project\sd_lab_project\stb_image.h(2350): warning C4793: '`anonymous namespace'::stbi__idct_simd' : function compiled as native :
          	Found an intrinsic not supported in managed code
-     1>c:\users\swapnil\desktop\sd project\patch-2\sd_lab_project\sd_lab_project\stb_image.h(2350): warning C4793: '`anonymous namespace'::stbi__idct_simd' : function compiled as native :
+     1>c:\users\swapnil\documents\github\sd_lab_project_1\sourcefiles\sd_lab_project\sd_lab_project\stb_image.h(2350): warning C4793: '`anonymous namespace'::stbi__idct_simd' : function compiled as native :
          	Found an intrinsic not supported in managed code
-     1>c:\users\swapnil\desktop\sd project\patch-2\sd_lab_project\sd_lab_project\stb_image.h(2350): warning C4793: '`anonymous namespace'::stbi__idct_simd' : function compiled as native :
+     1>c:\users\swapnil\documents\github\sd_lab_project_1\sourcefiles\sd_lab_project\sd_lab_project\stb_image.h(2350): warning C4793: '`anonymous namespace'::stbi__idct_simd' : function compiled as native :
          	Found an intrinsic not supported in managed code
-     1>c:\users\swapnil\desktop\sd project\patch-2\sd_lab_project\sd_lab_project\stb_image.h(2350): warning C4793: '`anonymous namespace'::stbi__idct_simd' : function compiled as native :
+     1>c:\users\swapnil\documents\github\sd_lab_project_1\sourcefiles\sd_lab_project\sd_lab_project\stb_image.h(2350): warning C4793: '`anonymous namespace'::stbi__idct_simd' : function compiled as native :
          	Found an intrinsic not supported in managed code
-     1>c:\users\swapnil\desktop\sd project\patch-2\sd_lab_project\sd_lab_project\stb_image.h(2350): warning C4793: '`anonymous namespace'::stbi__idct_simd' : function compiled as native :
+     1>c:\users\swapnil\documents\github\sd_lab_project_1\sourcefiles\sd_lab_project\sd_lab_project\stb_image.h(2350): warning C4793: '`anonymous namespace'::stbi__idct_simd' : function compiled as native :
          	Aligned data types not supported in managed code
-     1>c:\users\swapnil\desktop\sd project\patch-2\sd_lab_project\sd_lab_project\stb_image.h(2350): warning C4793: '`anonymous namespace'::stbi__idct_simd' : function compiled as native :
+     1>c:\users\swapnil\documents\github\sd_lab_project_1\sourcefiles\sd_lab_project\sd_lab_project\stb_image.h(2350): warning C4793: '`anonymous namespace'::stbi__idct_simd' : function compiled as native :
          	Found an intrinsic not supported in managed code
-     1>c:\users\swapnil\desktop\sd project\patch-2\sd_lab_project\sd_lab_project\stb_image.h(2350): warning C4793: '`anonymous namespace'::stbi__idct_simd' : function compiled as native :
+     1>c:\users\swapnil\documents\github\sd_lab_project_1\sourcefiles\sd_lab_project\sd_lab_project\stb_image.h(2350): warning C4793: '`anonymous namespace'::stbi__idct_simd' : function compiled as native :
          	Found an intrinsic not supported in managed code
-     1>c:\users\swapnil\desktop\sd project\patch-2\sd_lab_project\sd_lab_project\stb_image.h(2350): warning C4793: '`anonymous namespace'::stbi__idct_simd' : function compiled as native :
+     1>c:\users\swapnil\documents\github\sd_lab_project_1\sourcefiles\sd_lab_project\sd_lab_project\stb_image.h(2350): warning C4793: '`anonymous namespace'::stbi__idct_simd' : function compiled as native :
          	Found an intrinsic not supported in managed code
-     1>c:\users\swapnil\desktop\sd project\patch-2\sd_lab_project\sd_lab_project\stb_image.h(2350): warning C4793: '`anonymous namespace'::stbi__idct_simd' : function compiled as native :
+     1>c:\users\swapnil\documents\github\sd_lab_project_1\sourcefiles\sd_lab_project\sd_lab_project\stb_image.h(2350): warning C4793: '`anonymous namespace'::stbi__idct_simd' : function compiled as native :
          	Found an intrinsic not supported in managed code
-     1>c:\users\swapnil\desktop\sd project\patch-2\sd_lab_project\sd_lab_project\stb_image.h(2350): warning C4793: '`anonymous namespace'::stbi__idct_simd' : function compiled as native :
+     1>c:\users\swapnil\documents\github\sd_lab_project_1\sourcefiles\sd_lab_project\sd_lab_project\stb_image.h(2350): warning C4793: '`anonymous namespace'::stbi__idct_simd' : function compiled as native :
          	Found an intrinsic not supported in managed code
-     1>c:\users\swapnil\desktop\sd project\patch-2\sd_lab_project\sd_lab_project\stb_image.h(2350): warning C4793: '`anonymous namespace'::stbi__idct_simd' : function compiled as native :
+     1>c:\users\swapnil\documents\github\sd_lab_project_1\sourcefiles\sd_lab_project\sd_lab_project\stb_image.h(2350): warning C4793: '`anonymous namespace'::stbi__idct_simd' : function compiled as native :
          	Found an intrinsic not supported in managed code
-     1>c:\users\swapnil\desktop\sd project\patch-2\sd_lab_project\sd_lab_project\stb_image.h(2350): warning C4793: '`anonymous namespace'::stbi__idct_simd' : function compiled as native :
+     1>c:\users\swapnil\documents\github\sd_lab_project_1\sourcefiles\sd_lab_project\sd_lab_project\stb_image.h(2350): warning C4793: '`anonymous namespace'::stbi__idct_simd' : function compiled as native :
          	Found an intrinsic not supported in managed code
-     1>c:\users\swapnil\desktop\sd project\patch-2\sd_lab_project\sd_lab_project\stb_image.h(2350): warning C4793: '`anonymous namespace'::stbi__idct_simd' : function compiled as native :
+     1>c:\users\swapnil\documents\github\sd_lab_project_1\sourcefiles\sd_lab_project\sd_lab_project\stb_image.h(2350): warning C4793: '`anonymous namespace'::stbi__idct_simd' : function compiled as native :
          	Found an intrinsic not supported in managed code
-     1>c:\users\swapnil\desktop\sd project\patch-2\sd_lab_project\sd_lab_project\stb_image.h(2350): warning C4793: '`anonymous namespace'::stbi__idct_simd' : function compiled as native :
+     1>c:\users\swapnil\documents\github\sd_lab_project_1\sourcefiles\sd_lab_project\sd_lab_project\stb_image.h(2350): warning C4793: '`anonymous namespace'::stbi__idct_simd' : function compiled as native :
          	Aligned data types not supported in managed code
-     1>c:\users\swapnil\desktop\sd project\patch-2\sd_lab_project\sd_lab_project\stb_image.h(2354): warning C4793: '`anonymous namespace'::stbi__idct_simd' : function compiled as native :
+     1>c:\users\swapnil\documents\github\sd_lab_project_1\sourcefiles\sd_lab_project\sd_lab_project\stb_image.h(2354): warning C4793: '`anonymous namespace'::stbi__idct_simd' : function compiled as native :
          	Found an intrinsic not supported in managed code
-     1>c:\users\swapnil\desktop\sd project\patch-2\sd_lab_project\sd_lab_project\stb_image.h(2354): warning C4793: '`anonymous namespace'::stbi__idct_simd' : function compiled as native :
+     1>c:\users\swapnil\documents\github\sd_lab_project_1\sourcefiles\sd_lab_project\sd_lab_project\stb_image.h(2354): warning C4793: '`anonymous namespace'::stbi__idct_simd' : function compiled as native :
          	Aligned data types not supported in managed code
-     1>c:\users\swapnil\desktop\sd project\patch-2\sd_lab_project\sd_lab_project\stb_image.h(2355): warning C4793: '`anonymous namespace'::stbi__idct_simd' : function compiled as native :
+     1>c:\users\swapnil\documents\github\sd_lab_project_1\sourcefiles\sd_lab_project\sd_lab_project\stb_image.h(2355): warning C4793: '`anonymous namespace'::stbi__idct_simd' : function compiled as native :
          	Found an intrinsic not supported in managed code
-     1>c:\users\swapnil\desktop\sd project\patch-2\sd_lab_project\sd_lab_project\stb_image.h(2355): warning C4793: '`anonymous namespace'::stbi__idct_simd' : function compiled as native :
+     1>c:\users\swapnil\documents\github\sd_lab_project_1\sourcefiles\sd_lab_project\sd_lab_project\stb_image.h(2355): warning C4793: '`anonymous namespace'::stbi__idct_simd' : function compiled as native :
          	Aligned data types not supported in managed code
-     1>c:\users\swapnil\desktop\sd project\patch-2\sd_lab_project\sd_lab_project\stb_image.h(2356): warning C4793: '`anonymous namespace'::stbi__idct_simd' : function compiled as native :
+     1>c:\users\swapnil\documents\github\sd_lab_project_1\sourcefiles\sd_lab_project\sd_lab_project\stb_image.h(2356): warning C4793: '`anonymous namespace'::stbi__idct_simd' : function compiled as native :
          	Found an intrinsic not supported in managed code
-     1>c:\users\swapnil\desktop\sd project\patch-2\sd_lab_project\sd_lab_project\stb_image.h(2356): warning C4793: '`anonymous namespace'::stbi__idct_simd' : function compiled as native :
+     1>c:\users\swapnil\documents\github\sd_lab_project_1\sourcefiles\sd_lab_project\sd_lab_project\stb_image.h(2356): warning C4793: '`anonymous namespace'::stbi__idct_simd' : function compiled as native :
          	Aligned data types not supported in managed code
-     1>c:\users\swapnil\desktop\sd project\patch-2\sd_lab_project\sd_lab_project\stb_image.h(2357): warning C4793: '`anonymous namespace'::stbi__idct_simd' : function compiled as native :
+     1>c:\users\swapnil\documents\github\sd_lab_project_1\sourcefiles\sd_lab_project\sd_lab_project\stb_image.h(2357): warning C4793: '`anonymous namespace'::stbi__idct_simd' : function compiled as native :
          	Found an intrinsic not supported in managed code
-     1>c:\users\swapnil\desktop\sd project\patch-2\sd_lab_project\sd_lab_project\stb_image.h(2357): warning C4793: '`anonymous namespace'::stbi__idct_simd' : function compiled as native :
+     1>c:\users\swapnil\documents\github\sd_lab_project_1\sourcefiles\sd_lab_project\sd_lab_project\stb_image.h(2357): warning C4793: '`anonymous namespace'::stbi__idct_simd' : function compiled as native :
          	Aligned data types not supported in managed code
-     1>c:\users\swapnil\desktop\sd project\patch-2\sd_lab_project\sd_lab_project\stb_image.h(2360): warning C4793: '`anonymous namespace'::stbi__idct_simd' : function compiled as native :
+     1>c:\users\swapnil\documents\github\sd_lab_project_1\sourcefiles\sd_lab_project\sd_lab_project\stb_image.h(2360): warning C4793: '`anonymous namespace'::stbi__idct_simd' : function compiled as native :
          	Found an intrinsic not supported in managed code
-     1>c:\users\swapnil\desktop\sd project\patch-2\sd_lab_project\sd_lab_project\stb_image.h(2360): warning C4793: '`anonymous namespace'::stbi__idct_simd' : function compiled as native :
+     1>c:\users\swapnil\documents\github\sd_lab_project_1\sourcefiles\sd_lab_project\sd_lab_project\stb_image.h(2360): warning C4793: '`anonymous namespace'::stbi__idct_simd' : function compiled as native :
          	Found an intrinsic not supported in managed code
-     1>c:\users\swapnil\desktop\sd project\patch-2\sd_lab_project\sd_lab_project\stb_image.h(2360): warning C4793: '`anonymous namespace'::stbi__idct_simd' : function compiled as native :
+     1>c:\users\swapnil\documents\github\sd_lab_project_1\sourcefiles\sd_lab_project\sd_lab_project\stb_image.h(2360): warning C4793: '`anonymous namespace'::stbi__idct_simd' : function compiled as native :
          	Aligned data types not supported in managed code
-     1>c:\users\swapnil\desktop\sd project\patch-2\sd_lab_project\sd_lab_project\stb_image.h(2361): warning C4793: '`anonymous namespace'::stbi__idct_simd' : function compiled as native :
+     1>c:\users\swapnil\documents\github\sd_lab_project_1\sourcefiles\sd_lab_project\sd_lab_project\stb_image.h(2361): warning C4793: '`anonymous namespace'::stbi__idct_simd' : function compiled as native :
          	Found an intrinsic not supported in managed code
-     1>c:\users\swapnil\desktop\sd project\patch-2\sd_lab_project\sd_lab_project\stb_image.h(2361): warning C4793: '`anonymous namespace'::stbi__idct_simd' : function compiled as native :
+     1>c:\users\swapnil\documents\github\sd_lab_project_1\sourcefiles\sd_lab_project\sd_lab_project\stb_image.h(2361): warning C4793: '`anonymous namespace'::stbi__idct_simd' : function compiled as native :
          	Found an intrinsic not supported in managed code
-     1>c:\users\swapnil\desktop\sd project\patch-2\sd_lab_project\sd_lab_project\stb_image.h(2361): warning C4793: '`anonymous namespace'::stbi__idct_simd' : function compiled as native :
+     1>c:\users\swapnil\documents\github\sd_lab_project_1\sourcefiles\sd_lab_project\sd_lab_project\stb_image.h(2361): warning C4793: '`anonymous namespace'::stbi__idct_simd' : function compiled as native :
          	Aligned data types not supported in managed code
-     1>c:\users\swapnil\desktop\sd project\patch-2\sd_lab_project\sd_lab_project\stb_image.h(2364): warning C4793: '`anonymous namespace'::stbi__idct_simd' : function compiled as native :
+     1>c:\users\swapnil\documents\github\sd_lab_project_1\sourcefiles\sd_lab_project\sd_lab_project\stb_image.h(2364): warning C4793: '`anonymous namespace'::stbi__idct_simd' : function compiled as native :
          	Found an intrinsic not supported in managed code
-     1>c:\users\swapnil\desktop\sd project\patch-2\sd_lab_project\sd_lab_project\stb_image.h(2364): warning C4793: '`anonymous namespace'::stbi__idct_simd' : function compiled as native :
+     1>c:\users\swapnil\documents\github\sd_lab_project_1\sourcefiles\sd_lab_project\sd_lab_project\stb_image.h(2364): warning C4793: '`anonymous namespace'::stbi__idct_simd' : function compiled as native :
          	Found an intrinsic not supported in managed code
-     1>c:\users\swapnil\desktop\sd project\patch-2\sd_lab_project\sd_lab_project\stb_image.h(2364): warning C4793: '`anonymous namespace'::stbi__idct_simd' : function compiled as native :
+     1>c:\users\swapnil\documents\github\sd_lab_project_1\sourcefiles\sd_lab_project\sd_lab_project\stb_image.h(2364): warning C4793: '`anonymous namespace'::stbi__idct_simd' : function compiled as native :
          	Aligned data types not supported in managed code
-     1>c:\users\swapnil\desktop\sd project\patch-2\sd_lab_project\sd_lab_project\stb_image.h(2365): warning C4793: '`anonymous namespace'::stbi__idct_simd' : function compiled as native :
+     1>c:\users\swapnil\documents\github\sd_lab_project_1\sourcefiles\sd_lab_project\sd_lab_project\stb_image.h(2365): warning C4793: '`anonymous namespace'::stbi__idct_simd' : function compiled as native :
          	Found an intrinsic not supported in managed code
-     1>c:\users\swapnil\desktop\sd project\patch-2\sd_lab_project\sd_lab_project\stb_image.h(2365): warning C4793: '`anonymous namespace'::stbi__idct_simd' : function compiled as native :
+     1>c:\users\swapnil\documents\github\sd_lab_project_1\sourcefiles\sd_lab_project\sd_lab_project\stb_image.h(2365): warning C4793: '`anonymous namespace'::stbi__idct_simd' : function compiled as native :
          	Found an intrinsic not supported in managed code
-     1>c:\users\swapnil\desktop\sd project\patch-2\sd_lab_project\sd_lab_project\stb_image.h(2365): warning C4793: '`anonymous namespace'::stbi__idct_simd' : function compiled as native :
+     1>c:\users\swapnil\documents\github\sd_lab_project_1\sourcefiles\sd_lab_project\sd_lab_project\stb_image.h(2365): warning C4793: '`anonymous namespace'::stbi__idct_simd' : function compiled as native :
          	Aligned data types not supported in managed code
-     1>c:\users\swapnil\desktop\sd project\patch-2\sd_lab_project\sd_lab_project\stb_image.h(2368): warning C4793: '`anonymous namespace'::stbi__idct_simd' : function compiled as native :
+     1>c:\users\swapnil\documents\github\sd_lab_project_1\sourcefiles\sd_lab_project\sd_lab_project\stb_image.h(2368): warning C4793: '`anonymous namespace'::stbi__idct_simd' : function compiled as native :
          	Found an intrinsic not supported in managed code
-     1>c:\users\swapnil\desktop\sd project\patch-2\sd_lab_project\sd_lab_project\stb_image.h(2368): warning C4793: '`anonymous namespace'::stbi__idct_simd' : function compiled as native :
+     1>c:\users\swapnil\documents\github\sd_lab_project_1\sourcefiles\sd_lab_project\sd_lab_project\stb_image.h(2368): warning C4793: '`anonymous namespace'::stbi__idct_simd' : function compiled as native :
          	Found an intrinsic not supported in managed code
-     1>c:\users\swapnil\desktop\sd project\patch-2\sd_lab_project\sd_lab_project\stb_image.h(2368): warning C4793: '`anonymous namespace'::stbi__idct_simd' : function compiled as native :
+     1>c:\users\swapnil\documents\github\sd_lab_project_1\sourcefiles\sd_lab_project\sd_lab_project\stb_image.h(2368): warning C4793: '`anonymous namespace'::stbi__idct_simd' : function compiled as native :
          	Aligned data types not supported in managed code
-     1>c:\users\swapnil\desktop\sd project\patch-2\sd_lab_project\sd_lab_project\stb_image.h(2369): warning C4793: '`anonymous namespace'::stbi__idct_simd' : function compiled as native :
+     1>c:\users\swapnil\documents\github\sd_lab_project_1\sourcefiles\sd_lab_project\sd_lab_project\stb_image.h(2369): warning C4793: '`anonymous namespace'::stbi__idct_simd' : function compiled as native :
          	Found an intrinsic not supported in managed code
-     1>c:\users\swapnil\desktop\sd project\patch-2\sd_lab_project\sd_lab_project\stb_image.h(2369): warning C4793: '`anonymous namespace'::stbi__idct_simd' : function compiled as native :
+     1>c:\users\swapnil\documents\github\sd_lab_project_1\sourcefiles\sd_lab_project\sd_lab_project\stb_image.h(2369): warning C4793: '`anonymous namespace'::stbi__idct_simd' : function compiled as native :
          	Found an intrinsic not supported in managed code
-     1>c:\users\swapnil\desktop\sd project\patch-2\sd_lab_project\sd_lab_project\stb_image.h(2369): warning C4793: '`anonymous namespace'::stbi__idct_simd' : function compiled as native :
+     1>c:\users\swapnil\documents\github\sd_lab_project_1\sourcefiles\sd_lab_project\sd_lab_project\stb_image.h(2369): warning C4793: '`anonymous namespace'::stbi__idct_simd' : function compiled as native :
          	Aligned data types not supported in managed code
-     1>c:\users\swapnil\desktop\sd project\patch-2\sd_lab_project\sd_lab_project\stb_image.h(2372): warning C4793: '`anonymous namespace'::stbi__idct_simd' : function compiled as native :
+     1>c:\users\swapnil\documents\github\sd_lab_project_1\sourcefiles\sd_lab_project\sd_lab_project\stb_image.h(2372): warning C4793: '`anonymous namespace'::stbi__idct_simd' : function compiled as native :
          	Found an intrinsic not supported in managed code
-     1>c:\users\swapnil\desktop\sd project\patch-2\sd_lab_project\sd_lab_project\stb_image.h(2372): warning C4793: '`anonymous namespace'::stbi__idct_simd' : function compiled as native :
+     1>c:\users\swapnil\documents\github\sd_lab_project_1\sourcefiles\sd_lab_project\sd_lab_project\stb_image.h(2372): warning C4793: '`anonymous namespace'::stbi__idct_simd' : function compiled as native :
          	Aligned data types not supported in managed code
-     1>c:\users\swapnil\desktop\sd project\patch-2\sd_lab_project\sd_lab_project\stb_image.h(2373): warning C4793: '`anonymous namespace'::stbi__idct_simd' : function compiled as native :
+     1>c:\users\swapnil\documents\github\sd_lab_project_1\sourcefiles\sd_lab_project\sd_lab_project\stb_image.h(2373): warning C4793: '`anonymous namespace'::stbi__idct_simd' : function compiled as native :
          	Found an intrinsic not supported in managed code
-     1>c:\users\swapnil\desktop\sd project\patch-2\sd_lab_project\sd_lab_project\stb_image.h(2373): warning C4793: '`anonymous namespace'::stbi__idct_simd' : function compiled as native :
+     1>c:\users\swapnil\documents\github\sd_lab_project_1\sourcefiles\sd_lab_project\sd_lab_project\stb_image.h(2373): warning C4793: '`anonymous namespace'::stbi__idct_simd' : function compiled as native :
          	Aligned data types not supported in managed code
-     1>c:\users\swapnil\desktop\sd project\patch-2\sd_lab_project\sd_lab_project\stb_image.h(2374): warning C4793: '`anonymous namespace'::stbi__idct_simd' : function compiled as native :
+     1>c:\users\swapnil\documents\github\sd_lab_project_1\sourcefiles\sd_lab_project\sd_lab_project\stb_image.h(2374): warning C4793: '`anonymous namespace'::stbi__idct_simd' : function compiled as native :
          	Found an intrinsic not supported in managed code
-     1>c:\users\swapnil\desktop\sd project\patch-2\sd_lab_project\sd_lab_project\stb_image.h(2374): warning C4793: '`anonymous namespace'::stbi__idct_simd' : function compiled as native :
+     1>c:\users\swapnil\documents\github\sd_lab_project_1\sourcefiles\sd_lab_project\sd_lab_project\stb_image.h(2374): warning C4793: '`anonymous namespace'::stbi__idct_simd' : function compiled as native :
          	Aligned data types not supported in managed code
-     1>c:\users\swapnil\desktop\sd project\patch-2\sd_lab_project\sd_lab_project\stb_image.h(2375): warning C4793: '`anonymous namespace'::stbi__idct_simd' : function compiled as native :
+     1>c:\users\swapnil\documents\github\sd_lab_project_1\sourcefiles\sd_lab_project\sd_lab_project\stb_image.h(2375): warning C4793: '`anonymous namespace'::stbi__idct_simd' : function compiled as native :
          	Found an intrinsic not supported in managed code
-     1>c:\users\swapnil\desktop\sd project\patch-2\sd_lab_project\sd_lab_project\stb_image.h(2375): warning C4793: '`anonymous namespace'::stbi__idct_simd' : function compiled as native :
+     1>c:\users\swapnil\documents\github\sd_lab_project_1\sourcefiles\sd_lab_project\sd_lab_project\stb_image.h(2375): warning C4793: '`anonymous namespace'::stbi__idct_simd' : function compiled as native :
          	Aligned data types not supported in managed code
-     1>c:\users\swapnil\desktop\sd project\patch-2\sd_lab_project\sd_lab_project\stb_image.h(2376): warning C4793: '`anonymous namespace'::stbi__idct_simd' : function compiled as native :
+     1>c:\users\swapnil\documents\github\sd_lab_project_1\sourcefiles\sd_lab_project\sd_lab_project\stb_image.h(2376): warning C4793: '`anonymous namespace'::stbi__idct_simd' : function compiled as native :
          	Found an intrinsic not supported in managed code
-     1>c:\users\swapnil\desktop\sd project\patch-2\sd_lab_project\sd_lab_project\stb_image.h(2376): warning C4793: '`anonymous namespace'::stbi__idct_simd' : function compiled as native :
+     1>c:\users\swapnil\documents\github\sd_lab_project_1\sourcefiles\sd_lab_project\sd_lab_project\stb_image.h(2376): warning C4793: '`anonymous namespace'::stbi__idct_simd' : function compiled as native :
          	Aligned data types not supported in managed code
-     1>c:\users\swapnil\desktop\sd project\patch-2\sd_lab_project\sd_lab_project\stb_image.h(2377): warning C4793: '`anonymous namespace'::stbi__idct_simd' : function compiled as native :
+     1>c:\users\swapnil\documents\github\sd_lab_project_1\sourcefiles\sd_lab_project\sd_lab_project\stb_image.h(2377): warning C4793: '`anonymous namespace'::stbi__idct_simd' : function compiled as native :
          	Found an intrinsic not supported in managed code
-     1>c:\users\swapnil\desktop\sd project\patch-2\sd_lab_project\sd_lab_project\stb_image.h(2377): warning C4793: '`anonymous namespace'::stbi__idct_simd' : function compiled as native :
+     1>c:\users\swapnil\documents\github\sd_lab_project_1\sourcefiles\sd_lab_project\sd_lab_project\stb_image.h(2377): warning C4793: '`anonymous namespace'::stbi__idct_simd' : function compiled as native :
          	Aligned data types not supported in managed code
-     1>c:\users\swapnil\desktop\sd project\patch-2\sd_lab_project\sd_lab_project\stb_image.h(2378): warning C4793: '`anonymous namespace'::stbi__idct_simd' : function compiled as native :
+     1>c:\users\swapnil\documents\github\sd_lab_project_1\sourcefiles\sd_lab_project\sd_lab_project\stb_image.h(2378): warning C4793: '`anonymous namespace'::stbi__idct_simd' : function compiled as native :
          	Found an intrinsic not supported in managed code
-     1>c:\users\swapnil\desktop\sd project\patch-2\sd_lab_project\sd_lab_project\stb_image.h(2378): warning C4793: '`anonymous namespace'::stbi__idct_simd' : function compiled as native :
+     1>c:\users\swapnil\documents\github\sd_lab_project_1\sourcefiles\sd_lab_project\sd_lab_project\stb_image.h(2378): warning C4793: '`anonymous namespace'::stbi__idct_simd' : function compiled as native :
          	Aligned data types not supported in managed code
-     1>c:\users\swapnil\desktop\sd project\patch-2\sd_lab_project\sd_lab_project\stb_image.h(2379): warning C4793: '`anonymous namespace'::stbi__idct_simd' : function compiled as native :
+     1>c:\users\swapnil\documents\github\sd_lab_project_1\sourcefiles\sd_lab_project\sd_lab_project\stb_image.h(2379): warning C4793: '`anonymous namespace'::stbi__idct_simd' : function compiled as native :
          	Found an intrinsic not supported in managed code
-     1>c:\users\swapnil\desktop\sd project\patch-2\sd_lab_project\sd_lab_project\stb_image.h(2379): warning C4793: '`anonymous namespace'::stbi__idct_simd' : function compiled as native :
+     1>c:\users\swapnil\documents\github\sd_lab_project_1\sourcefiles\sd_lab_project\sd_lab_project\stb_image.h(2379): warning C4793: '`anonymous namespace'::stbi__idct_simd' : function compiled as native :
          	Aligned data types not supported in managed code
-     1>c:\users\swapnil\desktop\sd project\patch-2\sd_lab_project\sd_lab_project\stb_image.h(2391): warning C4793: '`anonymous namespace'::stbi__idct_simd' : function compiled as native :
+     1>c:\users\swapnil\documents\github\sd_lab_project_1\sourcefiles\sd_lab_project\sd_lab_project\stb_image.h(2391): warning C4793: '`anonymous namespace'::stbi__idct_simd' : function compiled as native :
          	Aligned data types not supported in managed code
-     1>c:\users\swapnil\desktop\sd project\patch-2\sd_lab_project\sd_lab_project\stb_image.h(3355): warning C4793: '`anonymous namespace'::stbi__YCbCr_to_RGB_simd' : function compiled as native :
+     1>c:\users\swapnil\documents\github\sd_lab_project_1\sourcefiles\sd_lab_project\sd_lab_project\stb_image.h(3355): warning C4793: '`anonymous namespace'::stbi__YCbCr_to_RGB_simd' : function compiled as native :
          	Found an intrinsic not supported in managed code
-     1>c:\users\swapnil\desktop\sd project\patch-2\sd_lab_project\sd_lab_project\stb_image.h(3355): warning C4793: '`anonymous namespace'::stbi__YCbCr_to_RGB_simd' : function compiled as native :
+     1>c:\users\swapnil\documents\github\sd_lab_project_1\sourcefiles\sd_lab_project\sd_lab_project\stb_image.h(3355): warning C4793: '`anonymous namespace'::stbi__YCbCr_to_RGB_simd' : function compiled as native :
          	Aligned data types not supported in managed code
-     1>c:\users\swapnil\desktop\sd project\patch-2\sd_lab_project\sd_lab_project\stb_image.h(3356): warning C4793: '`anonymous namespace'::stbi__YCbCr_to_RGB_simd' : function compiled as native :
+     1>c:\users\swapnil\documents\github\sd_lab_project_1\sourcefiles\sd_lab_project\sd_lab_project\stb_image.h(3356): warning C4793: '`anonymous namespace'::stbi__YCbCr_to_RGB_simd' : function compiled as native :
          	Found an intrinsic not supported in managed code
-     1>c:\users\swapnil\desktop\sd project\patch-2\sd_lab_project\sd_lab_project\stb_image.h(3356): warning C4793: '`anonymous namespace'::stbi__YCbCr_to_RGB_simd' : function compiled as native :
+     1>c:\users\swapnil\documents\github\sd_lab_project_1\sourcefiles\sd_lab_project\sd_lab_project\stb_image.h(3356): warning C4793: '`anonymous namespace'::stbi__YCbCr_to_RGB_simd' : function compiled as native :
          	Aligned data types not supported in managed code
-     1>c:\users\swapnil\desktop\sd project\patch-2\sd_lab_project\sd_lab_project\stb_image.h(3357): warning C4793: '`anonymous namespace'::stbi__YCbCr_to_RGB_simd' : function compiled as native :
+     1>c:\users\swapnil\documents\github\sd_lab_project_1\sourcefiles\sd_lab_project\sd_lab_project\stb_image.h(3357): warning C4793: '`anonymous namespace'::stbi__YCbCr_to_RGB_simd' : function compiled as native :
          	Found an intrinsic not supported in managed code
-     1>c:\users\swapnil\desktop\sd project\patch-2\sd_lab_project\sd_lab_project\stb_image.h(3357): warning C4793: '`anonymous namespace'::stbi__YCbCr_to_RGB_simd' : function compiled as native :
+     1>c:\users\swapnil\documents\github\sd_lab_project_1\sourcefiles\sd_lab_project\sd_lab_project\stb_image.h(3357): warning C4793: '`anonymous namespace'::stbi__YCbCr_to_RGB_simd' : function compiled as native :
          	Aligned data types not supported in managed code
-     1>c:\users\swapnil\desktop\sd project\patch-2\sd_lab_project\sd_lab_project\stb_image.h(3358): warning C4793: '`anonymous namespace'::stbi__YCbCr_to_RGB_simd' : function compiled as native :
+     1>c:\users\swapnil\documents\github\sd_lab_project_1\sourcefiles\sd_lab_project\sd_lab_project\stb_image.h(3358): warning C4793: '`anonymous namespace'::stbi__YCbCr_to_RGB_simd' : function compiled as native :
          	Found an intrinsic not supported in managed code
-     1>c:\users\swapnil\desktop\sd project\patch-2\sd_lab_project\sd_lab_project\stb_image.h(3358): warning C4793: '`anonymous namespace'::stbi__YCbCr_to_RGB_simd' : function compiled as native :
+     1>c:\users\swapnil\documents\github\sd_lab_project_1\sourcefiles\sd_lab_project\sd_lab_project\stb_image.h(3358): warning C4793: '`anonymous namespace'::stbi__YCbCr_to_RGB_simd' : function compiled as native :
          	Aligned data types not supported in managed code
-     1>c:\users\swapnil\desktop\sd project\patch-2\sd_lab_project\sd_lab_project\stb_image.h(3359): warning C4793: '`anonymous namespace'::stbi__YCbCr_to_RGB_simd' : function compiled as native :
+     1>c:\users\swapnil\documents\github\sd_lab_project_1\sourcefiles\sd_lab_project\sd_lab_project\stb_image.h(3359): warning C4793: '`anonymous namespace'::stbi__YCbCr_to_RGB_simd' : function compiled as native :
          	Found an intrinsic not supported in managed code
-     1>c:\users\swapnil\desktop\sd project\patch-2\sd_lab_project\sd_lab_project\stb_image.h(3359): warning C4793: '`anonymous namespace'::stbi__YCbCr_to_RGB_simd' : function compiled as native :
+     1>c:\users\swapnil\documents\github\sd_lab_project_1\sourcefiles\sd_lab_project\sd_lab_project\stb_image.h(3359): warning C4793: '`anonymous namespace'::stbi__YCbCr_to_RGB_simd' : function compiled as native :
          	Aligned data types not supported in managed code
-     1>c:\users\swapnil\desktop\sd project\patch-2\sd_lab_project\sd_lab_project\stb_image.h(3360): warning C4793: '`anonymous namespace'::stbi__YCbCr_to_RGB_simd' : function compiled as native :
+     1>c:\users\swapnil\documents\github\sd_lab_project_1\sourcefiles\sd_lab_project\sd_lab_project\stb_image.h(3360): warning C4793: '`anonymous namespace'::stbi__YCbCr_to_RGB_simd' : function compiled as native :
          	Found an intrinsic not supported in managed code
-     1>c:\users\swapnil\desktop\sd project\patch-2\sd_lab_project\sd_lab_project\stb_image.h(3360): warning C4793: '`anonymous namespace'::stbi__YCbCr_to_RGB_simd' : function compiled as native :
+     1>c:\users\swapnil\documents\github\sd_lab_project_1\sourcefiles\sd_lab_project\sd_lab_project\stb_image.h(3360): warning C4793: '`anonymous namespace'::stbi__YCbCr_to_RGB_simd' : function compiled as native :
          	Aligned data types not supported in managed code
-     1>c:\users\swapnil\desktop\sd project\patch-2\sd_lab_project\sd_lab_project\stb_image.h(3361): warning C4793: '`anonymous namespace'::stbi__YCbCr_to_RGB_simd' : function compiled as native :
+     1>c:\users\swapnil\documents\github\sd_lab_project_1\sourcefiles\sd_lab_project\sd_lab_project\stb_image.h(3361): warning C4793: '`anonymous namespace'::stbi__YCbCr_to_RGB_simd' : function compiled as native :
          	Found an intrinsic not supported in managed code
-     1>c:\users\swapnil\desktop\sd project\patch-2\sd_lab_project\sd_lab_project\stb_image.h(3361): warning C4793: '`anonymous namespace'::stbi__YCbCr_to_RGB_simd' : function compiled as native :
+     1>c:\users\swapnil\documents\github\sd_lab_project_1\sourcefiles\sd_lab_project\sd_lab_project\stb_image.h(3361): warning C4793: '`anonymous namespace'::stbi__YCbCr_to_RGB_simd' : function compiled as native :
          	Aligned data types not supported in managed code
-     1>c:\users\swapnil\desktop\sd project\patch-2\sd_lab_project\sd_lab_project\stb_image.h(3365): warning C4793: '`anonymous namespace'::stbi__YCbCr_to_RGB_simd' : function compiled as native :
+     1>c:\users\swapnil\documents\github\sd_lab_project_1\sourcefiles\sd_lab_project\sd_lab_project\stb_image.h(3365): warning C4793: '`anonymous namespace'::stbi__YCbCr_to_RGB_simd' : function compiled as native :
          	Found an intrinsic not supported in managed code
-     1>c:\users\swapnil\desktop\sd project\patch-2\sd_lab_project\sd_lab_project\stb_image.h(3365): warning C4793: '`anonymous namespace'::stbi__YCbCr_to_RGB_simd' : function compiled as native :
+     1>c:\users\swapnil\documents\github\sd_lab_project_1\sourcefiles\sd_lab_project\sd_lab_project\stb_image.h(3365): warning C4793: '`anonymous namespace'::stbi__YCbCr_to_RGB_simd' : function compiled as native :
          	Aligned data types not supported in managed code
-     1>c:\users\swapnil\desktop\sd project\patch-2\sd_lab_project\sd_lab_project\stb_image.h(3366): warning C4793: '`anonymous namespace'::stbi__YCbCr_to_RGB_simd' : function compiled as native :
+     1>c:\users\swapnil\documents\github\sd_lab_project_1\sourcefiles\sd_lab_project\sd_lab_project\stb_image.h(3366): warning C4793: '`anonymous namespace'::stbi__YCbCr_to_RGB_simd' : function compiled as native :
          	Found an intrinsic not supported in managed code
-     1>c:\users\swapnil\desktop\sd project\patch-2\sd_lab_project\sd_lab_project\stb_image.h(3366): warning C4793: '`anonymous namespace'::stbi__YCbCr_to_RGB_simd' : function compiled as native :
+     1>c:\users\swapnil\documents\github\sd_lab_project_1\sourcefiles\sd_lab_project\sd_lab_project\stb_image.h(3366): warning C4793: '`anonymous namespace'::stbi__YCbCr_to_RGB_simd' : function compiled as native :
          	Aligned data types not supported in managed code
-     1>c:\users\swapnil\desktop\sd project\patch-2\sd_lab_project\sd_lab_project\stb_image.h(3367): warning C4793: '`anonymous namespace'::stbi__YCbCr_to_RGB_simd' : function compiled as native :
+     1>c:\users\swapnil\documents\github\sd_lab_project_1\sourcefiles\sd_lab_project\sd_lab_project\stb_image.h(3367): warning C4793: '`anonymous namespace'::stbi__YCbCr_to_RGB_simd' : function compiled as native :
          	Found an intrinsic not supported in managed code
-     1>c:\users\swapnil\desktop\sd project\patch-2\sd_lab_project\sd_lab_project\stb_image.h(3367): warning C4793: '`anonymous namespace'::stbi__YCbCr_to_RGB_simd' : function compiled as native :
+     1>c:\users\swapnil\documents\github\sd_lab_project_1\sourcefiles\sd_lab_project\sd_lab_project\stb_image.h(3367): warning C4793: '`anonymous namespace'::stbi__YCbCr_to_RGB_simd' : function compiled as native :
          	Aligned data types not supported in managed code
-     1>c:\users\swapnil\desktop\sd project\patch-2\sd_lab_project\sd_lab_project\stb_image.h(3368): warning C4793: '`anonymous namespace'::stbi__YCbCr_to_RGB_simd' : function compiled as native :
+     1>c:\users\swapnil\documents\github\sd_lab_project_1\sourcefiles\sd_lab_project\sd_lab_project\stb_image.h(3368): warning C4793: '`anonymous namespace'::stbi__YCbCr_to_RGB_simd' : function compiled as native :
          	Found an intrinsic not supported in managed code
-     1>c:\users\swapnil\desktop\sd project\patch-2\sd_lab_project\sd_lab_project\stb_image.h(3368): warning C4793: '`anonymous namespace'::stbi__YCbCr_to_RGB_simd' : function compiled as native :
+     1>c:\users\swapnil\documents\github\sd_lab_project_1\sourcefiles\sd_lab_project\sd_lab_project\stb_image.h(3368): warning C4793: '`anonymous namespace'::stbi__YCbCr_to_RGB_simd' : function compiled as native :
          	Aligned data types not supported in managed code
-     1>c:\users\swapnil\desktop\sd project\patch-2\sd_lab_project\sd_lab_project\stb_image.h(3369): warning C4793: '`anonymous namespace'::stbi__YCbCr_to_RGB_simd' : function compiled as native :
+     1>c:\users\swapnil\documents\github\sd_lab_project_1\sourcefiles\sd_lab_project\sd_lab_project\stb_image.h(3369): warning C4793: '`anonymous namespace'::stbi__YCbCr_to_RGB_simd' : function compiled as native :
          	Found an intrinsic not supported in managed code
-     1>c:\users\swapnil\desktop\sd project\patch-2\sd_lab_project\sd_lab_project\stb_image.h(3369): warning C4793: '`anonymous namespace'::stbi__YCbCr_to_RGB_simd' : function compiled as native :
+     1>c:\users\swapnil\documents\github\sd_lab_project_1\sourcefiles\sd_lab_project\sd_lab_project\stb_image.h(3369): warning C4793: '`anonymous namespace'::stbi__YCbCr_to_RGB_simd' : function compiled as native :
          	Aligned data types not supported in managed code
-     1>c:\users\swapnil\desktop\sd project\patch-2\sd_lab_project\sd_lab_project\stb_image.h(3372): warning C4793: '`anonymous namespace'::stbi__YCbCr_to_RGB_simd' : function compiled as native :
+     1>c:\users\swapnil\documents\github\sd_lab_project_1\sourcefiles\sd_lab_project\sd_lab_project\stb_image.h(3372): warning C4793: '`anonymous namespace'::stbi__YCbCr_to_RGB_simd' : function compiled as native :
          	Found an intrinsic not supported in managed code
-     1>c:\users\swapnil\desktop\sd project\patch-2\sd_lab_project\sd_lab_project\stb_image.h(3372): warning C4793: '`anonymous namespace'::stbi__YCbCr_to_RGB_simd' : function compiled as native :
+     1>c:\users\swapnil\documents\github\sd_lab_project_1\sourcefiles\sd_lab_project\sd_lab_project\stb_image.h(3372): warning C4793: '`anonymous namespace'::stbi__YCbCr_to_RGB_simd' : function compiled as native :
          	Aligned data types not supported in managed code
-     1>c:\users\swapnil\desktop\sd project\patch-2\sd_lab_project\sd_lab_project\stb_image.h(3373): warning C4793: '`anonymous namespace'::stbi__YCbCr_to_RGB_simd' : function compiled as native :
+     1>c:\users\swapnil\documents\github\sd_lab_project_1\sourcefiles\sd_lab_project\sd_lab_project\stb_image.h(3373): warning C4793: '`anonymous namespace'::stbi__YCbCr_to_RGB_simd' : function compiled as native :
          	Found an intrinsic not supported in managed code
-     1>c:\users\swapnil\desktop\sd project\patch-2\sd_lab_project\sd_lab_project\stb_image.h(3373): warning C4793: '`anonymous namespace'::stbi__YCbCr_to_RGB_simd' : function compiled as native :
+     1>c:\users\swapnil\documents\github\sd_lab_project_1\sourcefiles\sd_lab_project\sd_lab_project\stb_image.h(3373): warning C4793: '`anonymous namespace'::stbi__YCbCr_to_RGB_simd' : function compiled as native :
          	Aligned data types not supported in managed code
-     1>c:\users\swapnil\desktop\sd project\patch-2\sd_lab_project\sd_lab_project\stb_image.h(3374): warning C4793: '`anonymous namespace'::stbi__YCbCr_to_RGB_simd' : function compiled as native :
+     1>c:\users\swapnil\documents\github\sd_lab_project_1\sourcefiles\sd_lab_project\sd_lab_project\stb_image.h(3374): warning C4793: '`anonymous namespace'::stbi__YCbCr_to_RGB_simd' : function compiled as native :
          	Found an intrinsic not supported in managed code
-     1>c:\users\swapnil\desktop\sd project\patch-2\sd_lab_project\sd_lab_project\stb_image.h(3374): warning C4793: '`anonymous namespace'::stbi__YCbCr_to_RGB_simd' : function compiled as native :
+     1>c:\users\swapnil\documents\github\sd_lab_project_1\sourcefiles\sd_lab_project\sd_lab_project\stb_image.h(3374): warning C4793: '`anonymous namespace'::stbi__YCbCr_to_RGB_simd' : function compiled as native :
          	Aligned data types not supported in managed code
-     1>c:\users\swapnil\desktop\sd project\patch-2\sd_lab_project\sd_lab_project\stb_image.h(3377): warning C4793: '`anonymous namespace'::stbi__YCbCr_to_RGB_simd' : function compiled as native :
+     1>c:\users\swapnil\documents\github\sd_lab_project_1\sourcefiles\sd_lab_project\sd_lab_project\stb_image.h(3377): warning C4793: '`anonymous namespace'::stbi__YCbCr_to_RGB_simd' : function compiled as native :
          	Found an intrinsic not supported in managed code
-     1>c:\users\swapnil\desktop\sd project\patch-2\sd_lab_project\sd_lab_project\stb_image.h(3377): warning C4793: '`anonymous namespace'::stbi__YCbCr_to_RGB_simd' : function compiled as native :
+     1>c:\users\swapnil\documents\github\sd_lab_project_1\sourcefiles\sd_lab_project\sd_lab_project\stb_image.h(3377): warning C4793: '`anonymous namespace'::stbi__YCbCr_to_RGB_simd' : function compiled as native :
          	Aligned data types not supported in managed code
-     1>c:\users\swapnil\desktop\sd project\patch-2\sd_lab_project\sd_lab_project\stb_image.h(3378): warning C4793: '`anonymous namespace'::stbi__YCbCr_to_RGB_simd' : function compiled as native :
+     1>c:\users\swapnil\documents\github\sd_lab_project_1\sourcefiles\sd_lab_project\sd_lab_project\stb_image.h(3378): warning C4793: '`anonymous namespace'::stbi__YCbCr_to_RGB_simd' : function compiled as native :
          	Found an intrinsic not supported in managed code
-     1>c:\users\swapnil\desktop\sd project\patch-2\sd_lab_project\sd_lab_project\stb_image.h(3378): warning C4793: '`anonymous namespace'::stbi__YCbCr_to_RGB_simd' : function compiled as native :
+     1>c:\users\swapnil\documents\github\sd_lab_project_1\sourcefiles\sd_lab_project\sd_lab_project\stb_image.h(3378): warning C4793: '`anonymous namespace'::stbi__YCbCr_to_RGB_simd' : function compiled as native :
          	Aligned data types not supported in managed code
-     1>c:\users\swapnil\desktop\sd project\patch-2\sd_lab_project\sd_lab_project\stb_image.h(3379): warning C4793: '`anonymous namespace'::stbi__YCbCr_to_RGB_simd' : function compiled as native :
+     1>c:\users\swapnil\documents\github\sd_lab_project_1\sourcefiles\sd_lab_project\sd_lab_project\stb_image.h(3379): warning C4793: '`anonymous namespace'::stbi__YCbCr_to_RGB_simd' : function compiled as native :
          	Found an intrinsic not supported in managed code
-     1>c:\users\swapnil\desktop\sd project\patch-2\sd_lab_project\sd_lab_project\stb_image.h(3379): warning C4793: '`anonymous namespace'::stbi__YCbCr_to_RGB_simd' : function compiled as native :
+     1>c:\users\swapnil\documents\github\sd_lab_project_1\sourcefiles\sd_lab_project\sd_lab_project\stb_image.h(3379): warning C4793: '`anonymous namespace'::stbi__YCbCr_to_RGB_simd' : function compiled as native :
          	Aligned data types not supported in managed code
-     1>c:\users\swapnil\desktop\sd project\patch-2\sd_lab_project\sd_lab_project\stb_image.h(3380): warning C4793: '`anonymous namespace'::stbi__YCbCr_to_RGB_simd' : function compiled as native :
+     1>c:\users\swapnil\documents\github\sd_lab_project_1\sourcefiles\sd_lab_project\sd_lab_project\stb_image.h(3380): warning C4793: '`anonymous namespace'::stbi__YCbCr_to_RGB_simd' : function compiled as native :
          	Found an intrinsic not supported in managed code
-     1>c:\users\swapnil\desktop\sd project\patch-2\sd_lab_project\sd_lab_project\stb_image.h(3380): warning C4793: '`anonymous namespace'::stbi__YCbCr_to_RGB_simd' : function compiled as native :
+     1>c:\users\swapnil\documents\github\sd_lab_project_1\sourcefiles\sd_lab_project\sd_lab_project\stb_image.h(3380): warning C4793: '`anonymous namespace'::stbi__YCbCr_to_RGB_simd' : function compiled as native :
          	Aligned data types not supported in managed code
-     1>c:\users\swapnil\desktop\sd project\patch-2\sd_lab_project\sd_lab_project\stb_image.h(3381): warning C4793: '`anonymous namespace'::stbi__YCbCr_to_RGB_simd' : function compiled as native :
+     1>c:\users\swapnil\documents\github\sd_lab_project_1\sourcefiles\sd_lab_project\sd_lab_project\stb_image.h(3381): warning C4793: '`anonymous namespace'::stbi__YCbCr_to_RGB_simd' : function compiled as native :
          	Found an intrinsic not supported in managed code
-     1>c:\users\swapnil\desktop\sd project\patch-2\sd_lab_project\sd_lab_project\stb_image.h(3381): warning C4793: '`anonymous namespace'::stbi__YCbCr_to_RGB_simd' : function compiled as native :
+     1>c:\users\swapnil\documents\github\sd_lab_project_1\sourcefiles\sd_lab_project\sd_lab_project\stb_image.h(3381): warning C4793: '`anonymous namespace'::stbi__YCbCr_to_RGB_simd' : function compiled as native :
          	Aligned data types not supported in managed code
-     1>c:\users\swapnil\desktop\sd project\patch-2\sd_lab_project\sd_lab_project\stb_image.h(3382): warning C4793: '`anonymous namespace'::stbi__YCbCr_to_RGB_simd' : function compiled as native :
+     1>c:\users\swapnil\documents\github\sd_lab_project_1\sourcefiles\sd_lab_project\sd_lab_project\stb_image.h(3382): warning C4793: '`anonymous namespace'::stbi__YCbCr_to_RGB_simd' : function compiled as native :
          	Found an intrinsic not supported in managed code
-     1>c:\users\swapnil\desktop\sd project\patch-2\sd_lab_project\sd_lab_project\stb_image.h(3382): warning C4793: '`anonymous namespace'::stbi__YCbCr_to_RGB_simd' : function compiled as native :
+     1>c:\users\swapnil\documents\github\sd_lab_project_1\sourcefiles\sd_lab_project\sd_lab_project\stb_image.h(3382): warning C4793: '`anonymous namespace'::stbi__YCbCr_to_RGB_simd' : function compiled as native :
          	Aligned data types not supported in managed code
-     1>c:\users\swapnil\desktop\sd project\patch-2\sd_lab_project\sd_lab_project\stb_image.h(3383): warning C4793: '`anonymous namespace'::stbi__YCbCr_to_RGB_simd' : function compiled as native :
+     1>c:\users\swapnil\documents\github\sd_lab_project_1\sourcefiles\sd_lab_project\sd_lab_project\stb_image.h(3383): warning C4793: '`anonymous namespace'::stbi__YCbCr_to_RGB_simd' : function compiled as native :
          	Found an intrinsic not supported in managed code
-     1>c:\users\swapnil\desktop\sd project\patch-2\sd_lab_project\sd_lab_project\stb_image.h(3383): warning C4793: '`anonymous namespace'::stbi__YCbCr_to_RGB_simd' : function compiled as native :
+     1>c:\users\swapnil\documents\github\sd_lab_project_1\sourcefiles\sd_lab_project\sd_lab_project\stb_image.h(3383): warning C4793: '`anonymous namespace'::stbi__YCbCr_to_RGB_simd' : function compiled as native :
          	Aligned data types not supported in managed code
-     1>c:\users\swapnil\desktop\sd project\patch-2\sd_lab_project\sd_lab_project\stb_image.h(3384): warning C4793: '`anonymous namespace'::stbi__YCbCr_to_RGB_simd' : function compiled as native :
+     1>c:\users\swapnil\documents\github\sd_lab_project_1\sourcefiles\sd_lab_project\sd_lab_project\stb_image.h(3384): warning C4793: '`anonymous namespace'::stbi__YCbCr_to_RGB_simd' : function compiled as native :
          	Found an intrinsic not supported in managed code
-     1>c:\users\swapnil\desktop\sd project\patch-2\sd_lab_project\sd_lab_project\stb_image.h(3384): warning C4793: '`anonymous namespace'::stbi__YCbCr_to_RGB_simd' : function compiled as native :
+     1>c:\users\swapnil\documents\github\sd_lab_project_1\sourcefiles\sd_lab_project\sd_lab_project\stb_image.h(3384): warning C4793: '`anonymous namespace'::stbi__YCbCr_to_RGB_simd' : function compiled as native :
          	Aligned data types not supported in managed code
-     1>c:\users\swapnil\desktop\sd project\patch-2\sd_lab_project\sd_lab_project\stb_image.h(3385): warning C4793: '`anonymous namespace'::stbi__YCbCr_to_RGB_simd' : function compiled as native :
+     1>c:\users\swapnil\documents\github\sd_lab_project_1\sourcefiles\sd_lab_project\sd_lab_project\stb_image.h(3385): warning C4793: '`anonymous namespace'::stbi__YCbCr_to_RGB_simd' : function compiled as native :
          	Found an intrinsic not supported in managed code
-     1>c:\users\swapnil\desktop\sd project\patch-2\sd_lab_project\sd_lab_project\stb_image.h(3385): warning C4793: '`anonymous namespace'::stbi__YCbCr_to_RGB_simd' : function compiled as native :
+     1>c:\users\swapnil\documents\github\sd_lab_project_1\sourcefiles\sd_lab_project\sd_lab_project\stb_image.h(3385): warning C4793: '`anonymous namespace'::stbi__YCbCr_to_RGB_simd' : function compiled as native :
          	Aligned data types not supported in managed code
-     1>c:\users\swapnil\desktop\sd project\patch-2\sd_lab_project\sd_lab_project\stb_image.h(3388): warning C4793: '`anonymous namespace'::stbi__YCbCr_to_RGB_simd' : function compiled as native :
+     1>c:\users\swapnil\documents\github\sd_lab_project_1\sourcefiles\sd_lab_project\sd_lab_project\stb_image.h(3388): warning C4793: '`anonymous namespace'::stbi__YCbCr_to_RGB_simd' : function compiled as native :
          	Found an intrinsic not supported in managed code
-     1>c:\users\swapnil\desktop\sd project\patch-2\sd_lab_project\sd_lab_project\stb_image.h(3388): warning C4793: '`anonymous namespace'::stbi__YCbCr_to_RGB_simd' : function compiled as native :
+     1>c:\users\swapnil\documents\github\sd_lab_project_1\sourcefiles\sd_lab_project\sd_lab_project\stb_image.h(3388): warning C4793: '`anonymous namespace'::stbi__YCbCr_to_RGB_simd' : function compiled as native :
          	Aligned data types not supported in managed code
-     1>c:\users\swapnil\desktop\sd project\patch-2\sd_lab_project\sd_lab_project\stb_image.h(3389): warning C4793: '`anonymous namespace'::stbi__YCbCr_to_RGB_simd' : function compiled as native :
+     1>c:\users\swapnil\documents\github\sd_lab_project_1\sourcefiles\sd_lab_project\sd_lab_project\stb_image.h(3389): warning C4793: '`anonymous namespace'::stbi__YCbCr_to_RGB_simd' : function compiled as native :
          	Found an intrinsic not supported in managed code
-     1>c:\users\swapnil\desktop\sd project\patch-2\sd_lab_project\sd_lab_project\stb_image.h(3389): warning C4793: '`anonymous namespace'::stbi__YCbCr_to_RGB_simd' : function compiled as native :
+     1>c:\users\swapnil\documents\github\sd_lab_project_1\sourcefiles\sd_lab_project\sd_lab_project\stb_image.h(3389): warning C4793: '`anonymous namespace'::stbi__YCbCr_to_RGB_simd' : function compiled as native :
          	Aligned data types not supported in managed code
-     1>c:\users\swapnil\desktop\sd project\patch-2\sd_lab_project\sd_lab_project\stb_image.h(3390): warning C4793: '`anonymous namespace'::stbi__YCbCr_to_RGB_simd' : function compiled as native :
+     1>c:\users\swapnil\documents\github\sd_lab_project_1\sourcefiles\sd_lab_project\sd_lab_project\stb_image.h(3390): warning C4793: '`anonymous namespace'::stbi__YCbCr_to_RGB_simd' : function compiled as native :
          	Found an intrinsic not supported in managed code
-     1>c:\users\swapnil\desktop\sd project\patch-2\sd_lab_project\sd_lab_project\stb_image.h(3390): warning C4793: '`anonymous namespace'::stbi__YCbCr_to_RGB_simd' : function compiled as native :
+     1>c:\users\swapnil\documents\github\sd_lab_project_1\sourcefiles\sd_lab_project\sd_lab_project\stb_image.h(3390): warning C4793: '`anonymous namespace'::stbi__YCbCr_to_RGB_simd' : function compiled as native :
          	Aligned data types not supported in managed code
-     1>c:\users\swapnil\desktop\sd project\patch-2\sd_lab_project\sd_lab_project\stb_image.h(3393): warning C4793: '`anonymous namespace'::stbi__YCbCr_to_RGB_simd' : function compiled as native :
+     1>c:\users\swapnil\documents\github\sd_lab_project_1\sourcefiles\sd_lab_project\sd_lab_project\stb_image.h(3393): warning C4793: '`anonymous namespace'::stbi__YCbCr_to_RGB_simd' : function compiled as native :
          	Found an intrinsic not supported in managed code
-     1>c:\users\swapnil\desktop\sd project\patch-2\sd_lab_project\sd_lab_project\stb_image.h(3393): warning C4793: '`anonymous namespace'::stbi__YCbCr_to_RGB_simd' : function compiled as native :
+     1>c:\users\swapnil\documents\github\sd_lab_project_1\sourcefiles\sd_lab_project\sd_lab_project\stb_image.h(3393): warning C4793: '`anonymous namespace'::stbi__YCbCr_to_RGB_simd' : function compiled as native :
          	Aligned data types not supported in managed code
-     1>c:\users\swapnil\desktop\sd project\patch-2\sd_lab_project\sd_lab_project\stb_image.h(3394): warning C4793: '`anonymous namespace'::stbi__YCbCr_to_RGB_simd' : function compiled as native :
+     1>c:\users\swapnil\documents\github\sd_lab_project_1\sourcefiles\sd_lab_project\sd_lab_project\stb_image.h(3394): warning C4793: '`anonymous namespace'::stbi__YCbCr_to_RGB_simd' : function compiled as native :
          	Found an intrinsic not supported in managed code
-     1>c:\users\swapnil\desktop\sd project\patch-2\sd_lab_project\sd_lab_project\stb_image.h(3394): warning C4793: '`anonymous namespace'::stbi__YCbCr_to_RGB_simd' : function compiled as native :
+     1>c:\users\swapnil\documents\github\sd_lab_project_1\sourcefiles\sd_lab_project\sd_lab_project\stb_image.h(3394): warning C4793: '`anonymous namespace'::stbi__YCbCr_to_RGB_simd' : function compiled as native :
          	Aligned data types not supported in managed code
-     1>c:\users\swapnil\desktop\sd project\patch-2\sd_lab_project\sd_lab_project\stb_image.h(3397): warning C4793: '`anonymous namespace'::stbi__YCbCr_to_RGB_simd' : function compiled as native :
+     1>c:\users\swapnil\documents\github\sd_lab_project_1\sourcefiles\sd_lab_project\sd_lab_project\stb_image.h(3397): warning C4793: '`anonymous namespace'::stbi__YCbCr_to_RGB_simd' : function compiled as native :
          	Found an intrinsic not supported in managed code
-     1>c:\users\swapnil\desktop\sd project\patch-2\sd_lab_project\sd_lab_project\stb_image.h(3397): warning C4793: '`anonymous namespace'::stbi__YCbCr_to_RGB_simd' : function compiled as native :
+     1>c:\users\swapnil\documents\github\sd_lab_project_1\sourcefiles\sd_lab_project\sd_lab_project\stb_image.h(3397): warning C4793: '`anonymous namespace'::stbi__YCbCr_to_RGB_simd' : function compiled as native :
          	Aligned data types not supported in managed code
-     1>c:\users\swapnil\desktop\sd project\patch-2\sd_lab_project\sd_lab_project\stb_image.h(3398): warning C4793: '`anonymous namespace'::stbi__YCbCr_to_RGB_simd' : function compiled as native :
+     1>c:\users\swapnil\documents\github\sd_lab_project_1\sourcefiles\sd_lab_project\sd_lab_project\stb_image.h(3398): warning C4793: '`anonymous namespace'::stbi__YCbCr_to_RGB_simd' : function compiled as native :
          	Found an intrinsic not supported in managed code
-     1>c:\users\swapnil\desktop\sd project\patch-2\sd_lab_project\sd_lab_project\stb_image.h(3398): warning C4793: '`anonymous namespace'::stbi__YCbCr_to_RGB_simd' : function compiled as native :
+     1>c:\users\swapnil\documents\github\sd_lab_project_1\sourcefiles\sd_lab_project\sd_lab_project\stb_image.h(3398): warning C4793: '`anonymous namespace'::stbi__YCbCr_to_RGB_simd' : function compiled as native :
          	Aligned data types not supported in managed code
-     1>c:\users\swapnil\desktop\sd project\patch-2\sd_lab_project\sd_lab_project\stb_image.h(3399): warning C4793: '`anonymous namespace'::stbi__YCbCr_to_RGB_simd' : function compiled as native :
+     1>c:\users\swapnil\documents\github\sd_lab_project_1\sourcefiles\sd_lab_project\sd_lab_project\stb_image.h(3399): warning C4793: '`anonymous namespace'::stbi__YCbCr_to_RGB_simd' : function compiled as native :
          	Found an intrinsic not supported in managed code
-     1>c:\users\swapnil\desktop\sd project\patch-2\sd_lab_project\sd_lab_project\stb_image.h(3399): warning C4793: '`anonymous namespace'::stbi__YCbCr_to_RGB_simd' : function compiled as native :
+     1>c:\users\swapnil\documents\github\sd_lab_project_1\sourcefiles\sd_lab_project\sd_lab_project\stb_image.h(3399): warning C4793: '`anonymous namespace'::stbi__YCbCr_to_RGB_simd' : function compiled as native :
          	Aligned data types not supported in managed code
-     1>c:\users\swapnil\desktop\sd project\patch-2\sd_lab_project\sd_lab_project\stb_image.h(3400): warning C4793: '`anonymous namespace'::stbi__YCbCr_to_RGB_simd' : function compiled as native :
+     1>c:\users\swapnil\documents\github\sd_lab_project_1\sourcefiles\sd_lab_project\sd_lab_project\stb_image.h(3400): warning C4793: '`anonymous namespace'::stbi__YCbCr_to_RGB_simd' : function compiled as native :
          	Found an intrinsic not supported in managed code
-     1>c:\users\swapnil\desktop\sd project\patch-2\sd_lab_project\sd_lab_project\stb_image.h(3400): warning C4793: '`anonymous namespace'::stbi__YCbCr_to_RGB_simd' : function compiled as native :
+     1>c:\users\swapnil\documents\github\sd_lab_project_1\sourcefiles\sd_lab_project\sd_lab_project\stb_image.h(3400): warning C4793: '`anonymous namespace'::stbi__YCbCr_to_RGB_simd' : function compiled as native :
          	Aligned data types not supported in managed code
-     1>c:\users\swapnil\desktop\sd project\patch-2\sd_lab_project\sd_lab_project\stb_image.h(3403): warning C4793: '`anonymous namespace'::stbi__YCbCr_to_RGB_simd' : function compiled as native :
+     1>c:\users\swapnil\documents\github\sd_lab_project_1\sourcefiles\sd_lab_project\sd_lab_project\stb_image.h(3403): warning C4793: '`anonymous namespace'::stbi__YCbCr_to_RGB_simd' : function compiled as native :
          	Found an intrinsic not supported in managed code
-     1>c:\users\swapnil\desktop\sd project\patch-2\sd_lab_project\sd_lab_project\stb_image.h(3403): warning C4793: '`anonymous namespace'::stbi__YCbCr_to_RGB_simd' : function compiled as native :
+     1>c:\users\swapnil\documents\github\sd_lab_project_1\sourcefiles\sd_lab_project\sd_lab_project\stb_image.h(3403): warning C4793: '`anonymous namespace'::stbi__YCbCr_to_RGB_simd' : function compiled as native :
          	Aligned data types not supported in managed code
-     1>c:\users\swapnil\desktop\sd project\patch-2\sd_lab_project\sd_lab_project\stb_image.h(3404): warning C4793: '`anonymous namespace'::stbi__YCbCr_to_RGB_simd' : function compiled as native :
+     1>c:\users\swapnil\documents\github\sd_lab_project_1\sourcefiles\sd_lab_project\sd_lab_project\stb_image.h(3404): warning C4793: '`anonymous namespace'::stbi__YCbCr_to_RGB_simd' : function compiled as native :
          	Found an intrinsic not supported in managed code
-     1>c:\users\swapnil\desktop\sd project\patch-2\sd_lab_project\sd_lab_project\stb_image.h(3404): warning C4793: '`anonymous namespace'::stbi__YCbCr_to_RGB_simd' : function compiled as native :
+     1>c:\users\swapnil\documents\github\sd_lab_project_1\sourcefiles\sd_lab_project\sd_lab_project\stb_image.h(3404): warning C4793: '`anonymous namespace'::stbi__YCbCr_to_RGB_simd' : function compiled as native :
          	Aligned data types not supported in managed code
-     1>c:\users\swapnil\desktop\sd project\patch-2\sd_lab_project\sd_lab_project\stb_image.h(3476): warning C4793: '`anonymous namespace'::stbi__YCbCr_to_RGB_simd' : function compiled as native :
+     1>c:\users\swapnil\documents\github\sd_lab_project_1\sourcefiles\sd_lab_project\sd_lab_project\stb_image.h(3476): warning C4793: '`anonymous namespace'::stbi__YCbCr_to_RGB_simd' : function compiled as native :
          	Aligned data types not supported in managed code
-     1>c:\users\swapnil\desktop\sd project\patch-2\sd_lab_project\sd_lab_project\stb_image.h(3207): warning C4793: '`anonymous namespace'::stbi__resample_row_hv_2_simd' : function compiled as native :
+     1>c:\users\swapnil\documents\github\sd_lab_project_1\sourcefiles\sd_lab_project\sd_lab_project\stb_image.h(3207): warning C4793: '`anonymous namespace'::stbi__resample_row_hv_2_simd' : function compiled as native :
          	Found an intrinsic not supported in managed code
-     1>c:\users\swapnil\desktop\sd project\patch-2\sd_lab_project\sd_lab_project\stb_image.h(3207): warning C4793: '`anonymous namespace'::stbi__resample_row_hv_2_simd' : function compiled as native :
+     1>c:\users\swapnil\documents\github\sd_lab_project_1\sourcefiles\sd_lab_project\sd_lab_project\stb_image.h(3207): warning C4793: '`anonymous namespace'::stbi__resample_row_hv_2_simd' : function compiled as native :
          	Aligned data types not supported in managed code
-     1>c:\users\swapnil\desktop\sd project\patch-2\sd_lab_project\sd_lab_project\stb_image.h(3208): warning C4793: '`anonymous namespace'::stbi__resample_row_hv_2_simd' : function compiled as native :
+     1>c:\users\swapnil\documents\github\sd_lab_project_1\sourcefiles\sd_lab_project\sd_lab_project\stb_image.h(3208): warning C4793: '`anonymous namespace'::stbi__resample_row_hv_2_simd' : function compiled as native :
          	Found an intrinsic not supported in managed code
-     1>c:\users\swapnil\desktop\sd project\patch-2\sd_lab_project\sd_lab_project\stb_image.h(3208): warning C4793: '`anonymous namespace'::stbi__resample_row_hv_2_simd' : function compiled as native :
+     1>c:\users\swapnil\documents\github\sd_lab_project_1\sourcefiles\sd_lab_project\sd_lab_project\stb_image.h(3208): warning C4793: '`anonymous namespace'::stbi__resample_row_hv_2_simd' : function compiled as native :
          	Aligned data types not supported in managed code
-     1>c:\users\swapnil\desktop\sd project\patch-2\sd_lab_project\sd_lab_project\stb_image.h(3209): warning C4793: '`anonymous namespace'::stbi__resample_row_hv_2_simd' : function compiled as native :
+     1>c:\users\swapnil\documents\github\sd_lab_project_1\sourcefiles\sd_lab_project\sd_lab_project\stb_image.h(3209): warning C4793: '`anonymous namespace'::stbi__resample_row_hv_2_simd' : function compiled as native :
          	Found an intrinsic not supported in managed code
-     1>c:\users\swapnil\desktop\sd project\patch-2\sd_lab_project\sd_lab_project\stb_image.h(3209): warning C4793: '`anonymous namespace'::stbi__resample_row_hv_2_simd' : function compiled as native :
+     1>c:\users\swapnil\documents\github\sd_lab_project_1\sourcefiles\sd_lab_project\sd_lab_project\stb_image.h(3209): warning C4793: '`anonymous namespace'::stbi__resample_row_hv_2_simd' : function compiled as native :
          	Aligned data types not supported in managed code
-     1>c:\users\swapnil\desktop\sd project\patch-2\sd_lab_project\sd_lab_project\stb_image.h(3210): warning C4793: '`anonymous namespace'::stbi__resample_row_hv_2_simd' : function compiled as native :
+     1>c:\users\swapnil\documents\github\sd_lab_project_1\sourcefiles\sd_lab_project\sd_lab_project\stb_image.h(3210): warning C4793: '`anonymous namespace'::stbi__resample_row_hv_2_simd' : function compiled as native :
          	Found an intrinsic not supported in managed code
-     1>c:\users\swapnil\desktop\sd project\patch-2\sd_lab_project\sd_lab_project\stb_image.h(3210): warning C4793: '`anonymous namespace'::stbi__resample_row_hv_2_simd' : function compiled as native :
+     1>c:\users\swapnil\documents\github\sd_lab_project_1\sourcefiles\sd_lab_project\sd_lab_project\stb_image.h(3210): warning C4793: '`anonymous namespace'::stbi__resample_row_hv_2_simd' : function compiled as native :
          	Aligned data types not supported in managed code
-     1>c:\users\swapnil\desktop\sd project\patch-2\sd_lab_project\sd_lab_project\stb_image.h(3211): warning C4793: '`anonymous namespace'::stbi__resample_row_hv_2_simd' : function compiled as native :
+     1>c:\users\swapnil\documents\github\sd_lab_project_1\sourcefiles\sd_lab_project\sd_lab_project\stb_image.h(3211): warning C4793: '`anonymous namespace'::stbi__resample_row_hv_2_simd' : function compiled as native :
          	Found an intrinsic not supported in managed code
-     1>c:\users\swapnil\desktop\sd project\patch-2\sd_lab_project\sd_lab_project\stb_image.h(3211): warning C4793: '`anonymous namespace'::stbi__resample_row_hv_2_simd' : function compiled as native :
+     1>c:\users\swapnil\documents\github\sd_lab_project_1\sourcefiles\sd_lab_project\sd_lab_project\stb_image.h(3211): warning C4793: '`anonymous namespace'::stbi__resample_row_hv_2_simd' : function compiled as native :
          	Aligned data types not supported in managed code
-     1>c:\users\swapnil\desktop\sd project\patch-2\sd_lab_project\sd_lab_project\stb_image.h(3212): warning C4793: '`anonymous namespace'::stbi__resample_row_hv_2_simd' : function compiled as native :
+     1>c:\users\swapnil\documents\github\sd_lab_project_1\sourcefiles\sd_lab_project\sd_lab_project\stb_image.h(3212): warning C4793: '`anonymous namespace'::stbi__resample_row_hv_2_simd' : function compiled as native :
          	Found an intrinsic not supported in managed code
-     1>c:\users\swapnil\desktop\sd project\patch-2\sd_lab_project\sd_lab_project\stb_image.h(3212): warning C4793: '`anonymous namespace'::stbi__resample_row_hv_2_simd' : function compiled as native :
+     1>c:\users\swapnil\documents\github\sd_lab_project_1\sourcefiles\sd_lab_project\sd_lab_project\stb_image.h(3212): warning C4793: '`anonymous namespace'::stbi__resample_row_hv_2_simd' : function compiled as native :
          	Aligned data types not supported in managed code
-     1>c:\users\swapnil\desktop\sd project\patch-2\sd_lab_project\sd_lab_project\stb_image.h(3213): warning C4793: '`anonymous namespace'::stbi__resample_row_hv_2_simd' : function compiled as native :
+     1>c:\users\swapnil\documents\github\sd_lab_project_1\sourcefiles\sd_lab_project\sd_lab_project\stb_image.h(3213): warning C4793: '`anonymous namespace'::stbi__resample_row_hv_2_simd' : function compiled as native :
          	Found an intrinsic not supported in managed code
-     1>c:\users\swapnil\desktop\sd project\patch-2\sd_lab_project\sd_lab_project\stb_image.h(3213): warning C4793: '`anonymous namespace'::stbi__resample_row_hv_2_simd' : function compiled as native :
+     1>c:\users\swapnil\documents\github\sd_lab_project_1\sourcefiles\sd_lab_project\sd_lab_project\stb_image.h(3213): warning C4793: '`anonymous namespace'::stbi__resample_row_hv_2_simd' : function compiled as native :
          	Aligned data types not supported in managed code
-     1>c:\users\swapnil\desktop\sd project\patch-2\sd_lab_project\sd_lab_project\stb_image.h(3214): warning C4793: '`anonymous namespace'::stbi__resample_row_hv_2_simd' : function compiled as native :
+     1>c:\users\swapnil\documents\github\sd_lab_project_1\sourcefiles\sd_lab_project\sd_lab_project\stb_image.h(3214): warning C4793: '`anonymous namespace'::stbi__resample_row_hv_2_simd' : function compiled as native :
          	Found an intrinsic not supported in managed code
-     1>c:\users\swapnil\desktop\sd project\patch-2\sd_lab_project\sd_lab_project\stb_image.h(3214): warning C4793: '`anonymous namespace'::stbi__resample_row_hv_2_simd' : function compiled as native :
+     1>c:\users\swapnil\documents\github\sd_lab_project_1\sourcefiles\sd_lab_project\sd_lab_project\stb_image.h(3214): warning C4793: '`anonymous namespace'::stbi__resample_row_hv_2_simd' : function compiled as native :
          	Aligned data types not supported in managed code
-     1>c:\users\swapnil\desktop\sd project\patch-2\sd_lab_project\sd_lab_project\stb_image.h(3221): warning C4793: '`anonymous namespace'::stbi__resample_row_hv_2_simd' : function compiled as native :
+     1>c:\users\swapnil\documents\github\sd_lab_project_1\sourcefiles\sd_lab_project\sd_lab_project\stb_image.h(3221): warning C4793: '`anonymous namespace'::stbi__resample_row_hv_2_simd' : function compiled as native :
          	Found an intrinsic not supported in managed code
-     1>c:\users\swapnil\desktop\sd project\patch-2\sd_lab_project\sd_lab_project\stb_image.h(3221): warning C4793: '`anonymous namespace'::stbi__resample_row_hv_2_simd' : function compiled as native :
+     1>c:\users\swapnil\documents\github\sd_lab_project_1\sourcefiles\sd_lab_project\sd_lab_project\stb_image.h(3221): warning C4793: '`anonymous namespace'::stbi__resample_row_hv_2_simd' : function compiled as native :
          	Aligned data types not supported in managed code
-     1>c:\users\swapnil\desktop\sd project\patch-2\sd_lab_project\sd_lab_project\stb_image.h(3222): warning C4793: '`anonymous namespace'::stbi__resample_row_hv_2_simd' : function compiled as native :
+     1>c:\users\swapnil\documents\github\sd_lab_project_1\sourcefiles\sd_lab_project\sd_lab_project\stb_image.h(3222): warning C4793: '`anonymous namespace'::stbi__resample_row_hv_2_simd' : function compiled as native :
          	Found an intrinsic not supported in managed code
-     1>c:\users\swapnil\desktop\sd project\patch-2\sd_lab_project\sd_lab_project\stb_image.h(3222): warning C4793: '`anonymous namespace'::stbi__resample_row_hv_2_simd' : function compiled as native :
+     1>c:\users\swapnil\documents\github\sd_lab_project_1\sourcefiles\sd_lab_project\sd_lab_project\stb_image.h(3222): warning C4793: '`anonymous namespace'::stbi__resample_row_hv_2_simd' : function compiled as native :
          	Aligned data types not supported in managed code
-     1>c:\users\swapnil\desktop\sd project\patch-2\sd_lab_project\sd_lab_project\stb_image.h(3223): warning C4793: '`anonymous namespace'::stbi__resample_row_hv_2_simd' : function compiled as native :
+     1>c:\users\swapnil\documents\github\sd_lab_project_1\sourcefiles\sd_lab_project\sd_lab_project\stb_image.h(3223): warning C4793: '`anonymous namespace'::stbi__resample_row_hv_2_simd' : function compiled as native :
          	Found an intrinsic not supported in managed code
-     1>c:\users\swapnil\desktop\sd project\patch-2\sd_lab_project\sd_lab_project\stb_image.h(3223): warning C4793: '`anonymous namespace'::stbi__resample_row_hv_2_simd' : function compiled as native :
+     1>c:\users\swapnil\documents\github\sd_lab_project_1\sourcefiles\sd_lab_project\sd_lab_project\stb_image.h(3223): warning C4793: '`anonymous namespace'::stbi__resample_row_hv_2_simd' : function compiled as native :
          	Aligned data types not supported in managed code
-     1>c:\users\swapnil\desktop\sd project\patch-2\sd_lab_project\sd_lab_project\stb_image.h(3224): warning C4793: '`anonymous namespace'::stbi__resample_row_hv_2_simd' : function compiled as native :
+     1>c:\users\swapnil\documents\github\sd_lab_project_1\sourcefiles\sd_lab_project\sd_lab_project\stb_image.h(3224): warning C4793: '`anonymous namespace'::stbi__resample_row_hv_2_simd' : function compiled as native :
          	Found an intrinsic not supported in managed code
-     1>c:\users\swapnil\desktop\sd project\patch-2\sd_lab_project\sd_lab_project\stb_image.h(3224): warning C4793: '`anonymous namespace'::stbi__resample_row_hv_2_simd' : function compiled as native :
+     1>c:\users\swapnil\documents\github\sd_lab_project_1\sourcefiles\sd_lab_project\sd_lab_project\stb_image.h(3224): warning C4793: '`anonymous namespace'::stbi__resample_row_hv_2_simd' : function compiled as native :
          	Aligned data types not supported in managed code
-     1>c:\users\swapnil\desktop\sd project\patch-2\sd_lab_project\sd_lab_project\stb_image.h(3230): warning C4793: '`anonymous namespace'::stbi__resample_row_hv_2_simd' : function compiled as native :
+     1>c:\users\swapnil\documents\github\sd_lab_project_1\sourcefiles\sd_lab_project\sd_lab_project\stb_image.h(3230): warning C4793: '`anonymous namespace'::stbi__resample_row_hv_2_simd' : function compiled as native :
          	Found an intrinsic not supported in managed code
-     1>c:\users\swapnil\desktop\sd project\patch-2\sd_lab_project\sd_lab_project\stb_image.h(3230): warning C4793: '`anonymous namespace'::stbi__resample_row_hv_2_simd' : function compiled as native :
+     1>c:\users\swapnil\documents\github\sd_lab_project_1\sourcefiles\sd_lab_project\sd_lab_project\stb_image.h(3230): warning C4793: '`anonymous namespace'::stbi__resample_row_hv_2_simd' : function compiled as native :
          	Aligned data types not supported in managed code
-     1>c:\users\swapnil\desktop\sd project\patch-2\sd_lab_project\sd_lab_project\stb_image.h(3231): warning C4793: '`anonymous namespace'::stbi__resample_row_hv_2_simd' : function compiled as native :
+     1>c:\users\swapnil\documents\github\sd_lab_project_1\sourcefiles\sd_lab_project\sd_lab_project\stb_image.h(3231): warning C4793: '`anonymous namespace'::stbi__resample_row_hv_2_simd' : function compiled as native :
          	Found an intrinsic not supported in managed code
-     1>c:\users\swapnil\desktop\sd project\patch-2\sd_lab_project\sd_lab_project\stb_image.h(3231): warning C4793: '`anonymous namespace'::stbi__resample_row_hv_2_simd' : function compiled as native :
+     1>c:\users\swapnil\documents\github\sd_lab_project_1\sourcefiles\sd_lab_project\sd_lab_project\stb_image.h(3231): warning C4793: '`anonymous namespace'::stbi__resample_row_hv_2_simd' : function compiled as native :
          	Aligned data types not supported in managed code
-     1>c:\users\swapnil\desktop\sd project\patch-2\sd_lab_project\sd_lab_project\stb_image.h(3232): warning C4793: '`anonymous namespace'::stbi__resample_row_hv_2_simd' : function compiled as native :
+     1>c:\users\swapnil\documents\github\sd_lab_project_1\sourcefiles\sd_lab_project\sd_lab_project\stb_image.h(3232): warning C4793: '`anonymous namespace'::stbi__resample_row_hv_2_simd' : function compiled as native :
          	Found an intrinsic not supported in managed code
-     1>c:\users\swapnil\desktop\sd project\patch-2\sd_lab_project\sd_lab_project\stb_image.h(3232): warning C4793: '`anonymous namespace'::stbi__resample_row_hv_2_simd' : function compiled as native :
+     1>c:\users\swapnil\documents\github\sd_lab_project_1\sourcefiles\sd_lab_project\sd_lab_project\stb_image.h(3232): warning C4793: '`anonymous namespace'::stbi__resample_row_hv_2_simd' : function compiled as native :
          	Aligned data types not supported in managed code
-     1>c:\users\swapnil\desktop\sd project\patch-2\sd_lab_project\sd_lab_project\stb_image.h(3233): warning C4793: '`anonymous namespace'::stbi__resample_row_hv_2_simd' : function compiled as native :
+     1>c:\users\swapnil\documents\github\sd_lab_project_1\sourcefiles\sd_lab_project\sd_lab_project\stb_image.h(3233): warning C4793: '`anonymous namespace'::stbi__resample_row_hv_2_simd' : function compiled as native :
          	Found an intrinsic not supported in managed code
-     1>c:\users\swapnil\desktop\sd project\patch-2\sd_lab_project\sd_lab_project\stb_image.h(3233): warning C4793: '`anonymous namespace'::stbi__resample_row_hv_2_simd' : function compiled as native :
+     1>c:\users\swapnil\documents\github\sd_lab_project_1\sourcefiles\sd_lab_project\sd_lab_project\stb_image.h(3233): warning C4793: '`anonymous namespace'::stbi__resample_row_hv_2_simd' : function compiled as native :
          	Aligned data types not supported in managed code
-     1>c:\users\swapnil\desktop\sd project\patch-2\sd_lab_project\sd_lab_project\stb_image.h(3234): warning C4793: '`anonymous namespace'::stbi__resample_row_hv_2_simd' : function compiled as native :
+     1>c:\users\swapnil\documents\github\sd_lab_project_1\sourcefiles\sd_lab_project\sd_lab_project\stb_image.h(3234): warning C4793: '`anonymous namespace'::stbi__resample_row_hv_2_simd' : function compiled as native :
          	Found an intrinsic not supported in managed code
-     1>c:\users\swapnil\desktop\sd project\patch-2\sd_lab_project\sd_lab_project\stb_image.h(3234): warning C4793: '`anonymous namespace'::stbi__resample_row_hv_2_simd' : function compiled as native :
+     1>c:\users\swapnil\documents\github\sd_lab_project_1\sourcefiles\sd_lab_project\sd_lab_project\stb_image.h(3234): warning C4793: '`anonymous namespace'::stbi__resample_row_hv_2_simd' : function compiled as native :
          	Aligned data types not supported in managed code
-     1>c:\users\swapnil\desktop\sd project\patch-2\sd_lab_project\sd_lab_project\stb_image.h(3235): warning C4793: '`anonymous namespace'::stbi__resample_row_hv_2_simd' : function compiled as native :
+     1>c:\users\swapnil\documents\github\sd_lab_project_1\sourcefiles\sd_lab_project\sd_lab_project\stb_image.h(3235): warning C4793: '`anonymous namespace'::stbi__resample_row_hv_2_simd' : function compiled as native :
          	Found an intrinsic not supported in managed code
-     1>c:\users\swapnil\desktop\sd project\patch-2\sd_lab_project\sd_lab_project\stb_image.h(3235): warning C4793: '`anonymous namespace'::stbi__resample_row_hv_2_simd' : function compiled as native :
+     1>c:\users\swapnil\documents\github\sd_lab_project_1\sourcefiles\sd_lab_project\sd_lab_project\stb_image.h(3235): warning C4793: '`anonymous namespace'::stbi__resample_row_hv_2_simd' : function compiled as native :
          	Aligned data types not supported in managed code
-     1>c:\users\swapnil\desktop\sd project\patch-2\sd_lab_project\sd_lab_project\stb_image.h(3236): warning C4793: '`anonymous namespace'::stbi__resample_row_hv_2_simd' : function compiled as native :
+     1>c:\users\swapnil\documents\github\sd_lab_project_1\sourcefiles\sd_lab_project\sd_lab_project\stb_image.h(3236): warning C4793: '`anonymous namespace'::stbi__resample_row_hv_2_simd' : function compiled as native :
          	Found an intrinsic not supported in managed code
-     1>c:\users\swapnil\desktop\sd project\patch-2\sd_lab_project\sd_lab_project\stb_image.h(3236): warning C4793: '`anonymous namespace'::stbi__resample_row_hv_2_simd' : function compiled as native :
+     1>c:\users\swapnil\documents\github\sd_lab_project_1\sourcefiles\sd_lab_project\sd_lab_project\stb_image.h(3236): warning C4793: '`anonymous namespace'::stbi__resample_row_hv_2_simd' : function compiled as native :
          	Aligned data types not supported in managed code
-     1>c:\users\swapnil\desktop\sd project\patch-2\sd_lab_project\sd_lab_project\stb_image.h(3239): warning C4793: '`anonymous namespace'::stbi__resample_row_hv_2_simd' : function compiled as native :
+     1>c:\users\swapnil\documents\github\sd_lab_project_1\sourcefiles\sd_lab_project\sd_lab_project\stb_image.h(3239): warning C4793: '`anonymous namespace'::stbi__resample_row_hv_2_simd' : function compiled as native :
          	Found an intrinsic not supported in managed code
-     1>c:\users\swapnil\desktop\sd project\patch-2\sd_lab_project\sd_lab_project\stb_image.h(3239): warning C4793: '`anonymous namespace'::stbi__resample_row_hv_2_simd' : function compiled as native :
+     1>c:\users\swapnil\documents\github\sd_lab_project_1\sourcefiles\sd_lab_project\sd_lab_project\stb_image.h(3239): warning C4793: '`anonymous namespace'::stbi__resample_row_hv_2_simd' : function compiled as native :
          	Aligned data types not supported in managed code
-     1>c:\users\swapnil\desktop\sd project\patch-2\sd_lab_project\sd_lab_project\stb_image.h(3240): warning C4793: '`anonymous namespace'::stbi__resample_row_hv_2_simd' : function compiled as native :
+     1>c:\users\swapnil\documents\github\sd_lab_project_1\sourcefiles\sd_lab_project\sd_lab_project\stb_image.h(3240): warning C4793: '`anonymous namespace'::stbi__resample_row_hv_2_simd' : function compiled as native :
          	Found an intrinsic not supported in managed code
-     1>c:\users\swapnil\desktop\sd project\patch-2\sd_lab_project\sd_lab_project\stb_image.h(3240): warning C4793: '`anonymous namespace'::stbi__resample_row_hv_2_simd' : function compiled as native :
+     1>c:\users\swapnil\documents\github\sd_lab_project_1\sourcefiles\sd_lab_project\sd_lab_project\stb_image.h(3240): warning C4793: '`anonymous namespace'::stbi__resample_row_hv_2_simd' : function compiled as native :
          	Aligned data types not supported in managed code
-     1>c:\users\swapnil\desktop\sd project\patch-2\sd_lab_project\sd_lab_project\stb_image.h(3241): warning C4793: '`anonymous namespace'::stbi__resample_row_hv_2_simd' : function compiled as native :
+     1>c:\users\swapnil\documents\github\sd_lab_project_1\sourcefiles\sd_lab_project\sd_lab_project\stb_image.h(3241): warning C4793: '`anonymous namespace'::stbi__resample_row_hv_2_simd' : function compiled as native :
          	Found an intrinsic not supported in managed code
-     1>c:\users\swapnil\desktop\sd project\patch-2\sd_lab_project\sd_lab_project\stb_image.h(3241): warning C4793: '`anonymous namespace'::stbi__resample_row_hv_2_simd' : function compiled as native :
+     1>c:\users\swapnil\documents\github\sd_lab_project_1\sourcefiles\sd_lab_project\sd_lab_project\stb_image.h(3241): warning C4793: '`anonymous namespace'::stbi__resample_row_hv_2_simd' : function compiled as native :
          	Aligned data types not supported in managed code
-     1>c:\users\swapnil\desktop\sd project\patch-2\sd_lab_project\sd_lab_project\stb_image.h(3242): warning C4793: '`anonymous namespace'::stbi__resample_row_hv_2_simd' : function compiled as native :
+     1>c:\users\swapnil\documents\github\sd_lab_project_1\sourcefiles\sd_lab_project\sd_lab_project\stb_image.h(3242): warning C4793: '`anonymous namespace'::stbi__resample_row_hv_2_simd' : function compiled as native :
          	Found an intrinsic not supported in managed code
-     1>c:\users\swapnil\desktop\sd project\patch-2\sd_lab_project\sd_lab_project\stb_image.h(3242): warning C4793: '`anonymous namespace'::stbi__resample_row_hv_2_simd' : function compiled as native :
+     1>c:\users\swapnil\documents\github\sd_lab_project_1\sourcefiles\sd_lab_project\sd_lab_project\stb_image.h(3242): warning C4793: '`anonymous namespace'::stbi__resample_row_hv_2_simd' : function compiled as native :
          	Aligned data types not supported in managed code
-     1>c:\users\swapnil\desktop\sd project\patch-2\sd_lab_project\sd_lab_project\stb_image.h(3245): warning C4793: '`anonymous namespace'::stbi__resample_row_hv_2_simd' : function compiled as native :
+     1>c:\users\swapnil\documents\github\sd_lab_project_1\sourcefiles\sd_lab_project\sd_lab_project\stb_image.h(3245): warning C4793: '`anonymous namespace'::stbi__resample_row_hv_2_simd' : function compiled as native :
          	Found an intrinsic not supported in managed code
-     1>c:\users\swapnil\desktop\sd project\patch-2\sd_lab_project\sd_lab_project\stb_image.h(3245): warning C4793: '`anonymous namespace'::stbi__resample_row_hv_2_simd' : function compiled as native :
+     1>c:\users\swapnil\documents\github\sd_lab_project_1\sourcefiles\sd_lab_project\sd_lab_project\stb_image.h(3245): warning C4793: '`anonymous namespace'::stbi__resample_row_hv_2_simd' : function compiled as native :
          	Aligned data types not supported in managed code
-     1>c:\users\swapnil\desktop\sd project\patch-2\sd_lab_project\sd_lab_project\stb_image.h(3246): warning C4793: '`anonymous namespace'::stbi__resample_row_hv_2_simd' : function compiled as native :
+     1>c:\users\swapnil\documents\github\sd_lab_project_1\sourcefiles\sd_lab_project\sd_lab_project\stb_image.h(3246): warning C4793: '`anonymous namespace'::stbi__resample_row_hv_2_simd' : function compiled as native :
          	Found an intrinsic not supported in managed code
-     1>c:\users\swapnil\desktop\sd project\patch-2\sd_lab_project\sd_lab_project\stb_image.h(3246): warning C4793: '`anonymous namespace'::stbi__resample_row_hv_2_simd' : function compiled as native :
+     1>c:\users\swapnil\documents\github\sd_lab_project_1\sourcefiles\sd_lab_project\sd_lab_project\stb_image.h(3246): warning C4793: '`anonymous namespace'::stbi__resample_row_hv_2_simd' : function compiled as native :
          	Aligned data types not supported in managed code
-     1>c:\users\swapnil\desktop\sd project\patch-2\sd_lab_project\sd_lab_project\stb_image.h(3302): warning C4793: '`anonymous namespace'::stbi__resample_row_hv_2_simd' : function compiled as native :
+     1>c:\users\swapnil\documents\github\sd_lab_project_1\sourcefiles\sd_lab_project\sd_lab_project\stb_image.h(3302): warning C4793: '`anonymous namespace'::stbi__resample_row_hv_2_simd' : function compiled as native :
          	Aligned data types not supported in managed code
        Link:
-         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Users\Swapnil\Desktop\SD PROJECT\patch-2\SD_LAB_PROJECT\Debug\SD_LAB_PROJECT.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:\Users\Swapnil\Desktop\SD PROJECT\patch-2\SD_LAB_PROJECT\Debug\SD_LAB_PROJECT.pdb" /ASSEMBLYDEBUG /TLBID:1 /DYNAMICBASE /FIXED:NO /NXCOMPAT /MACHINE:X86 Debug\iMain.obj
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Users\Swapnil\Documents\GitHub\SD_LAB_PROJECT_1\SourceFiles\SD_LAB_PROJECT\Debug\SD_LAB_PROJECT.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:\Users\Swapnil\Documents\GitHub\SD_LAB_PROJECT_1\SourceFiles\SD_LAB_PROJECT\Debug\SD_LAB_PROJECT.pdb" /ASSEMBLYDEBUG /TLBID:1 /DYNAMICBASE /FIXED:NO /NXCOMPAT /MACHINE:X86 Debug\iMain.obj
          "Debug\.NETFramework,Version=v4.0.AssemblyAttributes.obj"
-         SD_LAB_PROJECT.vcxproj -> C:\Users\Swapnil\Desktop\SD PROJECT\patch-2\SD_LAB_PROJECT\Debug\SD_LAB_PROJECT.exe
-     1>Done Building Project "C:\Users\Swapnil\Desktop\SD PROJECT\patch-2\SD_LAB_PROJECT\SD_LAB_PROJECT\SD_LAB_PROJECT.vcxproj" (Build target(s)).
+         SD_LAB_PROJECT.vcxproj -> C:\Users\Swapnil\Documents\GitHub\SD_LAB_PROJECT_1\SourceFiles\SD_LAB_PROJECT\Debug\SD_LAB_PROJECT.exe
+     1>Done Building Project "C:\Users\Swapnil\Documents\GitHub\SD_LAB_PROJECT_1\SourceFiles\SD_LAB_PROJECT\SD_LAB_PROJECT\SD_LAB_PROJECT.vcxproj" (Build target(s)).
 
 Build succeeded.
 
-Time Elapsed 00:00:02.24
+Time Elapsed 00:00:01.82

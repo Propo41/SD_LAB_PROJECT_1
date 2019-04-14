@@ -286,11 +286,12 @@ char UserNameInput[200];  // the input taken from the user will be in this chara
 int UserNameInputIndex = 0;
 
 
+
 //*************************GAME***************************
 void playSound(int mode);
 void resetGame();
-void HighScoreFiles();
-void SettingNewHighScore();
+void loadScore();
+void saveScore();
 
 bool initLevel_2 = false;
 bool initLevel_1 = false;
@@ -309,6 +310,10 @@ bool sound = true;
 bool menuMusic = true;
 char nameArray[1000];
 bool nameShort = false; // when name is too short, this is used to toggle that
+
+char nameSorted[100][100]; // stores the sorted names for highscore
+int scoreSorted[100]; // stores the sorted scores for highscore
+int totalEntries = 0;;
 
 //******************************************************
 

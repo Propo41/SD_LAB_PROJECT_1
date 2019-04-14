@@ -61,105 +61,84 @@ Called when user loses game or when quit to main menu is pressed or when return 
 the ingame variables are not resetted here. They are resetted in the timer function called: initLevels();
 */
 
-void HighScoreFiles(){
+// call this when gameover or when game finishes
+void saveScore()
+{
 
+	FILE *savingScore = fopen("score.txt", "a");
 
+	fprintf(savingScore, "\n%s %d", UserNameInput, score);
 
-	/*
-
-	ifstream ReadFile;
-	int score = 150;
-	char HighScoreiText[300];
-	char ReadNameFromFile[10][50];
-	int ReadScoreFromFile[10];
-	int yCoordinate = 420;
-
-	ReadFile.open("HighScore_File.txt");
-
-	for (int i = 0; i < 7; i++){
-	ReadFile >> ReadScoreFromFile[i];
-	ReadFile >> ReadNameFromFile[i];
-	}
-
-	// difference 50
-	for (int i = 0; i < 7; i++, yCoordinate -= 50){
-	sprintf_s(HighScoreiText, "%d", i + 1);
-	iText(300, yCoordinate, HighScoreiText, GLUT_BITMAP_TIMES_ROMAN_24);
-	sprintf_s(HighScoreiText, "%s", ReadNameFromFile[i]);
-	iText(410, yCoordinate, HighScoreiText, GLUT_BITMAP_TIMES_ROMAN_24);
-	sprintf_s(HighScoreiText, "%d", ReadScoreFromFile[i]);
-	iText(900, yCoordinate, HighScoreiText, GLUT_BITMAP_TIMES_ROMAN_24);
-	}
-
-	ReadFile.close();
-	//printf_s("%d %s", score , UserNameInput);
-	//printf_s("%d ::::  %s  \n", ReadScoreFromFile, ReadNameFromFile);
-	*/
-}
-
-void SettingNewHighScore(){
-
-	printf_s("tis is it ");
-	ifstream ReadFile;
-	char ReadNameFromFile[10][50];
-	int ReadScoreFromFile[10];
-	bool ChangeFile = false;
-	int setNewScore = 0;
-	char UserNameInput[50] = "DONKEYMwearab2342ONKEY";
-	int score = 65;
-
-
-	ReadFile.open("HighScore_File.txt");
-
-
-	for (int i = 0; i < 7; i++){
-		ReadFile >> ReadScoreFromFile[i];
-		ReadFile >> ReadNameFromFile[i];
-	}
-
-
-	ReadFile.close();
-
-
-	for (int i = 0; i < 7; i++){
-		cout << ReadScoreFromFile[i] << endl;
-		cout << ReadNameFromFile[i] << endl;
-	}
-
-	/*
-	for (int i = 0; i <7; i++){
-	if (score > ReadScoreFromFile[i]){
-	ChangeFile = true;
-	setNewScore = i;
-	break;
-	}
-	}
-
-	if (ChangeFile){
-
-	for (int i = setNewScore; i < 7; i++){
-	strcpy_s(ReadNameFromFile[i + 1], ReadNameFromFile[i]);
-	ReadScoreFromFile[i + 1] = ReadScoreFromFile[i];
-	}
-	*/
-	strcpy_s(ReadNameFromFile[setNewScore], UserNameInput);
-	ReadScoreFromFile[setNewScore] = score;
-
-	ofstream WriteInFile; // this will only open if new highscore is found
-	WriteInFile.open("HighScore_File.txt");  // if we use open then it clears up all the info inside it
-	for (int i = 0; i < 7; i++){
-		WriteInFile << ReadNameFromFile[i] << endl;
-		cout << ReadNameFromFile[i] << endl;
-		WriteInFile << ReadScoreFromFile[i] << endl;
-		cout << ReadScoreFromFile[i] << endl;
-	}
-
-	WriteInFile.close();
-
-	//}*/
+	fclose(savingScore);
 
 
 }
+
+
+
+
+// when highscore menu is shown, call this function
+void loadScore()
+{
+
+	char prevName[100];
+	char ch;
+	int prevScore;
+
+	FILE *loadingScore = fopen("score.txt", "r");
+
+	int i = 0;
+
+
+	// reading from file and storing the entries in the arrays: nameSorted and scoreSorted.
+	while (!feof(loadingScore))
+	{
+		fscanf(loadingScore, "%s %d", prevName, &prevScore);
+
+		strcpy(nameSorted[i], prevName);
+		scoreSorted[i] = prevScore;
+
+		i++;
+
+	}
+
+
+	totalEntries = i;
+
+	// sorting the arrays in descending order
+	for (int i = 0; i < totalEntries; i++)
+	{
+		for (int j = i; j < totalEntries; j++)
+		{
+			if (scoreSorted[i] < scoreSorted[j])
+			{
+				// swapping scores
+				swap(scoreSorted[i], scoreSorted[j]);
+
+				//swapping names
+				char temp[100];
+				strcpy(temp, nameSorted[i]);
+				strcpy(nameSorted[i], nameSorted[j]);
+				strcpy(nameSorted[j], temp);
+
+
+			}
+
+		}
+	}
+
+
+	// finally, printing it out on the screen
+	for (int i = 0; i < totalEntries; i++)
+	{
+		cout << nameSorted[i] << " " << scoreSorted[i] << endl;
+	}
+
+	fclose(loadingScore);
+}
+
+
+
 
 
 void resetGame()
@@ -202,7 +181,7 @@ void iPassiveMouseMove(int mx, int my)
 	PassiveMouseX = mx;
 	PassiveMouseY = my;
 
-	//cout << mx << " " << my << endl;
+	cout << mx << " " << my << endl;
 
 	//int rgb[4];
 

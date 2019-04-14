@@ -882,10 +882,36 @@ void renderMenu(int PassiveMouseX, int PassiveMouseY)
 	{
 		iShowImage(0, 0, 1366, 768, menu[8].id);    // highscore
 
-		//iSetColor(255, 255, 255);
-		//iText(1100, 50, "Press END to go back", GLUT_BITMAP_HELVETICA_18);
+		
+		int height = 445;
+		char highScores[100];
 
-		HighScoreFiles();
+		
+		for (int i = 0; i < totalEntries; i++)
+		{
+			sprintf(highScores, "%d\n", scoreSorted[i]);
+
+			iSetColor(255, 255, 255);
+
+			iText(412, height, nameSorted[i], GLUT_BITMAP_TIMES_ROMAN_24);
+
+			iText(884, height, highScores, GLUT_BITMAP_TIMES_ROMAN_24);
+
+
+		//	break;
+			height-=50;
+
+
+
+			memset(highScores, 0, sizeof(highScores));
+
+		}
+
+
+
+
+
+
 
 		if (PassiveMouseX >= 1200 && PassiveMouseX <= 1200+95 && PassiveMouseY >= 40 && PassiveMouseY <= 40+60)
 		{
@@ -1225,11 +1251,12 @@ void menuLogic(int mx, int my)
 		PreviousMenu = SELECTIONSCREEN;
 
 	}
-	else if (MenuController == SELECTIONSCREEN && ((mx >= 120 && mx <= 330) && (my >= 150 && my <= 190)))// credits - roles
+	else if (MenuController == SELECTIONSCREEN && ((mx >= 120 && mx <= 330) && (my >= 150 && my <= 190)))  //highscores 
 	{
+
+		loadScore();
 		MenuController = HIGHSCORE; // highscore
 		PreviousMenu = SELECTIONSCREEN;
-		SettingNewHighScore();
 
 	}
 	else if (MenuController == SELECTIONSCREEN && ((mx >= 120 && mx <= 330) && (my >= 80 && my <= 120))) // exits from game.
@@ -1324,6 +1351,9 @@ void menuLogic(int mx, int my)
 	}
 	else if (MenuController == GAMEOVER && (mx >= 833 && mx <= 897 && (my >= 172 && my <= 235))) // check high scores window 
 	{
+
+		loadScore();
+
 		MenuController = HIGHSCORE;
 		PreviousMenu = GAMEOVER;
 	}
@@ -1370,6 +1400,9 @@ void menuLogic(int mx, int my)
 
 
 }
+
+
+
 
 
 
