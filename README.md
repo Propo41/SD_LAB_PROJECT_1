@@ -22,7 +22,7 @@ Name : The Fallen Kingdom
 
 Genre : 2D action adventure
 
-Game Description : Doom came to the city of Atlantis after years of peace. Many had died and from the ashes of the dead, a brave warrior fights his way to save his beloved kingdom from the wicked hands of the king of Darkness, Thanatos ..
+Game Description : After years of peace in the kingdom of Asgard, all hell broke loose when the king of darkness, Thanatos, rose from the pits of hell to conquer the world, and from the ashes of the dead knights, a brave warrior rose high to save his kingdom.
 
 Game Mechanics: 
 - Players build bridges to cross gaps
@@ -42,8 +42,16 @@ Project Contributors
 3. Samia Sabrina
 --------------------------------------
 
+Course name: CSE 1200
+--------------------------------
+Instructors:
+
+Mir Imtiaz Mostafiz  |   Md. Aminur Rahman  
+
+--------------------------------
 
 Game Design Document: https://docs.google.com/document/d/1unNdiuPwa_7H1Pmwv5XqRu3R4mdo39UgXWpbC-NH6OU/edit
+
 Features and Bug description:  https://docs.google.com/spreadsheets/d/1-pUSNcuPt5SzzRq-Ghp9gqVip7XTZgZQlqx2o60dyAQ/edit#gid=0
 
 
