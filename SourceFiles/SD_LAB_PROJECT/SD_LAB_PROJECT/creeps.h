@@ -595,10 +595,21 @@ void creepDamage(int mode, int attackType)
 			
 				if (attackType == LIGHT_ATTACK)
 				{
+					if (hero_1)
+					{
+						creeps[i].HP -= 1; // dies in 6 hits
+						creeps[i].varHP -= 10; // varHP is set to 60 in constructor
+						creepHurt[i].show = true;
 
-					creeps[i].HP -= 1; // dies in 6 hits
-					creeps[i].varHP -= 10; // varHP is set to 60 in constructor
-					creepHurt[i].show = true;
+					}
+					else
+					{
+						creeps[i].HP -= 2; // dies in 6 hits
+						creeps[i].varHP -= 20; // varHP is set to 60 in constructor
+						creepHurt[i].show = true;
+
+					}
+					
 
 				}
 				else if (attackType == HEAVY_ATTACK)
@@ -610,12 +621,25 @@ void creepDamage(int mode, int attackType)
 
 				else if (attackType == POWER)
 				{
-					
-					creeps[i].HP -= 1; // dies in 3 hits
-					if (creeps[i].varHP >= 0)
-						creeps[i].varHP -= 10; // varHP is set to 60 in constructor
+					if (hero_1)
+					{
+						creeps[i].HP -= 2; // dies in 3 hits
+						if (creeps[i].varHP >= 0)
+							creeps[i].varHP -= 20; // varHP is set to 60 in constructor
 
-					creepHurt[i].show = true;
+						creepHurt[i].show = true;
+
+					}
+					else
+					{
+						creeps[i].HP -= 1; // dies in 3 hits
+						if (creeps[i].varHP >= 0)
+							creeps[i].varHP -= 10; // varHP is set to 60 in constructor
+
+						creepHurt[i].show = true;
+					}
+					
+					
 				}
 
 				//********************************************************************************
@@ -892,7 +916,6 @@ Also, the total creep count is resetted.
 void checkCreepsAlive() 
 {
 
-
 	int c = 0;
 
 	for (int i = 0; i < creepsCount; i++) //checks if all the creeps are dead
@@ -910,7 +933,7 @@ void checkCreepsAlive()
 		creepsAlive = creepsCount - c;
 
 
-	if (c == creepsCount && creepsCount>0 && )
+	if (c == creepsCount && creepsCount>0)
 	{
 	
 		waveClear = true;

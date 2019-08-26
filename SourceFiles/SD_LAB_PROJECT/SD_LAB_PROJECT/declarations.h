@@ -3,16 +3,12 @@
 
 
 
-
-
-
 bool gameWon_2 = false;
 int victoryIndex = 29;
 bool princessSegment = false;
 bool princessCutscene = false;
 
 enum motion{
-
 	RIGHT, LEFT, MANUAL, AUTO
 };
 
@@ -305,6 +301,7 @@ bool level_2 = false;
 int timer_AUTOMOTION;
 int timer_ENEMYMOTION;
 int timer_HEROMOTION;
+int timer_HEROMOTION_2;
 
 bool sound = true;
 bool menuMusic = true;

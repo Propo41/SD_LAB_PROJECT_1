@@ -146,7 +146,6 @@ typedef struct Character{
 }Character;
 
 Character hero(0, tileHeight - 16, 20), L1Boss, L2Boss, princess;
-Character hero2;
 Character creeps[30];
 
 

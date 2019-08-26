@@ -53,9 +53,7 @@ void loadImagesBackground()
 	screen2.id = iLoadImage("images\\background\\back2.png");
 	tile.id = iLoadImage("images\\background\\front.png");
 
-    //************************************************************************
-	blockID_L = iLoadImage("images\\background\\block-L.png"); // mystic arts blockage
-	blockID_R = iLoadImage("images\\background\\block-R.png");
+   
 
 
 }
@@ -70,8 +68,7 @@ void loadImagesBackground2()
 	tile.id = iLoadImage("images\\background\\L2Tile.png");
 	screen2.id = 0;
 
-	blockID_L = iLoadImage("images\\background\\block-L.png"); // mystic arts blockage
-	blockID_R = iLoadImage("images\\background\\block-R.png");
+	
 }
 
 /*
@@ -292,7 +289,7 @@ void environmentTriggers()
 
 				// //used for debug purposes, ie the boss spawns immediately in the first trigger. This helps to transition to level 2 quickly
 				//
-			/*	moveBoss = true;
+				/*moveBoss = true;
 				backgroundEnd = true;    //boss triggers
 				bossSegment = true;
 				bossSpawn();
@@ -428,7 +425,6 @@ void environmentTriggers2(int mode)
 
 	if (mode == SLOPE)
 	{
-		//cout << "slope mode " << endl;
 
 		if (screen.x <= -1380 && screen.x >= -5100)
 		{
@@ -443,7 +439,6 @@ void environmentTriggers2(int mode)
 
 		if (SlopeSegment)
 		{
-		//	cout << "slope segment " << endl;
 
 
 			if (screen.x <= -1820 && screen.x >= -2020)
@@ -472,8 +467,8 @@ void environmentTriggers2(int mode)
 		if (CreepsTriggerCounter == 1 && screen.x == -500){  // first creep segment
 			
 			// for debug purposes, the boss spawns early
-			/*
-			backgroundEnd = true;
+			
+			/*backgroundEnd = true;
 			creepsSegment = false;
 			bossSegment = true;
 			bossSpawn();

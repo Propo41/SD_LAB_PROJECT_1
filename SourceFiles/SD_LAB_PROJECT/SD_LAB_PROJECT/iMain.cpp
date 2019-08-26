@@ -75,8 +75,6 @@ void saveScore()
 }
 
 
-
-
 // when highscore menu is shown, call this function
 void loadScore()
 {
@@ -139,8 +137,6 @@ void loadScore()
 
 
 
-
-
 void resetGame()
 {
 	memset(UserNameInput, 0, sizeof(UserNameInput)); // resets the array
@@ -164,6 +160,10 @@ void resetGame()
 	sound = true;
 	menuMusic = true;
 
+	princessCutscene = false;
+	princess.x = -100;
+	princess.y = -100;
+
 }
 
 /*function iMouseMove() is called when the user presses and drags the mouse.
@@ -181,7 +181,7 @@ void iPassiveMouseMove(int mx, int my)
 	PassiveMouseX = mx;
 	PassiveMouseY = my;
 
-	cout << mx << " " << my << endl;
+//	cout << mx << " " << my << endl;
 
 	//int rgb[4];
 
@@ -218,12 +218,27 @@ key- holds the ASCII value of the key pressed.
 void iKeyboard(unsigned char key)
 {
 	
-	if (key == 'p')
+	if ((int)key == 27 && MenuController == PLAY)
 	{
-		cout << "menucontroller set to : " << MenuController << endl;
+		MenuController = PAUSEMENU; //escape menu while playing game
+		PreviousMenu = PAUSEMENU;
+
+		iPauseTimer(timer_ENEMYMOTION);
+		iPauseTimer(timer_AUTOMOTION);
+		iPauseTimer(timer_HEROMOTION);
+
+		gameStart = false;
+
+
 	}
 
-	if (key == 'm')  // FOR DEBUGGING PURPOSES
+	/*if (key == 'p')
+	{
+		//cout << "menucontroller set to : " << MenuController << endl;
+	}
+	*/
+
+	/*if (key == 'm')  // FOR DEBUGGING PURPOSES
 	{
 		gameWon_1 = false;
 		gameStart = true;
@@ -238,7 +253,7 @@ void iKeyboard(unsigned char key)
 		initLevel_2 = true; // initLevels() is called and resetgame() is called implicitly.
 
 		initializeObjective();
-		initializeHero(HERO_2);
+		initializeHero(HERO_1); 
 		//initializeHero(HERO_1);
 
 		hero.y = 180;
@@ -256,7 +271,8 @@ void iKeyboard(unsigned char key)
 		gameWon_2 = false;
 
 	}
-	
+
+	*/
 	//**********************************MENU RELATED STUFF***********************************
 
 
@@ -274,9 +290,15 @@ void iKeyboard(unsigned char key)
 
 		if ((key >= 'a' && key <= 'z') || (key >= 'A' && key <= 'Z'))
 		{
+			if (UserNameInputIndex >= 17)
+			{
+			}
+			else{
 
-			UserNameInput[UserNameInputIndex++] = key;
-			nameShort = false;
+				UserNameInput[UserNameInputIndex++] = key;
+				nameShort = false;
+			}
+
 
 		}
 		if (key == '\b')
@@ -446,18 +468,26 @@ void iKeyboard(unsigned char key)
 		}
 
 		// hero can use powers only in level 2
-		if ((key == 'D' || key == 'd') && !hero.channelPower && mana.count > 0 && !hero.jump)      // hero power
+		if ((key == 'D' || key == 'd') && !hero.channelPower && mana.count > 0 && !hero.jump && !bridgeSegment)      // hero power
 		{
-
-			if (hero_2)
-			{
+			cout << "hero power initiated" << endl;
+			
 				hero.power = true;
 				mana.variable1 -= 40;
 				mana.variable2 -= 40;
 
 				// count is 5. If mana count becomes <0 then hero cannot use any more power
 				mana.count--;
-			}
+
+				if (mana.variable1 < 162 || mana.variable2 <177)
+				{
+					mana.variable1 = 162;
+					mana.variable2 = 177;
+
+				}
+			
+		
+			
 
 
 		}
@@ -468,7 +498,7 @@ void iKeyboard(unsigned char key)
 	// if hero is not already attacking and when the cutscene is showing, the hero cannot attack
 	//cout << "inside: " << hero.attack << " " << hero.attack2 << " " << cutscene << " " << hero.power << endl;
 
-	if (!hero.attack && !hero.attack2 && !cutscene && !hero.jump)
+	if (!hero.attack && !hero.attack2 && !cutscene && !hero.jump && !bridgeSegment)
 	{
 
 		if (key == 'a' || key == 'A')
@@ -553,11 +583,12 @@ void iSpecialKeyboard(unsigned char key)
 
 		if (key == GLUT_KEY_RIGHT)
 		{
+			if (hero_1)
+				hero.powerIndex = 0;
 			environmentTriggers();
 			heroMovement(RIGHT);
 
-			//cout << "boss lagging " << endl;
-
+		
 			// for level 2, the creep triggers are different. Hence, a different function is used
 			if (level_2)
 			{
@@ -570,9 +601,8 @@ void iSpecialKeyboard(unsigned char key)
 
 		if (key == GLUT_KEY_LEFT)
 		{
-
-			//	cout << "boss lagging " << endl;
-			//cout << "princess.x : " << princess.x << endl;
+			if (hero_1)
+				hero.powerIndex = 8;
 
 			if (level_1)
 			{
@@ -608,7 +638,7 @@ void iSpecialKeyboard(unsigned char key)
 	}
 
 	// goes to escape menu when playing game
-	if (key == GLUT_KEY_HOME && MenuController == PLAY)
+	/*if (key == GLUT_KEY_HOME && MenuController == PLAY)
 	{
 		MenuController = PAUSEMENU; //escape menu while playing game
 		PreviousMenu = PAUSEMENU;
@@ -621,6 +651,7 @@ void iSpecialKeyboard(unsigned char key)
 
 
 	}
+	*/
 
 	if (key == GLUT_KEY_END && MenuController != PAUSEMENU && MenuController != GAMEOVER) // when inside pausemenu, then pressing END wont go back to prev page
 	{
@@ -646,7 +677,7 @@ void autoMotion()
 		if (loading_dx >= 837)
 		{
 
-			cout << "loading 1:: complete" << endl;
+			
 
 			MenuController = PLAY;
 			PreviousMenu = PLAY;
@@ -660,6 +691,8 @@ void autoMotion()
 
 			playSound(STOP);
 			playSound(LEVEL_1);
+
+			cout << "loading 1:: complete" << endl;
 
 
 		}
@@ -756,7 +789,7 @@ void heroAutoMotion()
 
 		}
 
-		if (hero.power)    // hero POWER
+		if (hero.power && hero_2)    // hero POWER
 		{
 			heroAttack(POWER);
 			creepsHP = true;
@@ -1003,10 +1036,11 @@ void enemyAutoMotion()
 // called once from main, since the images here are fixed, and do not change
 void loadImages()
 {
+	//loadImagesMenu();
 
-	loadImagesEffects();
-	loadImagesUI();
-	loadImagesPrincess();
+	//loadImagesEffects();
+	//loadImagesUI();
+	//loadImagesPrincess();
 
 
 
@@ -1024,7 +1058,7 @@ void loadImages()
 void iDraw()
 {
 	iClear();
-
+	
 	// initially when game is not started yet. Shows all menu related stuff
 	if (!gameStart)
 	{
@@ -1159,6 +1193,37 @@ void iDraw()
 	}
 
 
+/*
+///REFERENCE LINES HERO
+iSetColor(RED);
+iLine(hero.x, tileHeight - 10, hero.x, tileHeight + 500);
+iSetColor(RED);
+iLine(hero.x + 200, tileHeight - 10, hero.x + 200, tileHeight + 500);
+
+
+iSetColor(GREEN); // LEFT SIDE OF HERO
+iLine(hero.x + 55, tileHeight - 10, hero.x + 55, tileHeight + 500);
+iSetColor(BLUE); // RIGHT SIDE OF HERO
+iLine(hero.x + 130, tileHeight - 10, hero.x + 130, tileHeight + 500);
+
+////REFERENCE LINES BOSS
+if (bossSegment)
+{
+iSetColor(RED);
+iLine(L2Boss.x + 50, tileHeight - 10, L2Boss.x + 50, tileHeight + 500);
+
+iSetColor(GREEN);
+iLine(L2Boss.x + 200, tileHeight - 10, L2Boss.x + 200, tileHeight + 500);
+}
+
+
+//iLine(hero.x + 100+20, 230,  hero.x + 500, 230);
+
+//cout <<"L2 BOSS Y: " <<  L2Boss.y << endl;
+	
+	*/
+
+
 
 
 
@@ -1216,15 +1281,18 @@ void initLevels()
 		hero.y = tileHeight - 16;
 		hero.show = true;
 		hero.direction = RIGHT;
-		hero.index = 1;
 		hero.attack = false;
-		hero.attackIndex = 1; //starting the index from 0 causes bugs. a black screen renders
+
 		hero.life = 3;
 		hero.HP = 10;
 		hero.showHP = false;
 		hero.death = false;
 		hero.attack2 = false;
+
+		hero.index = 1;
 		hero.attack2Index = 0;
+		hero.attackIndex = 1; //starting the index from 0 causes bugs. a black screen renders
+
 		heroStanding = true;
 		heroStandCounter = 0;
 
@@ -1254,6 +1322,7 @@ void initLevels()
 		cutscene = false;
 		bossCutscene = false;
 		cutsceneIndex = 0;
+		objectiveIndex = 0;
 		narrativeCounter = 0;
 
 		gapPassed = false;
@@ -1292,6 +1361,9 @@ void initLevels()
 		loadImagesBoss2();
 		loadImagesCreep2();
 		loadImagesBackground2();
+		loadLevel2Cutscenes();
+		loadImagesPrincess();
+
 		initializeObjective2();
 		initializeCutscenes2();
 		loadImagesUI2();
@@ -1325,7 +1397,7 @@ void initLevels()
 		hero.attack = false;
 		hero.attackIndex = 0;
 		hero.life = 3;
-		hero.HP = 10;
+		hero.HP = 15;
 		hero.showHP = false;
 		hero.death = false;
 		hero.attack2 = false;
@@ -1380,12 +1452,14 @@ void initLevels()
 		stage_mark.count = 1;
 		waveClear = false;
 
+
 		fallAnimate = false;
 
 		cutscene = false;
 		bossCutscene = false;
 		cutsceneIndex = 0;
 		narrativeCounter = 0;
+		objectiveIndex =3;
 
 		gapPassed = false;
 		backgroundEnd = false;
@@ -1408,13 +1482,7 @@ void initLevels()
 		initLevel_2 = false;
 
 
-
-
-
-
-
 	}
-
 
 }
 
@@ -1441,13 +1509,28 @@ void loading()
 
 		}
 	}
+
 }
+
+void heroAutoMotion_2()
+{
+	if (hero_1 && hero.power)
+	{
+		heroAttack(POWER);
+		creepsHP = true;
+
+	}
+
+}
+
+
 
 int main()
 {
 	iInitialize(canvasWidth, canvasHeight, "The Fallen Kingdom");
 
-	loadImages();
+	loadImagesMenu();
+	//loadImages();
 
 	iSetTimer(0, initLevels); // initializing levels
 	iSetTimer(700, loading);
@@ -1456,6 +1539,7 @@ int main()
 	timer_AUTOMOTION = iSetTimer(30, autoMotion); // FOR PERFECT JUMP ANMIMATION CHANGE TIMER TO 35 MS
 	timer_ENEMYMOTION = iSetTimer(70, enemyAutoMotion);
 	timer_HEROMOTION = iSetTimer(60, heroAutoMotion);
+	timer_HEROMOTION_2 = iSetTimer(100, heroAutoMotion_2);
 
 	
 	playSound(MENU);

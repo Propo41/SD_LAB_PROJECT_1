@@ -142,10 +142,110 @@ typedef struct Effects
 
 Effects heroHurt[100], creepHurt[100], L1_BossHurt;
 
+/*
+Loads the menu images only
+*/
+void loadImagesMenu()
+{
+	//********************************MENU**********************************
+
+	menu[0].id = iLoadImage("images\\UI\\menu\\menu_1.png");   //fallen kingdom
+	menu[1].id = iLoadImage("images\\UI\\menu\\menu1_font.png");	//choosing menu font
+	menu[2].id = iLoadImage("images\\UI\\menu\\Choosing Menu1.png");	// Choosing menu
+	menu[3].id = iLoadImage("images\\UI\\menu\\Choosing MenuStart.png");	//menu start
+	menu[4].id = iLoadImage("images\\UI\\menu\\Choosing MenuOptions.png");	//menu options
+	menu[5].id = iLoadImage("images\\UI\\menu\\Choosing MenuCredits.png");	// menu credits
+	menu[6].id = iLoadImage("images\\UI\\menu\\Choosing MenuHighScore.png");	// menu highscore
+	menu[7].id = iLoadImage("images\\UI\\menu\\Choosing MenuExit.png");	// main menu exit
+	menu[8].id = iLoadImage("images\\UI\\menu\\HighScore.png"); // High Score
+
+	menu[9].id = iLoadImage("images\\UI\\menu\\Options1.png"); // Options
+
+	menu[10].id = iLoadImage("images\\UI\\menu\\Credits.png"); // Credits
+	menu[11].id = iLoadImage("images\\UI\\menu\\Pause.png"); // Credits
+	menu[12].id = iLoadImage("images\\UI\\menu\\PauseResume.png"); // Pause - Resume
+	menu[13].id = iLoadImage("images\\UI\\menu\\PauseOptions.png"); // Pause - Options
+	menu[14].id = iLoadImage("images\\UI\\menu\\PauseExit.png"); // Pause - Exit
+	menu[15].id = iLoadImage("images\\UI\\menu\\gameover.png");
+	menu[16].id = iLoadImage("images\\UI\\menu\\gameover1.png");
+	menu[17].id = iLoadImage("images\\UI\\menu\\gameover2.png");
+	menu[18].id = iLoadImage("images\\UI\\menu\\gameover3.png");
+
+	menu[19].id = iLoadImage("images\\UI\\menu\\Options2.png"); // Options : TURNING SOUND OFF
+
+
+
+	menu[20].id = iLoadImage("images\\UI\\menu\\VICTORY.png"); // default
+	menu[21].id = iLoadImage("images\\UI\\menu\\VICTORY_PROCEED.png"); // when mouse is over proceed
+	menu[22].id = iLoadImage("images\\UI\\menu\\VICTORY_MAIN.png");// when mouse is over mainmenu
+
+	//menu[23].id = iLoadImage("images\\UI\\menu\\star 3.png");
+
+	menu[24].id = iLoadImage("images\\UI\\menu\\entername.png"); // ENTER name image here
+
+	menu[25].id = iLoadImage("images\\UI\\HERO_SELCTION.png");  // hero selection default screen
+	menu[26].id = iLoadImage("images\\UI\\HERO_SELCTION_1.png"); // hero 1
+	menu[27].id = iLoadImage("images\\UI\\HERO_SELCTION_2.png"); // hero 2
+
+
+
+	menu[28].id = iLoadImage("images\\UI\\loading_1.png"); // loading image 1
+
+
+	//loading image 2 : to be continued
+	menu[29].id = iLoadImage("images\\UI\\menu\\1.png");
+	menu[30].id = iLoadImage("images\\UI\\menu\\2.png");
+	menu[31].id = iLoadImage("images\\UI\\menu\\3.png");
+	menu[32].id = iLoadImage("images\\UI\\menu\\4.png");
+
+	// victory 2
+	menu[33].id = iLoadImage("images\\UI\\menu\\victory_2.png"); // less bright
+	menu[34].id = iLoadImage("images\\UI\\menu\\victory_2a.png"); // bright
+
+
+
+	menu[35].id = iLoadImage("images\\UI\\menu\\back.png"); // default
+	menu[36].id = iLoadImage("images\\UI\\menu\\back_a.png"); // when mouse hovers over
+
+
+
+
+}
+
+/*
+level 2 cutscenes and objectives
+*/
+void loadLevel2Cutscenes()
+{
+	// level 2 boss cutscene
+	cutscenes[7].id = iLoadImage("images\\UI\\narrative\\1.png");
+	cutscenes[8].id = iLoadImage("images\\UI\\narrative\\2.png");
+	cutscenes[9].id = iLoadImage("images\\UI\\narrative\\3.png");
+	cutscenes[10].id = iLoadImage("images\\UI\\narrative\\4.png");
+	cutscenes[11].id = iLoadImage("images\\UI\\narrative\\5.png");
+	cutscenes[12].id = iLoadImage("images\\UI\\narrative\\6.png");
+
+	// level 2 princess cutscene: 13-19
+	cutscenes[13].id = iLoadImage("images\\UI\\narrative\\endgame\\1.png");
+	cutscenes[14].id = iLoadImage("images\\UI\\narrative\\endgame\\2.png");
+	cutscenes[15].id = iLoadImage("images\\UI\\narrative\\endgame\\3.png");
+	cutscenes[16].id = iLoadImage("images\\UI\\narrative\\endgame\\4.png");
+	cutscenes[17].id = iLoadImage("images\\UI\\narrative\\endgame\\5.png");
+	cutscenes[18].id = iLoadImage("images\\UI\\narrative\\endgame\\6.png");
+	cutscenes[19].id = iLoadImage("images\\UI\\narrative\\endgame\\7.png");
+
+
+	objective[3].id = iLoadImage("images\\UI\\objective\\level2_1.png"); // special power
+	objective[4].id = iLoadImage("images\\UI\\objective\\level2_2.png"); // jump
+
+
+}
+
+
 
 
 /*loads the UI for level 1 images
-hud,objective,menu,narrative
+hud,objective,narrative
 */
 void loadImagesUI()
 {
@@ -181,67 +281,7 @@ void loadImagesUI()
 
 	//***********************************************************************
 
-	//********************************MENU**********************************
-
-	menu[0].id = iLoadImage("images\\UI\\menu\\menu_1.png");   //fallen kingdom
-	menu[1].id = iLoadImage("images\\UI\\menu\\menu1_font.png");	//choosing menu font
-	menu[2].id = iLoadImage("images\\UI\\menu\\Choosing Menu1.png");	// Choosing menu
-	menu[3].id = iLoadImage("images\\UI\\menu\\Choosing MenuStart.png");	//menu start
-	menu[4].id = iLoadImage("images\\UI\\menu\\Choosing MenuOptions.png");	//menu options
-	menu[5].id = iLoadImage("images\\UI\\menu\\Choosing MenuCredits.png");	// menu credits
-	menu[6].id = iLoadImage("images\\UI\\menu\\Choosing MenuHighScore.png");	// menu highscore
-	menu[7].id = iLoadImage("images\\UI\\menu\\Choosing MenuExit.png");	// main menu exit
-	menu[8].id = iLoadImage("images\\UI\\menu\\HighScore.png"); // High Score
-
-	menu[9].id = iLoadImage("images\\UI\\menu\\Options1.png"); // Options
-
-	menu[10].id = iLoadImage("images\\UI\\menu\\Credits.png"); // Credits
-	menu[11].id = iLoadImage("images\\UI\\menu\\Pause.png"); // Credits
-	menu[12].id = iLoadImage("images\\UI\\menu\\PauseResume.png"); // Pause - Resume
-	menu[13].id = iLoadImage("images\\UI\\menu\\PauseOptions.png"); // Pause - Options
-	menu[14].id = iLoadImage("images\\UI\\menu\\PauseExit.png"); // Pause - Exit
-	menu[15].id = iLoadImage("images\\UI\\menu\\gameover.png");
-	menu[16].id = iLoadImage("images\\UI\\menu\\gameover1.png");
-	menu[17].id = iLoadImage("images\\UI\\menu\\gameover2.png");
-	menu[18].id = iLoadImage("images\\UI\\menu\\gameover3.png");
-
-	menu[19].id = iLoadImage("images\\UI\\menu\\Options2.png"); // Options : TURNING SOUND OFF
-
-
-
-	menu[20].id = iLoadImage("images\\UI\\menu\\VICTORY.png"); // default
-	menu[21].id = iLoadImage("images\\UI\\menu\\VICTORY_PROCEED.png"); // when mouse is over proceed
-	menu[22].id = iLoadImage("images\\UI\\menu\\VICTORY_MAIN.png");// when mouse is over mainmenu
 	
-	//menu[23].id = iLoadImage("images\\UI\\menu\\star 3.png");
-
-	menu[24].id = iLoadImage("images\\UI\\menu\\entername.png"); // ENTER name image here
-
-	menu[25].id = iLoadImage("images\\UI\\HERO_SELCTION.png");  // hero selection default screen
-	menu[26].id = iLoadImage("images\\UI\\HERO_SELCTION_1.png"); // hero 1
-	menu[27].id = iLoadImage("images\\UI\\HERO_SELCTION_2.png"); // hero 2
-
-
-
-	menu[28].id = iLoadImage("images\\UI\\loading_1.png"); // loading image 1
-
-
-	//loading image 2 : to be continued
-	menu[29].id = iLoadImage("images\\UI\\menu\\1.png");
-	menu[30].id = iLoadImage("images\\UI\\menu\\2.png");
-	menu[31].id = iLoadImage("images\\UI\\menu\\3.png");
-	menu[32].id = iLoadImage("images\\UI\\menu\\4.png");
-
-	// victory 2
-	menu[33].id = iLoadImage("images\\UI\\menu\\victory_2.png"); // less bright
-	menu[34].id = iLoadImage("images\\UI\\menu\\victory_2a.png"); // bright
-	
-
-
-	menu[35].id = iLoadImage("images\\UI\\menu\\back.png"); // default
-	menu[36].id = iLoadImage("images\\UI\\menu\\back_a.png"); // when mouse hovers over
-
-
 
 	//*******************************NARRATIVE****************************************
 	cutscenes[0].id = iLoadImage("images\\UI\\narrative\\a.png");
@@ -251,7 +291,7 @@ void loadImagesUI()
 	cutscenes[4].id = iLoadImage("images\\UI\\narrative\\b_3.png");
 	cutscenes[5].id = iLoadImage("images\\UI\\narrative\\b_4.png");
 	cutscenes[6].id = iLoadImage("images\\UI\\narrative\\b_5.png");
-
+	/*
 	// level 2 boss cutscene
 	cutscenes[7].id = iLoadImage("images\\UI\\narrative\\1.png");
 	cutscenes[8].id = iLoadImage("images\\UI\\narrative\\2.png");
@@ -268,7 +308,7 @@ void loadImagesUI()
 	cutscenes[17].id = iLoadImage("images\\UI\\narrative\\endgame\\5.png");
 	cutscenes[18].id = iLoadImage("images\\UI\\narrative\\endgame\\6.png");
 	cutscenes[19].id = iLoadImage("images\\UI\\narrative\\endgame\\7.png");
-	
+	*/
 
 	narrative[0].id = iLoadImage("images\\story\\Artboard 1.png"); // story at game start
 	narrative[1].id = iLoadImage("images\\story\\Artboard 2.png");
@@ -513,7 +553,7 @@ void initializeCutscenes2() // level 2
 }
 
 /*
-loads the animation effects. Common for both level 1 and 2
+loads the animation effects, ie damage effects for heroes, bosses and creeps, and the mystic art blocakge icon. Common for both level 1 and 2
 */
 void loadImagesEffects()
 {
@@ -548,6 +588,11 @@ void loadImagesEffects()
 
 
 	//******************************************************************************************
+
+
+	//************************************************************************
+	blockID_L = iLoadImage("images\\background\\block-L.png"); // mystic arts blockage
+	blockID_R = iLoadImage("images\\background\\block-R.png");
 }
 
 /*
@@ -582,7 +627,13 @@ void renderEffects(int mode, int i)
 	if (mode == BOSS)
 	{
 		if (level_1)
-			iShowImage(L1Boss.x + 100, L1Boss.y, 100, 100, L1_BossHurt.id[L1_BossHurt.index]);
+		{
+			if (L1Boss.direction == RIGHT)
+				iShowImage(L1Boss.x + 100, L1Boss.y, 100, 100, L1_BossHurt.id[L1_BossHurt.index]);
+			else			
+				iShowImage(L1Boss.x + 200, L1Boss.y, 100, 100, L1_BossHurt.id[L1_BossHurt.index]);
+
+		}
 		else
 			iShowImage(L2Boss.x + 100, L2Boss.y, 100, 100, L1_BossHurt.id[L1_BossHurt.index]);
 
@@ -1170,23 +1221,24 @@ void menuLogic(int mx, int my)
 
 	if (MenuController == SELECTIONSCREEN && ((mx >= 120 && mx <= 330) && (my >= 350 && my <= 400))) // start game
 	{
-
 		MenuController = ENTERNAME;
 		PreviousMenu = SELECTIONSCREEN;
 
-
+		loadImagesEffects();
+		loadImagesUI();
+		
 	}
 
 	if (MenuController == HEROSELECTION)
 	{
 		if ((mx >= 304 && mx <= 622) && (my >= 174 && my <= 562)) // select hero 1
 		{
-		//	cout << "menucontroller set to : " << MenuController << endl;
 			
 			MenuController = LOADING_1;
 			initializeHero(HERO_1);
 
-			initLevel_1 = true;
+		//	initLevel_1 = true;
+			
 
 
 
@@ -1197,12 +1249,12 @@ void menuLogic(int mx, int my)
 			MenuController = LOADING_1;
 			initializeHero(HERO_2);
 
-			initLevel_1 = true;
-
-
-
+		//	initLevel_1 = true;
+			
 
 		}
+
+
 
 		
 	}

@@ -146,6 +146,29 @@ void loadImagesHero()
 
 
 	//******************************************************************************************
+	// hero 1 power
+
+	hero.powerID[0] = iLoadImage("images\\character\\hero\\power\\HERO1_POWER_R_01.png"); // hero looking right
+	hero.powerID[1] = iLoadImage("images\\character\\hero\\power\\HERO1_POWER_R_02.png");
+	hero.powerID[2] = iLoadImage("images\\character\\hero\\power\\HERO1_POWER_R_03.png");
+	hero.powerID[3] = iLoadImage("images\\character\\hero\\power\\HERO1_POWER_R_04.png");
+	hero.powerID[4] = iLoadImage("images\\character\\hero\\power\\HERO1_POWER_R_05.png");// hero sits and fissure should be on
+	hero.powerID[5] = iLoadImage("images\\character\\hero\\power\\HERO1_POWER_R_06.png"); 
+	hero.powerID[6] = iLoadImage("images\\character\\hero\\power\\HERO1_POWER_R_07.png");
+	hero.powerID[7] = iLoadImage("images\\character\\hero\\power\\HERO1_POWER_R_08.png");
+
+
+
+	hero.powerID[8] = iLoadImage("images\\character\\hero\\power\\HERO1_POWER_L_01.png"); // hero looking left
+	hero.powerID[9] = iLoadImage("images\\character\\hero\\power\\HERO1_POWER_L_02.png");
+	hero.powerID[10] = iLoadImage("images\\character\\hero\\power\\HERO1_POWER_L_03.png");
+	hero.powerID[11] = iLoadImage("images\\character\\hero\\power\\HERO1_POWER_L_04.png");
+	hero.powerID[12] = iLoadImage("images\\character\\hero\\power\\HERO1_POWER_L_05.png"); // hero sits and fissure on
+	hero.powerID[13] = iLoadImage("images\\character\\hero\\power\\HERO1_POWER_L_06.png");
+	hero.powerID[14] = iLoadImage("images\\character\\hero\\power\\HERO1_POWER_L_07.png");
+	hero.powerID[15] = iLoadImage("images\\character\\hero\\power\\HERO1_POWER_L_08.png");
+
+
 
 
 } // level 1
@@ -379,7 +402,7 @@ void renderHero()
 		}
 		else
 		{
-
+			cout << "hero index: "<< hero.index << endl;
 			showHero();
 		}
 
@@ -420,9 +443,13 @@ void heroJump()
 	{
 		if (hero.jumpUp)
 		{
-			hero.jump_dy += 5;
-
-
+		//	hero.jump_dy += 5;
+			if (hero_2){
+				hero.jump_dy += 5;
+			}
+			else{
+				hero.jump_dy += 10;
+			}
 
 			if (hero_1) // hero 1
 			{
@@ -430,7 +457,7 @@ void heroJump()
 				if (heroJumpIndex > 19)
 					heroJumpIndex = 19;
 
-				if (hero.jump_dy > JUMPLIMIT)
+				if (hero.jump_dy > JUMPLIMIT+80)
 				{
 					hero.jumpUp = false;
 					heroJumpIndex = 20;
@@ -456,7 +483,14 @@ void heroJump()
 		}
 		else			// hero moving down
 		{
-			hero.jump_dy -= 5;
+
+
+			if (hero_1)
+				hero.jump_dy -= 10;
+			else
+				hero.jump_dy -= 5;
+
+
 			if ((hero.y + hero.jump_dy) <= 210)
 			{
 
@@ -498,7 +532,12 @@ void heroJump()
 
 		if (hero.jumpUp)
 		{
-			hero.jump_dy += 5;
+			if (hero_2){
+				hero.jump_dy += 5;
+			}
+			else{
+				hero.jump_dy += 10;
+			}
 
 			if (hero_1)
 			{
@@ -506,7 +545,7 @@ void heroJump()
 				if (heroJumpIndex > 29)
 					heroJumpIndex = 29;
 
-				if (hero.jump_dy > JUMPLIMIT)
+				if (hero.jump_dy > JUMPLIMIT+80)
 				{
 					hero.jumpUp = false;
 					heroJumpIndex = 30;
@@ -530,7 +569,11 @@ void heroJump()
 		}
 		else
 		{
-			hero.jump_dy -= 5;
+			if (hero_1)
+				hero.jump_dy -= 10;
+			else
+				hero.jump_dy -= 5;
+
 			if ((hero.y + hero.jump_dy) <= 210)
 			{
 
@@ -753,9 +796,12 @@ void heroMovement(int dir)
 		// SLOPE MECHANICS
 		if (level_2)
 		{
-			if (leftSlope)
-				hero.y += 10;
-
+			if (leftSlope){
+				hero.y += 10;	
+				if (hero.y > 180){
+					hero.y = 180;
+				}
+			}
 
 			if (RightSlope){
 				hero.y -= 10;
@@ -840,7 +886,7 @@ it implements the animation for the hero attacks, ie: LIGHT ATTACK, HEAVY ATTACK
 void heroAttack(int mode)
 {
 
-	if (mode == LIGHT_ATTACK)
+	if (mode == LIGHT_ATTACK && !hero.channelPower)
 	{
 		if (hero_1)
 		{
@@ -858,7 +904,7 @@ void heroAttack(int mode)
 
 
 			}
-			else // for hero 2
+			else 
 			{
 
 				hero.attackIndex++;
@@ -933,11 +979,11 @@ void heroAttack(int mode)
 		}
 
 
-
+	
 
 	}
 
-	else if (mode == HEAVY_ATTACK)
+	else if (mode == HEAVY_ATTACK && !hero.channelPower)
 	{
 		if (hero.direction == LEFT)   	// hero looking left
 		{
@@ -980,19 +1026,38 @@ void heroAttack(int mode)
 		if (hero.direction == RIGHT)
 		{
 
-			if (!hero.channelPower)
+			if (!hero.channelPower && hero_2)
 				hero.powerIndex++;
 
-			if (hero.powerIndex == 5) // animation when hero sits down, this is where the fissure should come; and when enemies are near, they get damaged
+			if (hero_2)
+			{
+				if (hero.powerIndex == 5) // animation when hero sits down, this is where the fissure should come; and when enemies are near, they get damaged
+				{
+
+					creepDamage(DAMAGE, POWER); // creep got hurt if creep is within range of attack animation
+					bossDamage(DAMAGE, POWER);
+
+					hero.powerIndex = 5;
+					hero.channelPower = true;
+				}
+			}
+			else
 			{
 
+				//cout << "hero 1 power index: "<< hero.powerIndex << endl;
+				hero.powerIndex++;
+				if (hero.powerIndex >= 4)
+				{
+					creepDamage(DAMAGE, POWER); // creep got hurt if creep is within range of attack animation
+					bossDamage(DAMAGE, POWER);
 
-				creepDamage(DAMAGE, POWER); // creep got hurt if creep is within range of attack animation
-				bossDamage(DAMAGE, POWER);
+				}
 
-				hero.powerIndex = 5;
-				hero.channelPower = true;
+
 			}
+
+
+
 
 			if (hero.powerIndex >= 7)
 			{
@@ -1007,18 +1072,42 @@ void heroAttack(int mode)
 		else
 		{
 
-			if (!hero.channelPower)
+			if (!hero.channelPower && hero_2)
 				hero.powerIndex++;
 
-			if (hero.powerIndex == 12) // animation when hero sits down, this is where the fissure should come
+
+			if (hero_2)
 			{
 
-				creepDamage(DAMAGE, POWER); // creep got hurt if creep is within range of attack animation
-				bossDamage(DAMAGE, POWER);
+				if (hero.powerIndex == 12) // animation when hero sits down, this is where the fissure should come
+				{
 
-				hero.powerIndex = 12;
-				hero.channelPower = true;
+					creepDamage(DAMAGE, POWER); // creep got hurt if creep is within range of attack animation
+					bossDamage(DAMAGE, POWER);
+
+					hero.powerIndex = 12;
+					hero.channelPower = true;
+				}
+
 			}
+			else
+			{
+
+				hero.powerIndex++;
+				if (hero.powerIndex >= 12)
+				{
+					creepDamage(DAMAGE, POWER); // creep got hurt if creep is within range of attack animation
+					bossDamage(DAMAGE, POWER);
+
+				}
+
+
+			}
+
+
+
+
+
 
 			if (hero.powerIndex >= 15)
 			{
@@ -1094,7 +1183,7 @@ void renderHeroAttack(int mode)
 	if (mode == POWER)
 	{
 		if (hero_1)
-			iShowImage(hero.x, hero.y + 13, 200, 200, hero.powerID[hero.powerIndex]);
+			iShowImage(hero.x, hero.y + 13, 170, 600, hero.powerID[hero.powerIndex]);
 		else
 		{
 			iShowImage(hero.x, hero.y + 13, 200, 200, hero.powerID[hero.powerIndex]);
@@ -1142,8 +1231,8 @@ void heroDamage(int mode)
 		else
 		{
 			hero.HP -= 1;
-			H1_HPbar.variable1 -=15;
-			H1_HPbar.variable2 -= 15;
+			H1_HPbar.variable1 -=10;
+			H1_HPbar.variable2 -= 10;
 		}
 
 	}
@@ -1296,8 +1385,8 @@ void resetHero()
 		H1_HPbar.variable1 = 340; // resets hp bar
 		H1_HPbar.variable2 = 317;
 
-		mana.variable1 = 378; // resetting mana bar
-		mana.variable2 = 359;
+		mana.variable1 = 359; // resetting mana bar
+		mana.variable2 = 338;
 		mana.count = 5;
 
 
@@ -1415,8 +1504,10 @@ void heroGain(int mode)
 		if (mana.count > 10)
 			mana.count = 10;
 
-		mana.variable1 += 10; // resets mana bar
-		mana.variable2 += 10;
+		if ( !(mana.variable1 >= 356)  ){
+			mana.variable1 += 10; // resets mana bar
+			mana.variable2 += 10;
+		}
 
 
 		// the following codes are used not to exceed the mana bar, ie when hero gains more mana than it can hold in the bar
@@ -1430,10 +1521,10 @@ void heroGain(int mode)
 		}
 		else
 		{
-			if (mana.variable1 >= 378)
+			if (mana.variable1 >= 356)
 			{
-				mana.variable1 = 378;
-				mana.variable2 = 359;
+				mana.variable1 = 356;
+				mana.variable2 = 338;
 			}
 
 		}

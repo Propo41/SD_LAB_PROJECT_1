@@ -241,8 +241,7 @@ void bossFollowPlayer(int dir)
 	}
 	else
 	{
-		//iSetColor(255, 255, 255);
-		//	iLine(hero.x + 200, tileHeight - 10, hero.x + 200, tileHeight + 500);
+		
 
 		if (hero.x + 100 <= L1Boss.x + 200)
 		{
@@ -267,6 +266,7 @@ void bossSpawn()
 
 	if (level_1)
 	{
+		
 		L1Boss.initializeDimensions(250, 250);
 		L1Boss.initializeLocation(canvasWidth + 10, tileHeight - 2);
 		L1Boss.setDirection(RIGHT);
@@ -279,9 +279,9 @@ void bossSpawn()
 	{
 
 		L2Boss.initializeDimensions(300, 300);
-		L2Boss.initializeLocation(1000, 180);
+		L2Boss.initializeLocation(1000, 185);
 		L2Boss.setDirection(RIGHT); // right means coming from right side
-		L2Boss.initializeMechanics(10, 100, 1, NULL); // change hp to 100
+		L2Boss.initializeMechanics(10, 80, 1, NULL); // change hp to 100
 		L2Boss.setVisibility(true, false, false, false, false);
 		//L2Boss.chase = true;
 
@@ -355,7 +355,6 @@ void bossMovement()
 			bossFollowPlayer(RIGHT);
 
 		}
-
 		else						  //come from left direction
 		{
 			//L1Boss.attackIndex = 16;
@@ -857,7 +856,8 @@ void bossDamage(int mode, int attackType)
 
 	//BOSS HP IS SET TO 100
 	// hp bar length is 356
-
+	cout << "boss hp: " << L1Boss.HP << endl;
+	cout << "boss 1 show: " << L1Boss.show << endl;
 
 	if (mode == DAMAGE && attackType != POWER)
 	{
@@ -870,85 +870,220 @@ void bossDamage(int mode, int attackType)
 			if (level_2)
 			{
 				L1Boss.x = L2Boss.x;
-			//	temp10 = true;
+				//	temp10 = true;
 
 			}
 
-			if (((hero.x >= L1Boss.x && hero.x <= L1Boss.x + 100) || (hero.x <= L1Boss.x + 300 && hero.x >= L1Boss.x + 200))  ) // if boss comes near hero's range while hero.attack is true, then boss gets hurt
+			if (level_1)
 			{
-
-
-				if (attackType == LIGHT_ATTACK)
+				if (((hero.x >= L1Boss.x && hero.x <= L1Boss.x + 100) || (hero.x <= L1Boss.x + 300 && hero.x >= L1Boss.x + 200)) || (hero.x + 75 >= L1Boss.x && hero.x <= L1Boss.x + 100) || (hero.x + 75 <= L1Boss.x + 300 && hero.x >= L1Boss.x + 200)) // if boss comes near hero's range while hero.attack is true, then boss gets hurt
 				{
-					L1Boss.HP -= 5; // dies in 20 HITS
-
-					L1_BossHurt.show = true;					 // damage efffects turned true
 
 
-					L1_BossHPbar.variable1 += 20;
-					L1_BossHPbar.variable2 += 20;
-				}
-
-
-
-				else if (attackType == HEAVY_ATTACK)
-				{
-					L1Boss.HP -= 10; // dies in 10
-
-					L1_BossHPbar.variable1 += 40;
-					L1_BossHPbar.variable2 += 40;
-
-					L1_BossHurt.show = true;					// damage efffects turned true
-
-				}
-
-
-
-				if (L1Boss.HP <= 0 && L1Boss.show)
-				{
-					if (level_1)
+					if (attackType == LIGHT_ATTACK)
 					{
-						// boss 
-						L1Boss.death = true;
-						L1Boss.show = false;
-						L1Boss.power = false;
-						L1Boss.showHP = false;
-						L1Boss.attack = false;
-						L1Boss.channelPower = false;
+						L1Boss.HP -= 5; // dies in 20 HITS
 
-						score += 50;
+						L1_BossHurt.show = true;					 // damage efffects turned true
+
+
+						L1_BossHPbar.variable1 += 20;
+						L1_BossHPbar.variable2 += 20;
+
+
+
+
+
 					}
-					else
+
+
+
+					else if (attackType == HEAVY_ATTACK)
 					{
-						// boss 
-						L2Boss.death = true;
-						L2Boss.show = false;
-						L2Boss.power = false;
-						L2Boss.showHP = false;
-						L2Boss.attack = false;
-						L2Boss.channelPower = false;
+						L1Boss.HP -= 10; // dies in 10
 
-						score += 100;
+						L1_BossHPbar.variable1 += 40;
+						L1_BossHPbar.variable2 += 40;
 
-						if (L2Boss.direction == RIGHT)
+
+
+						L1_BossHurt.show = true;					// damage efffects turned true
+
+					}
+
+
+					//condition used so that boss hp  doesnt exceed the bar
+					if (L1_BossHPbar.variable2 >= 1214)
+					{
+						L1_BossHPbar.variable1 = 1119;
+						L1_BossHPbar.variable2 = 1214;
+					}
+
+
+
+
+					if (L1Boss.HP <= 0 && L1Boss.show)
+					{
+						if (level_1)
 						{
-							L2Boss.dyingIndex = 8;
+							// boss 
+							L1Boss.death = true;
+							L1Boss.show = false;
+							L1Boss.power = false;
+							L1Boss.showHP = false;
+							L1Boss.attack = false;
+							L1Boss.channelPower = false;
 
+							score += 50;
 						}
 						else
 						{
-							L2Boss.dyingIndex = 0;
+							// boss 
+							L2Boss.death = true;
+							L2Boss.show = false;
+							L2Boss.power = false;
+							L2Boss.showHP = false;
+							L2Boss.attack = false;
+							L2Boss.channelPower = false;
+
+							score += 100;
+
+							if (L2Boss.direction == RIGHT)
+							{
+								L2Boss.dyingIndex = 8;
+
+							}
+							else
+							{
+								L2Boss.dyingIndex = 0;
+
+							}
+
 
 						}
 
-
 					}
+
+
 
 				}
 
 
 
+
 			}
+			else
+			{
+
+
+				if (((hero.x >= L2Boss.x && hero.x <= L2Boss.x + 100) || (hero.x <= L2Boss.x + 300 && hero.x >= L2Boss.x + 200)) || (hero.x + 75 >= L2Boss.x && hero.x <= L2Boss.x + 100) || (hero.x + 75 <= L2Boss.x + 300 && hero.x >= L2Boss.x + 200)) // if boss comes near hero's range while hero.attack is true, then boss gets hurt
+				{
+
+
+					if (attackType == LIGHT_ATTACK)
+					{
+						L1Boss.HP -= 5; // dies in 20 HITS
+
+						L1_BossHurt.show = true;					 // damage efffects turned true
+
+
+						L1_BossHPbar.variable1 += 15;
+						L1_BossHPbar.variable2 += 15;
+
+
+
+
+
+					}
+
+
+
+					else if (attackType == HEAVY_ATTACK)
+					{
+						L1Boss.HP -= 10; // dies in 10
+
+						L1_BossHPbar.variable1 += 35;
+						L1_BossHPbar.variable2 += 35;
+
+
+
+						L1_BossHurt.show = true;					// damage efffects turned true
+
+					}
+
+
+					//condition used so that boss hp  doesnt exceed the bar
+				/*	if (L1_BossHPbar.variable2 >= 1190)
+					{
+						L1_BossHPbar.variable1 = 11190;
+						L1_BossHPbar.variable2 = 1215;
+					}
+					*/
+
+
+					if (L1_BossHPbar.variable2 >= 1214)
+					{
+						L1_BossHPbar.variable1 = 1119;
+						L1_BossHPbar.variable2 = 1214;
+					}
+
+
+
+					if (L1Boss.HP <= 0 && (L1Boss.show || L2Boss.show))
+					{
+						
+
+						if (level_1)
+						{
+							// boss 
+							L1Boss.death = true;
+							L1Boss.show = false;
+							L1Boss.power = false;
+							L1Boss.showHP = false;
+							L1Boss.attack = false;
+							L1Boss.channelPower = false;
+
+							score += 50;
+						}
+						else
+						{
+							// boss 
+							L2Boss.death = true;
+							L2Boss.show = false;
+							L2Boss.power = false;
+							L2Boss.showHP = false;
+							L2Boss.attack = false;
+							L2Boss.channelPower = false;
+
+							score += 100;
+
+							if (L2Boss.direction == RIGHT)
+							{
+								L2Boss.dyingIndex = 8;
+
+							}
+							else
+							{
+								L2Boss.dyingIndex = 0;
+
+							}
+
+
+						}
+
+					}
+
+
+
+				}
+
+
+
+
+
+
+			}
+			
 
 
 		}
@@ -1071,12 +1206,10 @@ void bossDamage(int mode, int attackType)
 					}
 
 
-				//	cout << "hero: left" << endl;
 
 					if ((L1Boss.x + 150 >= hero.projectileX && L1Boss.x + 150 <= hero.projectileX + 50) && (L2Boss.show || L1Boss.show) )
 					{
 
-						//cout << "damage: left" << endl;
 
 						L1Boss.HP -= 10; // dies in 20 HITS
 
@@ -1167,14 +1300,16 @@ void bossDamage(int mode, int attackType)
 
 		}
 
+
+
 		if ((L2Boss.x <= (hero.x + rangeRight) && L2Boss.x >= (hero.x + rangeLeft)) && (L2Boss.show || L1Boss.show))
 		{
 
-			L1Boss.HP -= 1; // dies in 3 hits
+			L1Boss.HP -= 1; 
 
 
-			L1_BossHPbar.variable1 += 2;
-			L1_BossHPbar.variable2 += 2;
+			L1_BossHPbar.variable1 += 5;
+			L1_BossHPbar.variable2 += 5;
 
 			if (L1Boss.HP <= 0)
 			{
@@ -1421,7 +1556,7 @@ void showBoss()
 
 		if (bossCutscene)
 		{
-			iShowImage(1100, 180, L2Boss.width - 50, L2Boss.height - 50, L2Boss.id[6]);
+			iShowImage(1100, 185, L2Boss.width - 50, L2Boss.height - 50, L2Boss.id[6]);
 			return;
 		}
 
@@ -1430,7 +1565,7 @@ void showBoss()
 		if (!L2Boss.attack && L2Boss.show && L2Boss.chase)
 		{
 
-			iShowImage(L2Boss.x, L2Boss.y, L2Boss.width - 50, L2Boss.height - 50 +5 , L2Boss.id[L2Boss.index]);
+			iShowImage(L2Boss.x, L2Boss.y+10, L2Boss.width - 50, L2Boss.height - 50 +5 , L2Boss.id[L2Boss.index]);
 
 
 		}
@@ -1438,7 +1573,7 @@ void showBoss()
 		// attack animation
 		if (L2Boss.attack)
 		{
-			iShowImage(L2Boss.x, L2Boss.y, L2Boss.width, L2Boss.height + 3, L2Boss.attackID[L2Boss.attackIndex]);
+			iShowImage(L2Boss.x, L2Boss.y-2, L2Boss.width-20, L2Boss.height -20, L2Boss.attackID[L2Boss.attackIndex]);
 
 		}
 
