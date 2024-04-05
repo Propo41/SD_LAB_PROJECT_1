@@ -1,6 +1,7 @@
-# Software Development Lab-1 Project
-The Fallen Kingdom
-----------------------------------------------------------------
+# The Fallen Kingdom
+
+![image](https://github.com/Propo41/The_Fallen_Kingdom/assets/46298019/dae3095f-25e7-47b4-a00f-c3642912c90e)
+
 Objective: A project to be developed by a team of 3 or 2 students.
 
 Abstract: Students had to develop an advance software or game using different functions of iGraphics.
